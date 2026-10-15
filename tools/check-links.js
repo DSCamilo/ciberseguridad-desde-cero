@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 const root = path.join(__dirname, '..');
-const pages = ['ruta-ciberseguridad/index.html', 'threat-intelligence/index.html'];
+const pages = ['ruta-ciberseguridad/datos.js', 'threat-intelligence/datos.js'];
 const urls = new Map();
 for (const p of pages) {
   const s = fs.readFileSync(path.join(root, p), 'utf8');
