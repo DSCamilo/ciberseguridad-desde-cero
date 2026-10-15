@@ -135,6 +135,7 @@ h1,h2,.brand{font-family:"Manrope",system-ui,sans-serif}
 .skip{position:absolute;left:-9999px;top:8px;z-index:100;padding:10px 16px;border-radius:9px;background:#0f766e;color:#fff;font-weight:700;text-decoration:none}.skip:focus{left:max(12px,env(safe-area-inset-left,0px))}
 .sync-box{display:flex;flex-direction:column;gap:8px}.sync-msg{font-size:13px;color:var(--muted);line-height:1.4}.sync-box input{font:inherit;font-size:14px;width:100%;padding:9px 12px;border-radius:9px;border:1px solid var(--line);background:var(--surface-2);color:var(--ink)}.sync-box input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .sync-banner{margin:0 0 22px;padding:18px 20px;border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:var(--radius);background:var(--surface);display:flex;flex-direction:column;gap:10px}.sync-banner h2{font-size:18px;margin:0}.sync-banner p{margin:0;color:var(--muted)}.sync-banner .sync-row{display:flex;gap:10px;flex-wrap:wrap;align-items:stretch}.sync-banner .sync-row input{flex:1 1 220px;min-width:0;font:inherit;font-size:15px;padding:10px 12px;border-radius:9px;border:1px solid var(--line);background:var(--surface-2);color:var(--ink)}.sync-banner .sync-row input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}.sync-banner .reset{padding:10px 16px}
+.sync-consent{display:flex;gap:8px;align-items:flex-start;font-size:13px;color:var(--muted);line-height:1.4}.sync-consent input{width:auto!important;margin:3px 0 0!important;padding:0!important;flex:none}.sync-consent a{color:var(--accent)}.aside-foot a.priv{color:var(--muted);font-size:13px}
 </style>
 </head>
 <body>
@@ -495,6 +496,7 @@ function renderAside(){
     <input type="file" id="import-file" accept="application/json,.json" hidden>
     <button class="reset" type="button" id="reset">Reiniciar progreso</button>
     <span class="mono">Tu progreso se guarda en este navegador.</span>
+    <a class="priv" href="../privacidad/">Política de tratamiento de datos</a>
   </div>`;
 }
 
@@ -729,6 +731,8 @@ document.addEventListener('change', e => {
 // Sin sesión todo sigue funcionando solo con localStorage.
 const SB_URL = 'https://wavrteveawmympridvbp.supabase.co';
 const SB_KEY = 'sb_publishable_MHeWlA3ZUeJC3sa4X5mNPA_hbHQXp7v'; // clave pública; los datos los protege RLS
+const SB_POLITICA = '2026-10-15';
+const SB_CONSENT = '<label class="sync-consent"><input type="checkbox" required><span>Acepto la <a href="../privacidad/" target="_blank" rel="noopener">política de tratamiento de datos</a> y que mi correo, progreso y notas se guarden en Supabase (Estados Unidos).</span></label>';
 const SB_RUTA = 'ruta-ciberseguridad';
 const SB_META = 'ruta-ciber-sync';
 let sb = null, sbUser = null, sbMsg = '', sbBusy = false, sbTimer = null, sbApplying = false, sbForm = false, sbSent = false;
@@ -755,20 +759,31 @@ function syncBannerInner(){
   if (sbSent) return '<div class="sync-banner" role="status"><h2>Revisá tu correo</h2><p>' + esc(sbMsg) + '</p></div>';
   return '<form class="sync-form sync-banner"><h2>Guardá tu progreso en la nube</h2>'
     + '<p>Iniciá sesión con tu correo y tu avance y tus notas te siguen en cualquier dispositivo. Es opcional: sin cuenta todo se guarda en este navegador.</p>'
-    + '<div class="sync-row"><input type="email" required autocomplete="email" placeholder="nombre@correo.com" aria-label="Tu correo"><button class="reset" type="submit">Enviarme el enlace</button><button class="reset" type="button" id="sync-later">Ahora no</button></div>'
+    + SB_CONSENT + '<div class="sync-row"><input type="email" required autocomplete="email" placeholder="nombre@correo.com" aria-label="Tu correo"><button class="reset" type="submit">Enviarme el enlace</button><button class="reset" type="button" id="sync-later">Ahora no</button></div>'
     + (sbMsg ? '<p role="status">' + esc(sbMsg) + '</p>' : '')
-    + '<p style="font-size:13px">Se guardan tu correo, tu progreso y tus notas en Supabase.</p></form>';
+    + '</form>';
 }
 function syncBoxHtml(){
   if (!sb) return '';
   const msg = sbMsg ? '<span class="sync-msg" role="status">' + esc(sbMsg) + '</span>' : '';
-  if (sbUser) return '<span class="mono">Sincronizado como ' + esc(sbUser.email || '') + '</span>' + msg + '<button class="reset" type="button" id="sync-out">Cerrar sesión</button>';
-  if (sbForm) return '<form class="sync-form sync-box"><label class="start-field"><span class="mono">Tu correo</span><input type="email" id="sync-email" required autocomplete="email" placeholder="nombre@correo.com"></label><button class="reset" type="submit">Enviarme el enlace</button></form>' + msg + '<span class="sync-msg">Se guardan tu correo, tu progreso y tus notas en Supabase.</span>';
+  if (sbUser) return '<span class="mono">Sincronizado como ' + esc(sbUser.email || '') + '</span>' + msg + '<button class="reset" type="button" id="sync-out">Cerrar sesión</button><button class="reset" type="button" id="sync-del">Borrar mis datos de la nube</button>';
+  if (sbForm) return '<form class="sync-form sync-box"><label class="start-field"><span class="mono">Tu correo</span><input type="email" id="sync-email" required autocomplete="email" placeholder="nombre@correo.com"></label>' + SB_CONSENT + '<button class="reset" type="submit">Enviarme el enlace</button></form>' + msg;
   return '<button class="reset" type="button" id="sync-open">Iniciar sesión para sincronizar</button>' + msg;
 }
 function sbMerge(l, r){
   // En conflicto gana lo local; lo que solo existe en la nube se conserva.
   return {progreso: Object.assign({}, r.progreso, l.progreso), notas: Object.assign({}, r.notas, l.notas), config: Object.assign({}, r.config, l.config)};
+}
+async function sbDelete(){
+  if (!sb || !sbUser) return;
+  if (!confirm('Esto borra de la nube tu progreso y tus notas de todas las rutas y cierra tu sesión. Lo que tenés en este navegador no se toca. ¿Continuar?')) return;
+  clearTimeout(sbTimer);
+  const {error} = await sb.from('progreso').delete().eq('user_id', sbUser.id);
+  if (error) { sbMsg = 'No se pudo borrar. Intentá de nuevo.'; sbBox(); return; }
+  sbMeta = {avisoCerrado: sbMeta.avisoCerrado}; sbSaveMeta();
+  await sb.auth.signOut();
+  sbMsg = 'Borramos tus datos de la nube. Si también querés eliminar tu correo, pedilo desde la política de privacidad.';
+  sbBox();
 }
 async function sbPush(){
   if (!sb || !sbUser || sbBusy) return;
@@ -821,6 +836,7 @@ document.addEventListener('click', async e => {
   if (!sb) return;
   if (e.target.closest('#sync-open')) { sbForm = true; sbMsg = ''; sbBox(); const i = document.getElementById('sync-email'); if (i) i.focus(); }
   else if (e.target.closest('#sync-later')) { sbMeta.avisoCerrado = true; sbSaveMeta(); sbBox(); }
+  else if (e.target.closest('#sync-del')) { await sbDelete(); }
   else if (e.target.closest('#sync-out')) { clearTimeout(sbTimer); await sb.auth.signOut(); sbMsg = 'Sesión cerrada. Tu progreso sigue en este navegador.'; sbBox(); }
 });
 document.addEventListener('submit', async e => {
@@ -828,7 +844,7 @@ document.addEventListener('submit', async e => {
   e.preventDefault();
   const email = e.target.querySelector('input[type=email]').value.trim();
   sbMsg = 'Enviando…'; sbBox();
-  const {error} = await sb.auth.signInWithOtp({email: email, options: {emailRedirectTo: location.origin + location.pathname}});
+  const {error} = await sb.auth.signInWithOtp({email: email, options: {emailRedirectTo: location.origin + location.pathname, data: {politica_aceptada: new Date().toISOString(), politica_version: SB_POLITICA}}});
   sbForm = !!error; sbSent = !error;
   sbMsg = error ? 'No se pudo enviar el enlace. Esperá unos minutos e intentá de nuevo.' : 'Te enviamos un enlace a ' + email + '. Abrilo en este mismo navegador para terminar.';
   sbBox();
