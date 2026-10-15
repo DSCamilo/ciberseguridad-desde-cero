@@ -18,9 +18,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
 <style>
-:root{--bg:#f5f7fa;--surface:#ffffff;--surface-2:#eef2f6;--ink:#101828;--muted:#5b6777;--line:#e1e7ee;--accent:#0f766e;--accent-soft:#d9f3ef;--radius:14px;color-scheme:light}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1117;--surface:#121b25;--surface-2:#18242f;--ink:#e6edf5;--muted:#93a3b4;--line:#22303e;--accent:#2dd4bf;--accent-soft:#11302c;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#0b1117;--surface:#121b25;--surface-2:#18242f;--ink:#e6edf5;--muted:#93a3b4;--line:#22303e;--accent:#2dd4bf;--accent-soft:#11302c;color-scheme:dark}
+:root{--bg:#f5f7fa;--surface:#ffffff;--surface-2:#eef2f6;--ink:#101828;--muted:#5b6777;--line:#e1e7ee;--accent:#0f766e;--accent-soft:#d9f3ef;--on-accent:#ffffff;--radius:14px;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1117;--surface:#121b25;--surface-2:#18242f;--ink:#e6edf5;--muted:#93a3b4;--line:#22303e;--accent:#2dd4bf;--accent-soft:#11302c;--on-accent:#0b1117;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0b1117;--surface:#121b25;--surface-2:#18242f;--ink:#e6edf5;--muted:#93a3b4;--line:#22303e;--accent:#2dd4bf;--accent-soft:#11302c;--on-accent:#0b1117;color-scheme:dark}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:16px;line-height:1.6;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
 .wrap{max-width:1080px;margin:0 auto;min-width:0}
@@ -39,8 +39,9 @@ header.top{display:flex;align-items:center;justify-content:space-between;gap:16p
 nav.links{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
 nav.links a{color:var(--muted);text-decoration:none;font-weight:600;font-size:15px}
 nav.links a:hover{color:var(--ink)}
+nav.links a.btn-primary,nav.links a.btn-primary:hover{color:var(--on-accent)}
 .btn{display:inline-flex;align-items:center;gap:8px;padding:13px 22px;border-radius:10px;font-weight:700;font-size:16px;text-decoration:none;border:1px solid transparent;cursor:pointer;font-family:inherit}
-.btn-primary{background:var(--accent);color:#fff}
+.btn-primary{background:var(--accent);color:var(--on-accent)}
 .btn-primary:hover{filter:brightness(1.07)}
 .btn-ghost{background:transparent;color:var(--ink);border-color:var(--line)}
 .btn-ghost:hover{border-color:var(--muted)}
