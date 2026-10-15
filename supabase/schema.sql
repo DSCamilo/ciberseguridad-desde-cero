@@ -23,3 +23,20 @@ create policy "borrar lo propio"    on public.progreso for delete using (auth.ui
 -- Hacen falta porque el proyecto no expone tablas nuevas automaticamente.
 -- Sin sesion (rol anon) no hay acceso a nada.
 grant select, insert, update, delete on public.progreso to authenticated;
+
+-- updated_at lo fija el servidor en cada insert o update. El sitio lo usa para
+-- saber si hay cambios nuevos desde otro dispositivo.
+create or replace function public.progreso_set_updated_at()
+returns trigger language plpgsql
+set search_path = ''
+as $$
+begin
+  new.updated_at = now();
+  return new;
+end;
+$$;
+
+drop trigger if exists progreso_updated_at on public.progreso;
+create trigger progreso_updated_at
+  before insert or update on public.progreso
+  for each row execute function public.progreso_set_updated_at();

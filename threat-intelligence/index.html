@@ -116,6 +116,7 @@ code{font-family:"IBM Plex Mono",monospace;font-size:12.5px;background:var(--sur
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 .seo-static{max-width:760px;margin:0 auto;padding:32px 20px;line-height:1.6}.seo-static h1{font-family:"Manrope",system-ui,sans-serif;line-height:1.15;margin:0 0 14px}.seo-static a{color:var(--accent)}
 .skip{position:absolute;left:-9999px;top:8px;z-index:100;padding:10px 16px;border-radius:9px;background:#0f766e;color:#fff;font-weight:700;text-decoration:none}.skip:focus{left:max(12px,env(safe-area-inset-left,0px))}
+.sync-box{display:flex;flex-direction:column;gap:8px}.sync-msg{font-size:13px;color:var(--muted);line-height:1.4}.sync-box input{font:inherit;font-size:14px;width:100%;padding:9px 12px;border-radius:9px;border:1px solid var(--line);background:var(--surface-2);color:var(--ink)}.sync-box input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 </style>
 </head>
 <body>
@@ -220,7 +221,7 @@ recursos:[['FIRST TLP','Protocolo oficial de semáforo','https://www.first.org/t
 
 const KEY='ruta-ti-v1', NKEY='ruta-ti-notas', VKEY='ruta-ti-view';
 function load(k,d){ try { return JSON.parse(localStorage.getItem(k)) || d; } catch (e) { return d; } }
-function store(k,v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+function store(k,v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} if (k === KEY || k === NKEY) sbDirty(); }
 let progress = load(KEY, {});
 let notas = load(NKEY, {});
 let view = load(VKEY, {phase:'f1', tab:'temas'});
@@ -294,6 +295,7 @@ function renderAside(){
   <label class="aside-search"><span class="mono">Buscar en la ruta</span><input id="qsearch" type="search" placeholder="Tema, laboratorio o término" value="${esc(view.q||'')}"></label>
   <nav class="nav" aria-label="Fases">${items}</nav>
   <div class="aside-foot">
+    <div class="sync-box" id="sync-box">${syncBoxHtml()}</div>
     <button class="reset" type="button" id="export">Exportar progreso</button>
     <button class="reset" type="button" id="import">Importar progreso</button>
     <input type="file" id="import-file" accept="application/json,.json" hidden>
@@ -476,6 +478,108 @@ document.addEventListener('change', e => {
   reader.readAsText(file);
   e.target.value = '';
 });
+// Sincronización opcional con Supabase (inicio de sesión por enlace al correo).
+// Sin sesión todo sigue funcionando solo con localStorage.
+const SB_URL = 'https://wavrteveawmympridvbp.supabase.co';
+const SB_KEY = 'sb_publishable_MHeWlA3ZUeJC3sa4X5mNPA_hbHQXp7v'; // clave pública; los datos los protege RLS
+const SB_RUTA = 'threat-intelligence';
+const SB_META = 'ruta-ti-sync';
+let sb = null, sbUser = null, sbMsg = '', sbBusy = false, sbTimer = null, sbApplying = false, sbForm = false;
+let sbMeta = {};
+try { sbMeta = JSON.parse(localStorage.getItem(SB_META) || '{}') || {}; } catch (e) { sbMeta = {}; }
+function sbSaveMeta(){ try { localStorage.setItem(SB_META, JSON.stringify(sbMeta)); } catch (e) {} }
+function sbGet(){ return {progreso: progress, notas: notas, config: {}}; }
+function sbSet(s){ sbApplying = true; try { progress = s.progreso || {}; notas = s.notas || {}; store(KEY, progress); store(NKEY, notas); } finally { sbApplying = false; } }
+function sbDirty(){
+  if (sbApplying) return;
+  sbMeta.dirty = true; sbSaveMeta();
+  if (sbUser) { clearTimeout(sbTimer); sbTimer = setTimeout(sbPush, 1500); }
+}
+function sbBox(){
+  const box = document.getElementById('sync-box');
+  if (box) box.innerHTML = syncBoxHtml();
+}
+function syncBoxHtml(){
+  if (!sb) return '';
+  const msg = sbMsg ? '<span class="sync-msg" role="status">' + esc(sbMsg) + '</span>' : '';
+  if (sbUser) return '<span class="mono">Sincronizado como ' + esc(sbUser.email || '') + '</span>' + msg + '<button class="reset" type="button" id="sync-out">Cerrar sesión</button>';
+  if (sbForm) return '<form id="sync-form" class="sync-box"><label class="start-field"><span class="mono">Tu correo</span><input type="email" id="sync-email" required autocomplete="email" placeholder="nombre@correo.com"></label><button class="reset" type="submit">Enviarme el enlace</button></form>' + msg + '<span class="sync-msg">Se guardan tu correo, tu progreso y tus notas en Supabase.</span>';
+  return '<button class="reset" type="button" id="sync-open">Iniciar sesión para sincronizar</button>' + msg;
+}
+function sbMerge(l, r){
+  // En conflicto gana lo local; lo que solo existe en la nube se conserva.
+  return {progreso: Object.assign({}, r.progreso, l.progreso), notas: Object.assign({}, r.notas, l.notas), config: Object.assign({}, r.config, l.config)};
+}
+async function sbPush(){
+  if (!sb || !sbUser || sbBusy) return;
+  sbBusy = true;
+  const s = sbGet();
+  try {
+    const {data, error} = await sb.from('progreso').upsert(
+      {user_id: sbUser.id, ruta: SB_RUTA, progreso: s.progreso, notas: s.notas, config: s.config},
+      {onConflict: 'user_id,ruta'}).select('updated_at');
+    if (error || !data || !data[0]) throw error || new Error('sin datos');
+    sbMeta = {uid: sbUser.id, at: data[0].updated_at, dirty: false}; sbSaveMeta();
+    sbMsg = 'Guardado en la nube.';
+  } catch (e) {
+    sbMsg = 'No se pudo guardar. Reintento en unos segundos.';
+    clearTimeout(sbTimer); sbTimer = setTimeout(sbPush, 30000);
+  } finally { sbBusy = false; sbBox(); }
+}
+async function sbPull(){
+  if (!sb || !sbUser) return;
+  try {
+    const {data, error} = await sb.from('progreso').select('progreso,notas,config,updated_at').eq('ruta', SB_RUTA).maybeSingle();
+    if (error) throw error;
+    const linked = sbMeta.uid === sbUser.id && sbMeta.at;
+    if (!data) { sbMeta = {uid: sbUser.id, dirty: true}; sbSaveMeta(); await sbPush(); return; }
+    if (linked && sbMeta.at === data.updated_at) {
+      if (sbMeta.dirty) await sbPush(); else { sbMsg = 'Todo al día.'; sbBox(); }
+      return;
+    }
+    const remote = {progreso: data.progreso || {}, notas: data.notas || {}, config: data.config || {}};
+    if (linked && !sbMeta.dirty) {
+      sbSet(remote); sbMeta = {uid: sbUser.id, at: data.updated_at, dirty: false}; sbSaveMeta();
+      sbMsg = 'Cargamos tu progreso guardado.'; renderAll();
+    } else {
+      sbSet(sbMerge(sbGet(), remote)); sbMeta = {uid: sbUser.id, at: data.updated_at, dirty: true}; sbSaveMeta();
+      sbMsg = 'Combinamos tu progreso de este equipo con el guardado.'; renderAll(); await sbPush();
+    }
+  } catch (e) { sbMsg = 'No se pudo conectar con la nube. Tu progreso local está a salvo.'; sbBox(); }
+}
+function sbInit(){
+  if (!window.supabase) return;
+  sb = window.supabase.createClient(SB_URL, SB_KEY);
+  sb.auth.onAuthStateChange((ev, session) => {
+    sbUser = session ? session.user : null;
+    sbBox();
+    if (sbUser && (ev === 'SIGNED_IN' || ev === 'INITIAL_SESSION')) setTimeout(sbPull, 0);
+  });
+  sbBox();
+}
+document.addEventListener('click', async e => {
+  if (!sb) return;
+  if (e.target.closest('#sync-open')) { sbForm = true; sbMsg = ''; sbBox(); const i = document.getElementById('sync-email'); if (i) i.focus(); }
+  else if (e.target.closest('#sync-out')) { clearTimeout(sbTimer); await sb.auth.signOut(); sbMsg = 'Sesión cerrada. Tu progreso sigue en este navegador.'; sbBox(); }
+});
+document.addEventListener('submit', async e => {
+  if (e.target.id !== 'sync-form' || !sb) return;
+  e.preventDefault();
+  const email = document.getElementById('sync-email').value.trim();
+  sbMsg = 'Enviando…'; sbBox();
+  const {error} = await sb.auth.signInWithOtp({email: email, options: {emailRedirectTo: location.origin + location.pathname}});
+  sbForm = !!error;
+  sbMsg = error ? 'No se pudo enviar el enlace. Esperá unos minutos e intentá de nuevo.' : 'Listo: abrí el enlace que te enviamos al correo.';
+  sbBox();
+});
+(function(){
+  const s = document.createElement('script');
+  s.src = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js';
+  s.integrity = 'sha384-GFr3yTh5lJznCbZfpTtXnwboFsxqtTQoeTZCRHhE0579KrRmlCzen5AA8ohaB5ug';
+  s.crossOrigin = 'anonymous';
+  s.onload = sbInit;
+  document.head.appendChild(s);
+})();
 
 renderAll();
 </script>
