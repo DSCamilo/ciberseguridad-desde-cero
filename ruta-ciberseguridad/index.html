@@ -136,6 +136,7 @@ h1,h2,.brand{font-family:"Manrope",system-ui,sans-serif}
 .sync-box{display:flex;flex-direction:column;gap:8px}.sync-msg{font-size:13px;color:var(--muted);line-height:1.4}.sync-box input{font:inherit;font-size:14px;width:100%;padding:9px 12px;border-radius:9px;border:1px solid var(--line);background:var(--surface-2);color:var(--ink)}.sync-box input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .sync-banner{margin:0 0 22px;padding:18px 20px;border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:var(--radius);background:var(--surface);display:flex;flex-direction:column;gap:10px}.sync-banner h2{font-size:18px;margin:0}.sync-banner p{margin:0;color:var(--muted)}.sync-banner .sync-row{display:flex;gap:10px;flex-wrap:wrap;align-items:stretch}.sync-banner .sync-row input{flex:1 1 220px;min-width:0;font:inherit;font-size:15px;padding:10px 12px;border-radius:9px;border:1px solid var(--line);background:var(--surface-2);color:var(--ink)}.sync-banner .sync-row input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}.sync-banner .reset{padding:10px 16px}
 .sync-consent{display:flex;gap:8px;align-items:flex-start;font-size:13px;color:var(--muted);line-height:1.4}.sync-consent input{width:auto!important;margin:3px 0 0!important;padding:0!important;flex:none}.sync-consent a{color:var(--accent)}.aside-foot a.priv{color:var(--muted);font-size:13px}
+.sync-dialog{border:none;padding:0;background:transparent;color:var(--ink);width:calc(100% - 32px);max-width:520px;margin:auto}.sync-dialog::backdrop{background:rgba(0,0,0,.6)}.sync-dialog .sync-banner{margin:0;border:1px solid var(--line);border-left:4px solid var(--accent);box-shadow:0 24px 60px rgba(0,0,0,.45)}
 </style>
 </head>
 <body>
@@ -591,7 +592,7 @@ function copyResumen(btn){
 }
 
 function renderAll(){
-  document.getElementById('app').innerHTML = `<div class="app"><aside>${renderAside()}</aside><main id="main" tabindex="-1">${syncBannerHtml()}${renderMain()}</main></div>`;
+  document.getElementById('app').innerHTML = `<div class="app"><aside>${renderAside()}</aside><main id="main" tabindex="-1">${renderMain()}</main></div>`;
 }
 
 function updateCounts(){
@@ -735,7 +736,7 @@ const SB_POLITICA = '2026-10-15';
 const SB_CONSENT = '<label class="sync-consent"><input type="checkbox" required><span>Acepto la <a href="../privacidad/" target="_blank" rel="noopener">política de tratamiento de datos</a> y que mi correo, progreso y notas se guarden en Supabase (Estados Unidos).</span></label>';
 const SB_RUTA = 'ruta-ciberseguridad';
 const SB_META = 'ruta-ciber-sync';
-let sb = null, sbUser = null, sbMsg = '', sbBusy = false, sbTimer = null, sbApplying = false, sbForm = false, sbSent = false;
+let sb = null, sbUser = null, sbMsg = '', sbBusy = false, sbTimer = null, sbApplying = false, sbForm = false, sbSent = false, sbDialogShown = false;
 let sbMeta = {};
 try { sbMeta = JSON.parse(localStorage.getItem(SB_META) || '{}') || {}; } catch (e) { sbMeta = {}; }
 function sbSaveMeta(){ try { localStorage.setItem(SB_META, JSON.stringify(sbMeta)); } catch (e) {} }
@@ -749,14 +750,33 @@ function sbDirty(){
 function sbBox(){
   const box = document.getElementById('sync-box');
   if (box) box.innerHTML = syncBoxHtml();
-  const ban = document.getElementById('sync-banner');
-  if (ban) ban.innerHTML = syncBannerInner();
+  const d = document.getElementById('sync-dialog');
+  if (d && d.open) { if (sbUser || sbMeta.avisoCerrado) d.close(); else d.innerHTML = syncBannerInner(); }
 }
-// Aviso al empezar la ruta: aparece una sola vez hasta que la persona inicia sesión o lo descarta.
-function syncBannerHtml(){ return '<div id="sync-banner" class="wrap">' + syncBannerInner() + '</div>'; }
+// Ventana emergente al empezar la ruta: aparece una vez hasta que la persona inicia sesión o la descarta.
+function sbDismiss(){ sbMeta.avisoCerrado = true; sbSaveMeta(); }
+function sbDialog(){
+  let d = document.getElementById('sync-dialog');
+  if (!d) {
+    d = document.createElement('dialog');
+    d.id = 'sync-dialog'; d.className = 'sync-dialog';
+    d.setAttribute('aria-label', 'Guardar tu progreso en la nube');
+    d.addEventListener('cancel', sbDismiss);
+    d.addEventListener('click', e => { if (e.target === d) { sbDismiss(); d.close(); } });
+    document.body.appendChild(d);
+  }
+  return d;
+}
+function sbOpenDialog(){
+  if (!sb || sbUser || sbMeta.avisoCerrado || sbDialogShown || typeof HTMLDialogElement === 'undefined') return;
+  sbDialogShown = true;
+  const d = sbDialog();
+  d.innerHTML = syncBannerInner();
+  if (!d.open) d.showModal();
+}
 function syncBannerInner(){
   if (!sb || sbUser || sbMeta.avisoCerrado) return '';
-  if (sbSent) return '<div class="sync-banner" role="status"><h2>Revisá tu correo</h2><p>' + esc(sbMsg) + '</p></div>';
+  if (sbSent) return '<div class="sync-banner" role="status"><h2>Revisá tu correo</h2><p>' + esc(sbMsg) + '</p><div class="sync-row"><button class="reset" type="button" id="sync-later">Cerrar</button></div></div>';
   return '<form class="sync-form sync-banner"><h2>Guardá tu progreso en la nube</h2>'
     + '<p>Iniciá sesión con tu correo y tu avance y tus notas te siguen en cualquier dispositivo. Es opcional: sin cuenta todo se guarda en este navegador.</p>'
     + SB_CONSENT + '<div class="sync-row"><input type="email" required autocomplete="email" placeholder="nombre@correo.com" aria-label="Tu correo"><button class="reset" type="submit">Enviarme el enlace</button><button class="reset" type="button" id="sync-later">Ahora no</button></div>'
@@ -829,6 +849,7 @@ function sbInit(){
     sbUser = session ? session.user : null;
     sbBox();
     if (sbUser && (ev === 'SIGNED_IN' || ev === 'INITIAL_SESSION')) setTimeout(sbPull, 0);
+    if (!sbUser && ev === 'INITIAL_SESSION') setTimeout(sbOpenDialog, 600);
   });
   sbBox();
 }
