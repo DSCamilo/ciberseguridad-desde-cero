@@ -11,8 +11,6 @@ a{color:var(--accent)}
 :focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
 .mono{font-family:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
 header.top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 0;flex-wrap:wrap}
-.brand{font-weight:800;font-size:20px;color:var(--ink);text-decoration:none}
-.brand span{color:var(--accent)}
 nav.links{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
 nav.links a{color:var(--muted);text-decoration:none;font-weight:600;font-size:15px}
 nav.links a:hover,nav.links a[aria-current="page"]{color:var(--ink)}
@@ -40,10 +38,18 @@ nav.links a:hover,nav.links a[aria-current="page"]{color:var(--ink)}
 .nota a.titulo:hover .externo{opacity:1}
 .campo .mono{display:flex;align-items:center;gap:6px}.campo .mono .icono{width:14px;height:14px;color:var(--accent)}
 .nota a.titulo:hover{text-decoration:underline;color:var(--accent)}
+.paginacion{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;align-items:center;margin:22px 0 4px}
+.paginacion[hidden]{display:none}
+.pag{font:inherit;font-size:15px;font-weight:600;min-width:40px;height:40px;padding:0 12px;border-radius:9px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:4px}
+.pag:hover:not(:disabled){border-color:var(--accent);color:var(--accent)}
+.pag[aria-current="page"]{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.pag:disabled{opacity:.45;cursor:not-allowed}
+.pag:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.pag-puntos{color:var(--muted);padding:0 4px}
 .fuentes{margin:40px 0 8px;padding-top:24px;border-top:1px solid var(--line)}
 .fuentes[hidden]{display:none}
 .fuentes ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:8px 16px;font-size:15px}
 .fuentes .idioma{color:var(--muted);font-size:12px}
 footer{border-top:1px solid var(--line);margin-top:28px;padding:24px 0 40px;color:var(--muted);font-size:14px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
-@media (max-width:720px){.filtros{grid-template-columns:1fr 1fr}.filtros .grande{grid-column:1 / -1}.nota{grid-template-columns:96px minmax(0,1fr);gap:12px}.nota .ilus .sigla{font-size:9px}}
+@media (max-width:720px){.pag{min-width:36px;height:38px;padding:0 9px;font-size:14px}.filtros{grid-template-columns:1fr 1fr}.filtros .grande{grid-column:1 / -1}.nota{grid-template-columns:96px minmax(0,1fr);gap:12px}.nota .ilus .sigla{font-size:9px}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}

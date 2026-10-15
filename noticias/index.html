@@ -29,7 +29,7 @@
 <a class="skip" href="#contenido">Saltar al contenido</a>
 <div class="wrap">
   <header class="top">
-    <a class="brand" href="../">Ruta<span>.</span></a>
+    <a class="marca" href="../" aria-label="Ciberseguridad desde cero, inicio"><span class="marca-logo" aria-hidden="true"><svg class="icono" focusable="false"><use href="../assets/icons/sprite.svg#shield-check"></use></svg></span><span class="marca-texto"><span class="marca-nombre">Ciberseguridad</span><span class="marca-sub">desde cero</span></span></a>
     <nav class="links" aria-label="Principal">
       <a href="../#rutas">Rutas</a>
       <a href="./" aria-current="page">Noticias</a>
@@ -55,8 +55,9 @@
         <select id="fuente"><option value="">Todas</option></select></label>
     </section>
 
-    <p class="estado" id="estado" role="status" aria-live="polite">Cargando noticias…</p>
+    <p class="estado" id="estado" role="status" aria-live="polite" tabindex="-1">Cargando noticias…</p>
     <ul class="lista" id="lista"></ul>
+    <nav class="paginacion" id="paginacion" aria-label="Paginación de noticias" hidden></nav>
 
     <section class="fuentes" id="fuentes" hidden>
       <h2>Fuentes</h2>
