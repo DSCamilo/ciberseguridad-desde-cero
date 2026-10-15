@@ -83,9 +83,11 @@ section.block{padding:64px 0;border-top:1px solid var(--line)}
 .cta .row{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
 footer{border-top:1px solid var(--line);padding:24px 0 40px;color:var(--muted);font-size:14px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+.skip{position:absolute;left:-9999px;top:8px;z-index:100;padding:10px 16px;border-radius:9px;background:var(--accent);color:var(--on-accent,#fff);font-weight:700;text-decoration:none}.skip:focus{left:max(12px,env(safe-area-inset-left,0px))}
 </style>
 </head>
 <body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
 
 <div class="wrap">
   <header class="top">
@@ -98,7 +100,7 @@ footer{border-top:1px solid var(--line);padding:24px 0 40px;color:var(--muted);f
     </nav>
   </header>
 
-  <section class="hero">
+  <section class="hero" id="contenido">
     <span class="mono">Ciberseguridad · de cero a experto</span>
     <h1>Aprende ciberseguridad paso a paso, desde cero hasta nivel experto.</h1>
     <p class="lede">Rutas por niveles con teoría, laboratorios prácticos y preguntas de repaso. Avanzás cuando dominás el nivel anterior, no antes.</p>

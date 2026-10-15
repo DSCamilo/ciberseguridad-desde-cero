@@ -115,9 +115,11 @@ code{font-family:"IBM Plex Mono",monospace;font-size:12.5px;background:var(--sur
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 .seo-static{max-width:760px;margin:0 auto;padding:32px 20px;line-height:1.6}.seo-static h1{font-family:"Manrope",system-ui,sans-serif;line-height:1.15;margin:0 0 14px}.seo-static a{color:var(--accent)}
+.skip{position:absolute;left:-9999px;top:8px;z-index:100;padding:10px 16px;border-radius:9px;background:#0f766e;color:#fff;font-weight:700;text-decoration:none}.skip:focus{left:max(12px,env(safe-area-inset-left,0px))}
 </style>
 </head>
 <body>
+<a class="skip" href="#main">Saltar al contenido</a>
 <noscript>
 <div class="seo-static">
 <h1>undefined</h1>
@@ -348,7 +350,7 @@ function renderMain(){
 }
 
 function renderAll(){
-  document.getElementById('app').innerHTML = `<div class="app"><aside>${renderAside()}</aside><main>${renderMain()}</main></div>`;
+  document.getElementById('app').innerHTML = `<div class="app"><aside>${renderAside()}</aside><main id="main" tabindex="-1">${renderMain()}</main></div>`;
 }
 
 function updateCounts(){
