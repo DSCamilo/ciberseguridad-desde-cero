@@ -18,3 +18,8 @@ create policy "leer lo propio"      on public.progreso for select using (auth.ui
 create policy "insertar lo propio"  on public.progreso for insert with check (auth.uid() = user_id);
 create policy "actualizar lo propio" on public.progreso for update using (auth.uid() = user_id) with check (auth.uid() = user_id);
 create policy "borrar lo propio"    on public.progreso for delete using (auth.uid() = user_id);
+
+-- Permisos de la tabla para usuarios con sesion iniciada.
+-- Hacen falta porque el proyecto no expone tablas nuevas automaticamente.
+-- Sin sesion (rol anon) no hay acceso a nada.
+grant select, insert, update, delete on public.progreso to authenticated;
