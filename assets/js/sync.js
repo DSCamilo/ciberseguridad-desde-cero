@@ -132,6 +132,19 @@ document.addEventListener('click', async e => {
   else if (e.target.closest('#sync-del')) { await sbDelete(); }
   else if (e.target.closest('#sync-out')) { clearTimeout(sbTimer); await sb.auth.signOut(); sbMsg = 'Sesión cerrada. Tu progreso sigue en este navegador.'; sbBox(); }
 });
+// Traduce el error de Supabase a un mensaje útil; el detalle técnico queda en la consola.
+function sbMotivo(error){
+  const code = error.code || '', status = error.status || 0, msg = String(error.message || '').toLowerCase();
+  if (code === 'over_email_send_rate_limit' || status === 429 || msg.includes('rate limit'))
+    return 'Se alcanzó el límite de correos por hora. Esperá un rato y volvé a intentar. Tu progreso en este navegador está a salvo.';
+  if (code === 'email_address_invalid' || msg.includes('invalid'))
+    return 'Ese correo no es válido. Revisalo e intentá de nuevo.';
+  if (code === 'validation_failed' || msg.includes('redirect'))
+    return 'La dirección de este sitio no está autorizada para iniciar sesión.';
+  if (!navigator.onLine || msg.includes('fetch'))
+    return 'No hay conexión con el servicio. Revisá tu internet e intentá de nuevo.';
+  return 'No se pudo enviar el enlace (' + (code || status || 'error') + '). Intentá de nuevo en unos minutos.';
+}
 document.addEventListener('submit', async e => {
   if (!e.target.classList || !e.target.classList.contains('sync-form') || !sb) return;
   e.preventDefault();
@@ -139,7 +152,8 @@ document.addEventListener('submit', async e => {
   sbMsg = 'Enviando…'; sbBox();
   const {error} = await sb.auth.signInWithOtp({email: email, options: {emailRedirectTo: location.origin + location.pathname, data: {politica_aceptada: new Date().toISOString(), politica_version: SB_POLITICA}}});
   sbForm = !!error; sbSent = !error;
-  sbMsg = error ? 'No se pudo enviar el enlace. Esperá unos minutos e intentá de nuevo.' : 'Te enviamos un enlace a ' + email + '. Abrilo en este mismo navegador para terminar.';
+  if (error) console.warn('Supabase signInWithOtp:', error.status, error.code, error.message);
+  sbMsg = error ? sbMotivo(error) : 'Te enviamos un enlace a ' + email + '. Abrilo en este mismo navegador para terminar.';
   sbBox();
 });
 (function(){
