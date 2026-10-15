@@ -466,10 +466,12 @@ function sbBox(){
   const box = document.getElementById('sync-box');
   if (box) box.innerHTML = syncBoxHtml();
   const d = document.getElementById('sync-dialog');
-  if (d && d.open) { if (sbUser || sbMeta.avisoCerrado) d.close(); else d.innerHTML = syncBannerInner(); }
+  if (d && d.open) { if (sbUser || sbSnoozed()) d.close(); else d.innerHTML = syncBannerInner(); }
 }
 // Ventana emergente al empezar la ruta: aparece una vez hasta que la persona inicia sesión o la descarta.
-function sbDismiss(){ sbMeta.avisoCerrado = true; sbSaveMeta(); }
+// "Ahora no" silencia el aviso 7 días; después vuelve a ofrecerse si no iniciaste sesión.
+function sbSnoozed(){ return (sbMeta.avisoHasta || 0) > Date.now(); }
+function sbDismiss(){ sbMeta.avisoHasta = Date.now() + 7 * 864e5; sbSaveMeta(); }
 function sbDialog(){
   let d = document.getElementById('sync-dialog');
   if (!d) {
@@ -483,14 +485,14 @@ function sbDialog(){
   return d;
 }
 function sbOpenDialog(){
-  if (!sb || sbUser || sbMeta.avisoCerrado || sbDialogShown || typeof HTMLDialogElement === 'undefined') return;
+  if (!sb || sbUser || sbSnoozed() || sbDialogShown || typeof HTMLDialogElement === 'undefined') return;
   sbDialogShown = true;
   const d = sbDialog();
   d.innerHTML = syncBannerInner();
   if (!d.open) d.showModal();
 }
 function syncBannerInner(){
-  if (!sb || sbUser || sbMeta.avisoCerrado) return '';
+  if (!sb || sbUser || sbSnoozed()) return '';
   if (sbSent) return '<div class="sync-banner" role="status"><h2>Revisá tu correo</h2><p>' + esc(sbMsg) + '</p><div class="sync-row"><button class="reset" type="button" id="sync-later">Cerrar</button></div></div>';
   return '<form class="sync-form sync-banner"><h2>Guardá tu progreso en la nube</h2>'
     + '<p>Iniciá sesión con tu correo y tu avance y tus notas te siguen en cualquier dispositivo. Es opcional: sin cuenta todo se guarda en este navegador.</p>'
@@ -515,7 +517,7 @@ async function sbDelete(){
   clearTimeout(sbTimer);
   const {error} = await sb.from('progreso').delete().eq('user_id', sbUser.id);
   if (error) { sbMsg = 'No se pudo borrar. Intentá de nuevo.'; sbBox(); return; }
-  sbMeta = {avisoCerrado: sbMeta.avisoCerrado}; sbSaveMeta();
+  sbMeta = {avisoHasta: sbMeta.avisoHasta}; sbSaveMeta();
   await sb.auth.signOut();
   sbMsg = 'Borramos tus datos de la nube. Si también querés eliminar tu correo, pedilo desde la política de privacidad.';
   sbBox();
@@ -571,7 +573,7 @@ function sbInit(){
 document.addEventListener('click', async e => {
   if (!sb) return;
   if (e.target.closest('#sync-open')) { sbForm = true; sbMsg = ''; sbBox(); const i = document.getElementById('sync-email'); if (i) i.focus(); }
-  else if (e.target.closest('#sync-later')) { sbMeta.avisoCerrado = true; sbSaveMeta(); sbBox(); }
+  else if (e.target.closest('#sync-later')) { sbMeta.avisoHasta = Date.now() + 7 * 864e5; sbSaveMeta(); sbBox(); }
   else if (e.target.closest('#sync-del')) { await sbDelete(); }
   else if (e.target.closest('#sync-out')) { clearTimeout(sbTimer); await sb.auth.signOut(); sbMsg = 'Sesión cerrada. Tu progreso sigue en este navegador.'; sbBox(); }
 });
