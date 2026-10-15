@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Ruta de Threat Intelligence: IoC e informes | Ciberseguridad desde cero</title>
+<meta name="description" content="Ruta de Threat Intelligence en 3 fases: fundamentos, indicadores de compromiso y análisis, e informes accionables, con laboratorios y progreso guardado.">
+<meta property="og:title" content="Ruta de Threat Intelligence: IoC e informes | Ciberseguridad desde cero">
+<meta property="og:description" content="Ruta de Threat Intelligence en 3 fases: fundamentos, indicadores de compromiso y análisis, e informes accionables, con laboratorios y progreso guardado.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://DSCamilo.github.io/ciberseguridad-desde-cero/threat-intelligence/">
+<meta property="og:locale" content="es_CO">
+<link rel="canonical" href="https://DSCamilo.github.io/ciberseguridad-desde-cero/threat-intelligence/">
+<meta name="theme-color" content="#0f766e">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2714%27 fill=%27%230f766e%27/%3E%3Cpath d=%27M32 12l18 7v13c0 11-8 18-18 21-10-3-18-10-18-21V19z%27 fill=%27none%27 stroke=%27white%27 stroke-width=%275%27 stroke-linejoin=%27round%27/%3E%3C/svg%3E">
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+:root{--bg:#f5f7fa;--surface:#ffffff;--surface-2:#eef2f6;--ink:#101828;--muted:#5b6777;--line:#e1e7ee;--accent:#0f766e;--accent-soft:#d9f3ef;--done:#15803d;--radius:12px;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1117;--surface:#121b25;--surface-2:#18242f;--ink:#e6edf5;--muted:#93a3b4;--line:#22303e;--accent:#2dd4bf;--accent-soft:#11302c;--done:#4ade80;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0b1117;--surface:#121b25;--surface-2:#18242f;--ink:#e6edf5;--muted:#93a3b4;--line:#22303e;--accent:#2dd4bf;--accent-soft:#11302c;--done:#4ade80;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:15px;line-height:1.6}
+.app{display:grid;grid-template-columns:300px minmax(0,1fr);min-height:100vh}
+aside{position:sticky;top:0;height:100vh;overflow-y:auto;background:var(--surface);border-right:1px solid var(--line);padding:24px 18px 20px max(18px,env(safe-area-inset-left,0px));display:flex;flex-direction:column;gap:20px}
+main{min-width:0;padding:28px max(20px,env(safe-area-inset-right,0px)) 56px max(20px,env(safe-area-inset-left,0px))}
+.wrap{max-width:820px;margin:0 auto}
+.mono{font-family:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;font-size:12px;letter-spacing:.04em;color:var(--muted)}
+h1,h2,.brand{font-family:"Manrope",system-ui,sans-serif}
+.brand{font-weight:800;font-size:19px;line-height:1.2;margin:0}
+.back{color:var(--accent);font-size:13px;font-weight:600;text-decoration:none}
+.pbar{height:8px;background:var(--surface-2);border-radius:99px;overflow:hidden}
+.pbar span{display:block;height:100%;width:0;background:var(--accent);border-radius:99px;transition:width .35s ease}
+.overall{display:flex;flex-direction:column;gap:8px}
+.nav{display:flex;flex-direction:column;gap:6px}
+.nav-item{all:unset;box-sizing:border-box;cursor:pointer;display:flex;flex-direction:column;gap:6px;padding:12px 14px;border-radius:10px;border:1px solid transparent}
+.nav-item:hover{background:var(--surface-2)}
+.nav-item[aria-current="true"]{background:var(--accent-soft);border-color:var(--accent)}
+.nav-top{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.nav-name{font-weight:600}
+.nav-item .pbar{height:5px}
+.aside-search,.start-field{display:flex;flex-direction:column;gap:6px}
+.aside-search input{font:inherit;font-size:14px;width:100%;padding:9px 12px;border-radius:9px;border:1px solid var(--line);background:var(--surface-2);color:var(--ink)}
+.aside-foot{margin-top:auto;display:flex;flex-direction:column;gap:10px}
+.reset{all:unset;box-sizing:border-box;cursor:pointer;text-align:center;padding:9px 12px;border-radius:9px;border:1px solid var(--line);color:var(--muted);font-size:14px;font-weight:600}
+.reset:hover{color:var(--ink);border-color:var(--muted)}
+.hero{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:26px}
+.hero h1{font-size:clamp(26px,4.5vw,34px);line-height:1.15;margin:8px 0 10px;font-weight:800;text-wrap:balance}
+.hero p{margin:0 0 20px;color:var(--muted);max-width:62ch}
+.hero-prog{display:flex;align-items:center;gap:14px}
+.hero-prog .pbar{flex:1}
+.seg{display:inline-flex;gap:4px;padding:4px;background:var(--surface-2);border-radius:10px;margin:24px 0 18px;max-width:100%;overflow-x:auto}
+.seg button{all:unset;box-sizing:border-box;cursor:pointer;padding:8px 14px;border-radius:7px;font-weight:600;font-size:14px;color:var(--muted);white-space:nowrap}
+.seg button[aria-selected="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.08)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);margin-bottom:10px}
+.card.done{border-color:color-mix(in srgb,var(--done) 45%,var(--line))}
+.card.wip{border-color:var(--accent)}
+.card-head{display:flex;align-items:center;gap:12px;padding:12px 16px 12px 14px}
+.check input{width:20px;height:20px;margin:0;accent-color:var(--done);cursor:pointer;display:block}
+.card-toggle{all:unset;box-sizing:border-box;flex:1;min-width:0;display:flex;align-items:center;gap:12px;cursor:pointer}
+.idx{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--muted);min-width:24px}
+.card-title{font-weight:600;flex:1;min-width:0;overflow-wrap:anywhere}
+.card.done .card-title{color:var(--muted)}
+.card-toggle svg{flex:none;color:var(--muted);transition:transform .2s}
+.card-toggle[aria-expanded="true"] svg{transform:rotate(180deg)}
+.wip-btn{all:unset;box-sizing:border-box;cursor:pointer;font-size:12px;font-weight:600;padding:5px 10px;border-radius:99px;border:1px solid var(--line);color:var(--muted);white-space:nowrap}
+.wip-btn[aria-pressed="true"]{background:var(--accent-soft);color:var(--accent);border-color:var(--accent)}
+.card-body{padding:0 18px 18px 56px;min-width:0}
+.card-body[hidden]{display:none}
+.card-body p{margin:0 0 10px;max-width:66ch}
+.card-body ul,.card-body ol{margin:0 0 10px;padding-left:20px;max-width:66ch}
+.card-body li{margin:4px 0}
+code{font-family:"IBM Plex Mono",monospace;font-size:12.5px;background:var(--surface-2);border:1px solid var(--line);padding:1px 5px;border-radius:5px;overflow-wrap:anywhere}
+.steps{list-style:none;padding:0!important;counter-reset:s;display:flex;flex-direction:column;gap:10px}
+.steps li{counter-increment:s;display:flex;gap:12px;align-items:flex-start}
+.steps li::before{content:counter(s);flex:none;width:22px;height:22px;border-radius:50%;background:var(--accent-soft);color:var(--accent);font-family:"IBM Plex Mono",monospace;font-size:12px;display:flex;align-items:center;justify-content:center;margin-top:1px}
+.quiz{margin-top:14px;padding:14px 16px;background:var(--surface-2);border-radius:10px}
+.quiz h4{margin:0 0 8px;font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.quiz ol{margin:0;padding-left:20px}
+.quiz li{margin:8px 0}
+.quiz li p{margin:0 0 4px}
+.quiz details summary{cursor:pointer;color:var(--accent);font-size:14px;font-weight:600}
+.quiz details p{margin:6px 0 0;color:var(--muted)}
+.notes{margin-top:12px;display:flex;flex-direction:column;gap:6px;max-width:66ch}
+.notes label{font-size:12px}
+.notes textarea{font:inherit;font-size:14px;width:100%;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:var(--surface-2);color:var(--ink);resize:vertical}
+.res-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.res-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:18px;display:flex;flex-direction:column;gap:8px;text-decoration:none;color:inherit;min-width:0}
+.res-card:hover{border-color:var(--accent)}
+.res-card b{font-family:"Manrope",sans-serif;font-size:16px}
+.res-desc{color:var(--muted);font-size:14px}
+.res-link{margin-top:auto;color:var(--accent);font-size:13px;font-weight:600;overflow-wrap:anywhere}
+.intro{color:var(--muted);margin:0 0 16px;max-width:66ch}
+.s-list{display:flex;flex-direction:column;gap:8px;margin-top:20px}
+.s-item{all:unset;box-sizing:border-box;cursor:pointer;display:flex;flex-direction:column;gap:4px;padding:12px 14px;background:var(--surface);border:1px solid var(--line);border-radius:10px}
+.s-item:hover{border-color:var(--accent)}
+.pager{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:28px}
+.pager .reset{flex:1 1 220px;text-align:left;color:var(--ink)}
+.pager .reset:last-child{text-align:right}
+.note{margin-top:24px;padding:14px 16px;background:var(--accent-soft);border-radius:var(--radius);font-size:14px}
+@media (max-width:860px){
+  .app{grid-template-columns:1fr}
+  aside{position:static;height:auto;border-right:0;border-bottom:1px solid var(--line);padding:18px max(18px,env(safe-area-inset-left,0px)) 16px;gap:14px}
+  .nav{flex-direction:row;overflow-x:auto}
+  .nav-item{min-width:200px}
+  .card-body{padding-left:18px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+.seo-static{max-width:760px;margin:0 auto;padding:32px 20px;line-height:1.6}.seo-static h1{font-family:"Manrope",system-ui,sans-serif;line-height:1.15;margin:0 0 14px}.seo-static a{color:var(--accent)}
+</style>
+</head>
+<body>
+<noscript>
+<div class="seo-static">
+<h1>undefined</h1>
+<p>Esta ruta de nivel 2 te enseña a producir inteligencia de amenazas útil: desde el ciclo de inteligencia y las fuentes, pasando por indicadores de compromiso y análisis, hasta informes accionables para equipos técnicos y gerencia. Incluye temas, laboratorios y preguntas de repaso. Tu progreso y tus notas se guardan en tu navegador. Para usar el seguimiento interactivo necesitás activar JavaScript.</p>
+<ul>
+<li>Fase 1: Fundamentos de inteligencia (3–4 semanas)</li>
+<li>Fase 2: Indicadores y análisis (5–6 semanas)</li>
+<li>Fase 3: Inteligencia accionable e informes (4–5 semanas)</li>
+</ul>
+<p><a href="../">← Todas las rutas</a></p>
+</div>
+</noscript>
+<div id="app"></div>
+<script>
+const R = {
+phases:[
+{id:'f1',n:'Fase 1',name:'Fundamentos de inteligencia',weeks:'3–4 semanas',
+goal:`Entender qué es la inteligencia de amenazas, cómo se produce y qué marcos la organizan.`,
+temas:[
+{t:`Qué es threat intelligence`,c:`Es información sobre actores de amenaza, sus capacidades e intenciones, procesada para tomar decisiones. No es lo mismo que una lista de IoC: un IoC es un dato, la inteligencia es el contexto que explica qué significa ese dato para tu organización.`,p:[`<b>Estratégica:</b> tendencias y riesgos para la gerencia.`,`<b>Operativa:</b> campañas, objetivos y momentos de ataque.`,`<b>Táctica:</b> técnicas y herramientas (TTP).`,`<b>Técnica:</b> indicadores concretos como hashes, IP y dominios.`],q:[[`¿Cuál es la diferencia entre un IoC y la inteligencia de amenazas?`,`Un IoC es un dato aislado. La inteligencia es ese dato con contexto sobre el actor, su intención y lo que significa para la organización.`],[`¿Qué nivel de inteligencia sirve para decidir inversiones?`,`La estratégica, porque está orientada a la gerencia.`]]},
+{t:`El ciclo de inteligencia`,c:`La inteligencia se produce en un ciclo que se repite: se definen los requisitos, se recolecta, se procesa, se analiza, se difunde y se recibe retroalimentación para ajustar el siguiente ciclo.`,p:[`<b>Requisitos:</b> qué necesita saber la organización (PIR, por ejemplo).`,`<b>Recolección y procesamiento:</b> reunir datos y convertirlos en algo analizable.`,`<b>Análisis y difusión:</b> interpretar y entregar a quien lo necesita, en el formato adecuado.`,`<b>Retroalimentación:</b> saber si la inteligencia fue útil para ajustar requisitos.`],q:[[`¿Qué son los PIR?`,`Priority Intelligence Requirements: preguntas prioritarias que la organización necesita responder.`],[`¿En qué etapa se evalúa si la inteligencia sirvió?`,`En la retroalimentación.`]]},
+{t:`Tipos de fuentes y su confiabilidad`,c:`Las fuentes van desde información pública hasta datos internos. Cada una tiene un nivel distinto de confianza, y conviene evaluarla antes de usarla.`,p:[`<b>Abiertas (OSINT):</b> sitios, noticias, redes sociales y repositorios públicos.`,`<b>Comunidades y comparticiones:</b> ISAC y listas de intercambio entre organizaciones.`,`<b>Comerciales:</b> proveedores de feeds de amenazas.`,`<b>Internas:</b> logs, incidentes y telemetría propia.`,`Escala Admiralty: la fuente se califica de A (completamente confiable) a F (no evaluable), y la información de 1 (confirmada) a 6 (no evaluable).`],q:[[`¿Qué calificación Admiralty tiene una fuente completamente confiable que confirmó la información?`,`A1.`],[`¿Por qué evaluar la fuente antes de usarla?`,`Porque una fuente poco confiable puede llevar a conclusiones falsas o a decisiones costosas.`]]},
+{t:`Actores de amenaza`,c:`Un actor es quien ejecuta el ataque. Entender su motivación y capacidad permite anticipar qué busca y cómo lo hace.`,p:[`<b>APT (amenazas persistentes avanzadas):</b> grupos con recursos y objetivos sostenidos, muchas veces estatales.`,`<b>Cibercriminales:</b> motivados por dinero, por ejemplo con ransomware.`,`<b>Hacktivistas:</b> motivados por causas políticas o sociales.`,`<b>Amenazas internas:</b> personas con acceso legítimo que actúan de forma indebida.`],q:[[`¿Qué motiva habitualmente a un cibercriminal?`,`El beneficio económico.`],[`¿Qué es una APT?`,`Una amenaza persistente avanzada: un grupo con recursos y objetivos sostenidos en el tiempo.`]]},
+{t:`Marcos de referencia`,c:`Los marcos dan un vocabulario común para describir ataques y compararlos entre incidentes y organizaciones.`,p:[`<b>MITRE ATT&CK:</b> base de tácticas y técnicas observadas en ataques reales.`,`<b>Cyber Kill Chain (Lockheed Martin):</b> las fases de un ataque, desde el reconocimiento hasta la acción sobre objetivos.`,`<b>Diamond Model:</b> relaciona adversario, capacidad, infraestructura y víctima en cada evento.`],q:[[`¿Qué marco describe un ataque con cuatro vértices: adversario, capacidad, infraestructura y víctima?`,`El Diamond Model.`],[`¿Qué base de datos reúne tácticas y técnicas observadas?`,`MITRE ATT&CK.`]]},
+{t:`Uso ético y legal de la información`,c:`La inteligencia se obtiene de fuentes públicas o autorizadas. Investigar un actor no justifica acceder a sistemas ajenos ni tratar datos personales sin base legal.`,p:[`No accedas a sistemas o cuentas de terceros, aunque la información parezca pública.`,`Los datos personales tienen protección legal: en Colombia aplica la Ley 1581 de 2012.`,`Compartí inteligencia con el nivel de sensibilidad adecuado (ver TLP en la Fase 3).`],q:[[`¿Acceder a un servidor de un atacante para obtener evidencia es válido?`,`No. Es un acceso no autorizado, aunque el propósito sea investigar.`],[`¿Qué ley colombiana regula la protección de datos personales?`,`La Ley 1581 de 2012.`]]}
+],
+labs:[
+{t:`Explorar un pulso público en AlienVault OTX`,pasos:[`Creá una cuenta gratuita en otx.alienvault.com.`,`Abrí un pulso público de tu interés y revisá sus IoC y etiquetas.`,`Anotá qué tipo de actor describe y qué indicadores comparte.`]},
+{t:`Mapear un grupo de amenaza en ATT&CK Navigator`,pasos:[`Abrí ATT&CK Navigator y buscá la página de un grupo de amenaza en attack.mitre.org.`,`Marcá sus técnicas en una capa nueva del Navigator.`,`Anotá cinco técnicas y explicá qué busca el actor con cada una.`]},
+{t:`Evaluar fuentes con la escala Admiralty`,pasos:[`Elegí cinco fuentes de información sobre amenazas (de tu lectura o de OTX).`,`Asigná a cada una una calificación de A a F y de 1 a 6.`,`Justificá en una línea cada calificación.`]},
+{t:`Redactar requisitos de inteligencia (PIR)`,pasos:[`Imaginá una empresa de servicios financieros ficticia en Colombia.`,`Escribí tres PIR, por ejemplo: ¿qué actores apuntan al sector?, ¿qué técnicas usan?`,`Para cada PIR, anotá qué fuente te ayudaría a responderla.`]}
+],
+herr:[
+['MITRE ATT&CK','Tácticas, técnicas y grupos de amenaza.','https://attack.mitre.org','Sitio oficial'],
+['ATT&CK Navigator','Visualizar técnicas en capas de cobertura.','https://mitre-attack.github.io/attack-navigator/','Sitio oficial'],
+['AlienVault OTX','Pulsos de inteligencia compartidos por la comunidad.','https://otx.alienvault.com','Sitio oficial'],
+['MISP','Plataforma de intercambio de inteligencia de código abierto.','https://www.misp-project.org','Sitio oficial'],
+['CISA Cybersecurity Advisories','Alertas y avisos de agencias públicas.','https://www.cisa.gov/news-events/cybersecurity-advisories','Sitio oficial'],
+['Cyber Kill Chain','Modelo de fases de un ataque.','https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html','Sitio del fabricante']
+],
+recursos:[['MITRE ATT&CK','Base de conocimiento de tácticas y técnicas','https://attack.mitre.org'],['FIRST: TLP','Definición oficial del protocolo de semáforo','https://www.first.org/tlp'],['Admiralty code','Referencia de calificación de fuentes e información','https://en.wikipedia.org/wiki/Admiralty_code']]},
+
+{id:'f2',n:'Fase 2',name:'Indicadores y análisis',weeks:'5–6 semanas',
+goal:`Partir de un indicador, pivotear hacia la infraestructura relacionada y agrupar incidentes en campañas.`,
+temas:[
+{t:`Tipos de indicadores: la pirámide del dolor`,c:`No todos los indicadores tienen el mismo valor. Cambiar un hash es fácil para el atacante; cambiar sus técnicas le cuesta mucho más. Por eso la inteligencia útil se enfoca en comportamientos.`,p:[`<b>Bajo costo para el atacante:</b> hashes, IP y dominios.`,`<b>Mayor costo:</b> herramientas, técnicas y procedimientos (TTP).`,`Los IoC tienen vida corta; los TTP duran más y aportan más valor a la detección.`],q:[[`¿Qué indicador le cuesta más cambiar al atacante?`,`Las TTP, porque implican cambiar su forma de operar.`],[`¿Por qué un hash tiene poca vida útil como indicador?`,`Porque cambiar un byte del archivo genera un hash distinto.`]]},
+{t:`Pivoteo desde un indicador`,c:`Pivotear es partir de un dato conocido para encontrar infraestructura relacionada: otros dominios, IP o certificados que comparten el mismo operador.`,p:[`DNS pasivo: historial de qué IP resolvió un dominio.`,`Certificados TLS: otros dominios emitidos con datos similares.`,`Registro WHOIS y el ASN de la IP.`,`Cada pivote debe documentarse con la evidencia que lo justifica.`],q:[[`¿Qué es el DNS pasivo?`,`El historial de qué IP ha resuelto un dominio a lo largo del tiempo.`],[`¿Qué fuente revela certificados emitidos para un dominio?`,`Los registros de transparencia de certificados, por ejemplo crt.sh.`]]},
+{t:`Herramientas de consulta`,c:`Cada herramienta mira la infraestructura desde un ángulo distinto. Combinarlas da una imagen más completa.`,p:[`<b>VirusTotal:</b> reputación y relaciones de hashes, URL y dominios.`,`<b>Shodan y Censys:</b> servicios expuestos en internet.`,`<b>URLScan.io:</b> análisis de sitios web y sus recursos.`,`<b>crt.sh:</b> búsqueda de certificados TLS.`],q:[[`¿Para qué se usa Shodan?`,`Para encontrar servicios expuestos en internet.`],[`¿Qué puede mostrar crt.sh sobre un dominio?`,`Los certificados TLS emitidos para ese dominio y sus variantes.`]]},
+{t:`Análisis de campañas`,c:`Una campaña agrupa incidentes que comparten un mismo actor, técnicas o infraestructura. Agruparlos permite ver el patrón completo, no solo eventos sueltos.`,p:[`Agrupar por TTP, infraestructura, víctimas y período.`,`Un solo punto en común no basta: buscá al menos dos coincidencias independientes.`,`Registrá qué incidentes quedaron fuera del grupo y por qué.`],q:[[`¿Cuántos puntos en común conviene exigir para agrupar incidentes en una campaña?`,`Al menos dos coincidencias independientes.`],[`¿Qué es agrupar incidentes en una campaña?`,`Relacionar eventos que comparten actor, técnicas o infraestructura para ver el patrón completo.`]]},
+{t:`Formatos e intercambio: STIX, TAXII, MISP y YARA`,c:`Para compartir y automatizar inteligencia se usan formatos estándar. STIX describe la información, TAXII la transporta, MISP organiza eventos y YARA describe patrones de malware.`,p:[`<b>STIX:</b> lenguaje estándar para describir amenazas (OASIS).`,`<b>TAXII:</b> protocolo para transmitir inteligencia STIX entre sistemas.`,`<b>MISP:</b> plataforma para almacenar y compartir eventos de amenaza.`,`<b>YARA:</b> reglas para identificar familias de malware por patrones en archivos.`],q:[[`¿Qué formato describe la inteligencia y cuál la transporta?`,`STIX describe la inteligencia y TAXII la transporta.`],[`¿Para qué sirve YARA?`,`Para crear reglas que identifican malware por patrones en archivos.`]]},
+{t:`Atribución: niveles de confianza`,c:`Atribuir es decir quién está detrás de un ataque. Es el área con más errores, porque los atacantes pueden imitar a otros, y conviene separar evidencia de hipótesis.`,p:[`Distinguí entre hechos observados e interpretación.`,`Una falsa bandera es un ataque diseñado para parecer de otro actor.`,`Expresá la atribución con un nivel de confianza explícito (bajo, medio o alto).`],q:[[`¿Qué es una falsa bandera?`,`Un ataque diseñado para parecer de otro actor.`],[`¿Cómo conviene expresar una atribución?`,`Con un nivel de confianza explícito, separando evidencia de hipótesis.`]]}
+],
+labs:[
+{t:`Pivotear desde un dominio con crt.sh y VirusTotal`,pasos:[`Elegí un dominio de un reporte público o de tu práctica de SOC.`,`Buscá sus certificados en crt.sh y anotá dominios relacionados.`,`Revisá las relaciones del dominio en VirusTotal y comparalas con lo que encontraste.`]},
+{t:`Revisar servicios expuestos de tu propia IP con Shodan`,pasos:[`Consultá tu IP pública en shodan.io. Solo consultá tu propia dirección.`,`Anotá los servicios que aparecen y comparalos con lo que tenés abierto.`,`Decidí cuáles cerrarías o protegerías.`]},
+{t:`Escribir una regla YARA con el archivo de prueba EICAR`,pasos:[`Instalá YARA desde su repositorio oficial en GitHub.`,`Escribí una regla que busque la cadena del archivo de prueba EICAR (es un archivo inofensivo para probar antivirus).`,`Ejecutá la regla sobre el archivo y confirmá que lo detecta.`]},
+{t:`Convertir un reporte en una tabla de IoC`,pasos:[`Tomá un informe público de una campaña (por ejemplo, de CISA).`,`Extraé hashes, IP, dominios y técnicas en una tabla.`,`Marcá cuáles son IoC (de vida corta) y cuáles son TTP (de vida más larga).`]}
+],
+herr:[
+['VirusTotal','Reputación y relaciones de hashes, URL y dominios.','https://www.virustotal.com','Sitio oficial'],
+['Shodan','Búsqueda de servicios expuestos en internet.','https://www.shodan.io','Sitio oficial'],
+['Censys','Inventario de hosts y certificados en internet.','https://search.censys.io','Sitio oficial'],
+['URLScan.io','Análisis de sitios web y sus recursos.','https://urlscan.io','Sitio oficial'],
+['crt.sh','Búsqueda de certificados TLS por dominio.','https://crt.sh','Sitio del proyecto'],
+['YARA','Motor de reglas para identificar malware por patrones.','https://github.com/VirusTotal/yara','Repositorio GitHub'],
+['MISP','Plataforma de eventos y compartición de inteligencia.','https://www.misp-project.org','Sitio oficial'],
+['STIX / TAXII (OASIS)','Documentación oficial de estándares de inteligencia.','https://oasis-open.github.io/cti-documentation/','Documentación oficial']
+],
+recursos:[['Pirámide del dolor (David Bianco)','Artículo original del modelo de indicadores','https://detect-respond.blogspot.com'],['crt.sh','Búsqueda de certificados TLS','https://crt.sh'],['VirusTotal','Guía de la plataforma','https://docs.virustotal.com']]},
+
+{id:'f3',n:'Fase 3',name:'Inteligencia accionable e informes',weeks:'4–5 semanas',
+goal:`Convertir el análisis en detecciones, informes útiles para cada audiencia y decisiones que cambien el riesgo.`,
+temas:[
+{t:`De la inteligencia a la detección`,c:`La inteligencia sirve cuando termina en una regla o en una acción. Un IoC mal gestionado genera ruido; uno bien gestionado tiene fecha de caducidad y contexto.`,p:[`Convertí TTP en reglas de detección, por ejemplo con Sigma.`,`Definí cuánto dura cada IoC y revisalo antes de usarlo.`,`Medí cuántas alertas generó cada regla y cuántas fueron reales.`],q:[[`¿Qué formato genérico permite escribir reglas de detección portables?`,`Sigma.`],[`¿Por qué los IoC deben tener fecha de caducidad?`,`Porque los atacantes cambian su infraestructura y un IoC viejo genera falsos positivos.`]]},
+{t:`Modelo Diamond aplicado a un incidente`,c:`El Diamond Model analiza cada evento con cuatro vértices: adversario, capacidad, infraestructura y víctima. Su utilidad es revelar huecos en la información.`,p:[`Describí el adversario, la capacidad que usó, la infraestructura y la víctima.`,`Identificá qué vértice no tiene datos y qué fuente podría completarlo.`],q:[[`¿Cuáles son los cuatro vértices del Diamond Model?`,`Adversario, capacidad, infraestructura y víctima.`],[`¿Para qué sirve identificar un vértice sin datos?`,`Para saber qué investigar o qué fuente buscar.`]]},
+{t:`Cobertura de detección con ATT&CK`,c:`Una matriz de cobertura muestra qué técnicas puede detectar tu organización. Sirve para priorizar qué detecciones crear primero.`,p:[`Marcá en ATT&CK Navigator las técnicas que tus reglas cubren.`,`Compará la cobertura con las técnicas de los actores que te interesan.`,`Priorizá los huecos más usados por los actores de tu sector.`],q:[[`¿Qué herramienta visualiza la cobertura de técnicas?`,`ATT&CK Navigator.`],[`¿Cómo se prioriza un hueco de cobertura?`,`Según qué técnicas usan los actores relevantes para tu sector.`]]},
+{t:`Informes para cada audiencia`,c:`Un mismo análisis se comunica de forma distinta a la gerencia y al equipo técnico. El BLUF (Bottom Line Up Front) pone la conclusión al inicio.`,p:[`<b>Gerencia:</b> impacto, riesgo y decisión que se necesita.`,`<b>Operativo:</b> campañas y tendencias del sector.`,`<b>Técnico:</b> indicadores, técnicas y pasos de detección.`,`Siempre incluí el nivel de confianza de cada conclusión.`],q:[[`¿Qué significa BLUF?`,`Bottom Line Up Front: la conclusión va al inicio del informe.`],[`¿Qué audiencia necesita el impacto y la decisión?`,`La gerencia.`]]},
+{t:`Compartir inteligencia con TLP`,c:`TLP (Traffic Light Protocol) define hasta dónde puede difundirse una información. Compartir sin respetar el nivel puede exponer a una víctima o comprometer una investigación.`,p:[`<b>TLP:CLEAR:</b> sin restricción de difusión.`,`<b>TLP:GREEN:</b> comunidad, sin difusión pública.`,`<b>TLP:AMBER:</b> solo la organización y quienes necesitan saberlo.`,`<b>TLP:AMBER+STRICT:</b> solo la organización.`,`<b>TLP:RED:</b> solo las personas presentes en la reunión, sin difusión.`],q:[[`¿Qué etiqueta TLP permite la difusión más amplia?`,`TLP:CLEAR.`],[`¿Qué etiqueta TLP restringe la información a quienes estuvieron en la reunión?`,`TLP:RED.`]]},
+{t:`Medir el valor de la inteligencia`,c:`Si no medís la inteligencia, no sabés si mejora la defensa. Algunas métricas útiles relacionan la inteligencia con decisiones y tiempos.`,p:[`Tiempo desde que se publica un indicador hasta que se detecta en tu entorno.`,`Porcentaje de IoC que generaron alertas reales.`,`Cobertura de técnicas ATT&CK relevantes para tu sector.`],q:[[`¿Qué mide el porcentaje de IoC que generaron alertas reales?`,`La calidad de los indicadores que se usan.`],[`Da un ejemplo de métrica de valor de la inteligencia.`,`Tiempo desde la publicación de un indicador hasta su detección en el entorno.`]]}
+],
+labs:[
+{t:`Convertir un informe en reglas Sigma`,pasos:[`Tomá una técnica del informe de la Fase 2.`,`Escribí una regla Sigma que la detecte en logs de Windows.`,`Validá la sintaxis con la documentación oficial de Sigma.`]},
+{t:`Redactar un boletín de inteligencia de una página`,pasos:[`Usá la estructura BLUF: conclusión, impacto, evidencia y nivel de confianza.`,`Agregá recomendaciones concretas para la gerencia.`,`Revisalo con la pregunta: ¿alguien sin conocimientos técnicos entiende la decisión?`]},
+{t:`Crear una capa de cobertura en ATT&CK Navigator`,pasos:[`Abrí ATT&CK Navigator y creá una capa nueva.`,`Marcá las técnicas que cubren tus reglas (usá las de SOC si las tenés).`,`Identificá tres huecos y priorizalos según los actores de tu sector.`]},
+{t:`Clasificar IoC con TLP`,pasos:[`Tomá cinco IoC de tu tabla de la Fase 2.`,`Asigná a cada uno un nivel TLP y justificá la elección.`,`Anotá qué sí podrías compartir fuera de tu organización y qué no.`]}
+],
+herr:[
+['Sigma','Reglas de detección genéricas y portables.','https://github.com/SigmaHQ/sigma','Repositorio GitHub'],
+['pySigma','Conversión de reglas Sigma a formatos de SIEM.','https://github.com/SigmaHQ/pySigma','Repositorio GitHub'],
+['ATT&CK Navigator','Capas de cobertura de técnicas.','https://mitre-attack.github.io/attack-navigator/','Sitio oficial'],
+['FIRST TLP','Definición oficial de los niveles TLP.','https://www.first.org/tlp','Sitio oficial'],
+['CISA','Avisos y guías de respuesta publicados por la agencia.','https://www.cisa.gov','Sitio oficial'],
+['MISP','Compartir eventos con etiquetas TLP.','https://www.misp-project.org','Sitio oficial']
+],
+recursos:[['FIRST TLP','Protocolo oficial de semáforo','https://www.first.org/tlp'],['SigmaHQ','Repositorio de reglas Sigma','https://github.com/SigmaHQ/sigma'],['CISA','Avisos de ciberseguridad','https://www.cisa.gov']]}
+]
+};
+
+const KEY='ruta-ti-v1', NKEY='ruta-ti-notas', VKEY='ruta-ti-view';
+function load(k,d){ try { return JSON.parse(localStorage.getItem(k)) || d; } catch (e) { return d; } }
+function store(k,v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+let progress = load(KEY, {});
+let notas = load(NKEY, {});
+let view = load(VKEY, {phase:'f1', tab:'temas'});
+if (!R.phases.some(p=>p.id===view.phase)) view = {phase:'f1', tab:'temas'};
+
+const phases = R.phases;
+const total = phases.reduce((a,p)=>a+p.temas.length+p.labs.length,0);
+const pct = (d,n)=> n ? Math.round(d/n*100) : 0;
+const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const doneTotal = ()=> Object.keys(progress).filter(k=>progress[k] && !k.endsWith('-w')).length;
+function phaseCounts(p){
+  let d = 0;
+  p.temas.forEach((_,i)=>{ if (progress[p.id+'-t-'+i]) d++; });
+  p.labs.forEach((_,i)=>{ if (progress[p.id+'-l-'+i]) d++; });
+  return {d, n: p.temas.length + p.labs.length};
+}
+const chevron = `<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+
+function quiz(qs){
+  if (!qs || !qs.length) return '';
+  return `<div class="quiz"><h4>Preguntas de repaso</h4><ol>${qs.map(([q,a])=>`<li><p>${q}</p><details><summary>Ver respuesta</summary><p>${a}</p></details></li>`).join('')}</ol></div>`;
+}
+
+function card(key, i, title, body){
+  const done = !!progress[key];
+  const wip = !!progress[key+'-w'];
+  return `<article class="card ${done?'done':''} ${wip&&!done?'wip':''}" data-card="${key}">
+  <div class="card-head">
+    <label class="check"><input type="checkbox" data-k="${key}" aria-label="Marcar como hecho: ${esc(title)}" ${done?'checked':''}></label>
+    <button class="card-toggle" type="button" aria-expanded="false" aria-controls="b-${key}" data-toggle="${key}">
+      <span class="idx">${String(i+1).padStart(2,'0')}</span>
+      <span class="card-title">${title}</span>
+      ${chevron}
+    </button>
+    <button class="wip-btn" type="button" aria-pressed="${wip}" data-wip="${key}">En curso</button>
+  </div>
+  <div class="card-body" id="b-${key}" hidden>${body}<div class="notes"><label class="mono" for="n-${key}">Mis notas</label><textarea id="n-${key}" data-note="${key}" rows="3" placeholder="Conclusiones, dudas, fuentes...">${esc(notas[key]||'')}</textarea></div></div>
+</article>`;
+}
+
+function herrPanel(p){
+  const lista = p.herr || [];
+  return `<p class="intro">Descargá solo desde el sitio o repositorio oficial. Algunas herramientas tienen planes gratuitos con límites; revisalos antes de usarlas.</p><div class="res-grid">${lista.map(h=>`<a class="res-card" href="${h[2]}" target="_blank" rel="noopener"><span class="mono">${h[3]}</span><b>${h[0]}</b><span class="res-desc">${h[1]}</span><span class="res-link">${h[2].replace(/^https?:\/\//,'').replace(/\/$/,'')} ↗</span></a>`).join('')}</div>`;
+}
+
+function pager(p){
+  const i = phases.findIndex(x=>x.id===p.id);
+  const prev = phases[i-1], next = phases[i+1];
+  return `<nav class="pager" aria-label="Cambiar de fase">${prev?`<button class="reset" type="button" data-phase="${prev.id}">← ${prev.n}: ${prev.name}</button>`:'<span></span>'}${next?`<button class="reset" type="button" data-phase="${next.id}">${next.n}: ${next.name} →</button>`:'<span></span>'}</nav>`;
+}
+
+function renderAside(){
+  const d = doneTotal();
+  const items = phases.map(p=>{
+    const c = phaseCounts(p);
+    return `<button class="nav-item" type="button" data-phase="${p.id}" aria-current="${view.phase===p.id}">
+      <span class="nav-top"><span class="nav-name">${p.n}: ${p.name}</span><span class="mono" data-nav-count="${p.id}">${c.d}/${c.n}</span></span>
+      <span class="pbar"><span data-nav-bar="${p.id}" style="width:${pct(c.d,c.n)}%"></span></span>
+    </button>`;
+  }).join('');
+  return `
+  <div>
+    <a class="back" href="../">← Todas las rutas</a>
+    <p class="brand" style="margin-top:12px">Threat Intelligence</p>
+    <p class="mono" style="margin-top:4px">Nivel 2 · 3 fases</p>
+  </div>
+  <div class="overall">
+    <div class="mono" id="overall-text">${d} de ${total} completados · ${pct(d,total)}%</div>
+    <div class="pbar"><span id="overall-bar" style="width:${pct(d,total)}%"></span></div>
+  </div>
+  <label class="aside-search"><span class="mono">Buscar en la ruta</span><input id="qsearch" type="search" placeholder="Tema, laboratorio o término" value="${esc(view.q||'')}"></label>
+  <nav class="nav" aria-label="Fases">${items}</nav>
+  <div class="aside-foot">
+    <button class="reset" type="button" id="export">Exportar progreso</button>
+    <button class="reset" type="button" id="import">Importar progreso</button>
+    <input type="file" id="import-file" accept="application/json,.json" hidden>
+    <button class="reset" type="button" id="reset">Reiniciar progreso</button>
+    <span class="mono">Tu progreso se guarda en este navegador.</span>
+  </div>`;
+}
+
+function renderSearch(){
+  const q = view.q.trim().toLowerCase();
+  const hits = [];
+  phases.forEach(p=>{
+    p.temas.forEach(x=>{
+      if ((x.t+' '+x.c+' '+(x.p||[]).join(' ')).toLowerCase().includes(q)) hits.push({where:`${p.n} · Temas`, t:x.t, go:`${p.id}|temas`});
+    });
+    p.labs.forEach(l=>{
+      if ((l.t+' '+l.pasos.join(' ')).toLowerCase().includes(q)) hits.push({where:`${p.n} · Laboratorios`, t:l.t, go:`${p.id}|labs`});
+    });
+  });
+  const list = hits.length
+    ? hits.map(h=>`<button class="s-item" type="button" data-goto="${h.go}"><span class="mono">${h.where}</span><b>${h.t}</b></button>`).join('')
+    : `<p class="intro">No encontré resultados para “${esc(view.q)}”.</p>`;
+  return `<div class="wrap"><section class="hero"><span class="mono">Búsqueda</span><h1>${hits.length} resultado${hits.length===1?'':'s'}</h1><p>Hacé clic en un resultado para abrirlo.</p></section><div class="s-list">${list}</div></div>`;
+}
+
+function renderMain(){
+  if (view.q && view.q.trim()) return renderSearch();
+  const p = phases.find(x=>x.id===view.phase);
+  const c = phaseCounts(p);
+  const tabs = [['temas','Temas',p.temas.length],['labs','Laboratorios',p.labs.length],['herramientas','Herramientas',(p.herr||[]).length],['recursos','Recursos',p.recursos.length]];
+  const seg = tabs.map(([k,l,n])=>`<button type="button" role="tab" aria-selected="${view.tab===k}" data-tab="${k}">${l} · ${n}</button>`).join('');
+  let panel = '';
+  if (view.tab === 'temas') {
+    panel = p.temas.map((x,i)=>card(p.id+'-t-'+i, i, x.t, `<p>${x.c}</p>${x.p?`<ul>${x.p.map(q=>`<li>${q}</li>`).join('')}</ul>`:''}${quiz(x.q)}`)).join('');
+  } else if (view.tab === 'labs') {
+    panel = p.labs.map((l,i)=>card(p.id+'-l-'+i, i, l.t, `<ol class="steps">${l.pasos.map(s=>`<li><span>${s}</span></li>`).join('')}</ol>`)).join('');
+  } else if (view.tab === 'herramientas') {
+    panel = herrPanel(p);
+  } else {
+    panel = `<div class="res-grid">${p.recursos.map(r=>`<a class="res-card" href="${r[2]}" target="_blank" rel="noopener"><b>${r[0]}</b><span class="res-desc">${r[1]}</span><span class="res-link">${r[2].replace(/^https?:\/\//,'').replace(/\/$/,'')} ↗</span></a>`).join('')}</div>`;
+  }
+  return `<div class="wrap">
+  <section class="hero">
+    <span class="mono">${p.n} · ${p.weeks}</span>
+    <h1>${p.name}</h1>
+    <p>${p.goal}</p>
+    <div class="hero-prog"><div class="pbar"><span id="hero-bar" style="width:${pct(c.d,c.n)}%"></span></div><span class="mono" id="hero-text">${c.d} de ${c.n}</span></div>
+  </section>
+  <div class="seg" role="tablist" aria-label="Contenido de la fase">${seg}</div>
+  <div role="tabpanel">${panel}</div>
+  ${pager(p)}
+  <div class="note"><strong>Regla básica:</strong> analizá amenazas solo con fuentes públicas o autorizadas. Acceder a sistemas de terceros es delito en Colombia (Ley 1273 de 2009).</div>
+  </div>`;
+}
+
+function renderAll(){
+  document.getElementById('app').innerHTML = `<div class="app"><aside>${renderAside()}</aside><main>${renderMain()}</main></div>`;
+}
+
+function updateCounts(){
+  const d = doneTotal();
+  const ob = document.getElementById('overall-bar'); if (ob) ob.style.width = pct(d,total)+'%';
+  const ot = document.getElementById('overall-text'); if (ot) ot.textContent = `${d} de ${total} completados · ${pct(d,total)}%`;
+  phases.forEach(p=>{
+    const c = phaseCounts(p);
+    const nb = document.querySelector(`[data-nav-bar="${p.id}"]`); if (nb) nb.style.width = pct(c.d,c.n)+'%';
+    const nc = document.querySelector(`[data-nav-count="${p.id}"]`); if (nc) nc.textContent = `${c.d}/${c.n}`;
+  });
+  const cur = phases.find(x=>x.id===view.phase);
+  if (cur) {
+    const c = phaseCounts(cur);
+    const hb = document.getElementById('hero-bar'); if (hb) hb.style.width = pct(c.d,c.n)+'%';
+    const ht = document.getElementById('hero-text'); if (ht) ht.textContent = `${c.d} de ${c.n}`;
+  }
+}
+
+const root = document.getElementById('app');
+
+root.addEventListener('input', e=>{
+  const t = e.target;
+  if (t.id === 'qsearch') {
+    view.q = t.value;
+    const mainEl = document.querySelector('main');
+    if (mainEl) mainEl.innerHTML = renderMain();
+    return;
+  }
+  if (t.dataset && t.dataset.note) { notas[t.dataset.note] = t.value; store(NKEY, notas); }
+});
+
+root.addEventListener('change', e=>{
+  const input = e.target.closest('input[type=checkbox][data-k]');
+  if (!input) return;
+  progress[input.dataset.k] = input.checked;
+  store(KEY, progress);
+  const cardEl = input.closest('.card');
+  if (cardEl) cardEl.classList.toggle('done', input.checked);
+  updateCounts();
+});
+
+root.addEventListener('click', e=>{
+  const gotoBtn = e.target.closest('[data-goto]');
+  if (gotoBtn) {
+    const [ph, tab] = gotoBtn.dataset.goto.split('|');
+    view = {phase: ph, tab: tab === 'labs' ? 'labs' : 'temas', q: ''};
+    store(VKEY, {phase: view.phase, tab: view.tab}); renderAll(); return;
+  }
+  const wipBtn = e.target.closest('[data-wip]');
+  if (wipBtn) {
+    const k = wipBtn.dataset.wip + '-w';
+    progress[k] = !progress[k];
+    store(KEY, progress);
+    wipBtn.setAttribute('aria-pressed', String(!!progress[k]));
+    const cardEl = wipBtn.closest('.card');
+    if (cardEl) cardEl.classList.toggle('wip', !!progress[k] && !progress[wipBtn.dataset.wip]);
+    return;
+  }
+  const phaseBtn = e.target.closest('[data-phase]');
+  if (phaseBtn) {
+    view = {phase: phaseBtn.dataset.phase, tab: 'temas', q: ''};
+    store(VKEY, {phase: view.phase, tab: view.tab}); renderAll(); return;
+  }
+  const tabBtn = e.target.closest('[data-tab]');
+  if (tabBtn) {
+    view.tab = tabBtn.dataset.tab;
+    store(VKEY, {phase: view.phase, tab: view.tab}); renderAll(); return;
+  }
+  const toggle = e.target.closest('[data-toggle]');
+  if (toggle) {
+    const body = document.getElementById('b-'+toggle.dataset.toggle);
+    const open = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', String(!open));
+    if (body) body.hidden = open;
+    return;
+  }
+  const reset = e.target.closest('#reset');
+  if (reset) {
+    if (reset.dataset.armed === '1') {
+      progress = {}; store(KEY, progress); renderAll();
+    } else {
+      reset.dataset.armed = '1';
+      reset.textContent = 'Confirmar reinicio';
+      setTimeout(()=>{ reset.dataset.armed = ''; reset.textContent = 'Reiniciar progreso'; }, 4000);
+    }
+  }
+});
+
+// Exportar e importar progreso (copia de seguridad en JSON)
+const BACKUP_APP = 'threat-intelligence';
+const BACKUP_STATE = () => ({progreso:progress,notas:notas});
+document.addEventListener('click', e => {
+  if (e.target.closest('#export')) {
+    const data = {app: BACKUP_APP, version: 1, fecha: new Date().toISOString(), datos: BACKUP_STATE()};
+    const url = URL.createObjectURL(new Blob([JSON.stringify(data, null, 2)], {type:'application/json'}));
+    const a = document.createElement('a');
+    a.href = url; a.download = BACKUP_APP + '-progreso-' + data.fecha.slice(0,10) + '.json';
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  } else if (e.target.closest('#import')) {
+    const inp = document.getElementById('import-file'); if (inp) inp.click();
+  }
+});
+document.addEventListener('change', e => {
+  if (e.target.id !== 'import-file' || !e.target.files[0]) return;
+  const file = e.target.files[0];
+  const reader = new FileReader();
+  reader.onload = () => {
+    try {
+      const data = JSON.parse(reader.result);
+      const d = data && data.datos;
+      if (!data || data.app !== BACKUP_APP || !d || typeof d.progreso !== 'object' || d.progreso === null) throw new Error('formato');
+      if (!confirm('Esto reemplaza tu progreso y tus notas actuales en este navegador. ¿Continuar?')) return;
+      progress = d.progreso || {};
+      notas = (d.notas && typeof d.notas === 'object') ? d.notas : {};
+      store(KEY, progress); store(NKEY, notas);
+      renderAll();
+    } catch (err) {
+      alert('El archivo no es una copia de seguridad válida de esta ruta.');
+    }
+  };
+  reader.readAsText(file);
+  e.target.value = '';
+});
+
+renderAll();
+</script>
+</body>
+</html>

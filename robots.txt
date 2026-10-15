@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://DSCamilo.github.io/ciberseguridad-desde-cero/sitemap.xml
