@@ -66,4 +66,8 @@ footer{border-top:1px solid var(--line);padding:24px 0 40px;color:var(--muted);f
 .news-card:hover{border-color:var(--accent)}
 .news-card a{color:var(--ink);font-weight:600;line-height:1.35;text-decoration:none;overflow-wrap:anywhere}
 .news-card a:hover{color:var(--accent);text-decoration:underline}
+.level .nivel-ico{display:block;width:26px;height:26px;color:var(--accent);margin-bottom:10px}
+.route-top .mono{display:inline-flex;align-items:center;gap:7px}.route-top .icono{color:var(--accent);width:16px;height:16px}
+.step h3 .icono{color:var(--accent);margin-right:2px}
+.sec-head .mono .icono{color:var(--accent);margin-right:2px}
 .news-vacio{color:var(--muted);grid-column:1 / -1}

@@ -36,6 +36,9 @@ nav.links a:hover,nav.links a[aria-current="page"]{color:var(--ink)}
 .etiqueta{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;padding:2px 8px;border-radius:99px;border:1px solid var(--line);color:var(--muted)}
 .etiqueta.aviso-tipo{background:var(--accent-soft);color:var(--accent);border-color:transparent}
 .nota a.titulo{color:var(--ink);font-weight:600;font-size:17px;line-height:1.35;text-decoration:none;overflow-wrap:anywhere}
+.nota a.titulo .externo{width:.85em;height:.85em;opacity:.55;margin-left:2px}
+.nota a.titulo:hover .externo{opacity:1}
+.campo .mono{display:flex;align-items:center;gap:6px}.campo .mono .icono{width:14px;height:14px;color:var(--accent)}
 .nota a.titulo:hover{text-decoration:underline;color:var(--accent)}
 .fuentes{margin:40px 0 8px;padding-top:24px;border-top:1px solid var(--line)}
 .fuentes[hidden]{display:none}

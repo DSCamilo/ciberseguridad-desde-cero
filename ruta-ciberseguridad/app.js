@@ -77,7 +77,7 @@ function renderAside(){
   }).join('');
   return `
   <div>
-    <a class="back" href="../">← Todas las rutas</a>
+    <a class="back" href="../">${iconoHtml('arrow-left')} Todas las rutas</a>
     <p class="brand" style="margin-top:12px">Ruta SOC Analyst</p>
     <p class="brand-sub">De Fundamentos a Pentesting · 10 h por semana</p>
   </div>
@@ -148,8 +148,9 @@ function renderMain(){
   if (view.phase === 'glosario') return renderGlossary();
   const p = phases.find(x=>x.id===view.phase);
   const c = phaseCounts(p);
+  const TAB_ICONOS = {temas:'book-open', labs:'flask-conical', herramientas:'wrench', recursos:'library'};
   const tabs = [['temas','Temas',p.temas.length],['labs','Laboratorios',p.labs.length],['herramientas','Herramientas',(HERRAMIENTAS[p.id]||[]).length],['recursos','Recursos',p.recursos.length]];
-  const seg = tabs.map(([k,l,n])=>`<button type="button" role="tab" aria-selected="${view.tab===k}" data-tab="${k}">${l} · ${n}</button>`).join('');
+  const seg = tabs.map(([k,l,n])=>`<button type="button" role="tab" aria-selected="${view.tab===k}" data-tab="${k}">${iconoHtml(TAB_ICONOS[k])} ${l} · ${n}</button>`).join('');
 
   let panel = '';
   if (view.tab === 'temas') {

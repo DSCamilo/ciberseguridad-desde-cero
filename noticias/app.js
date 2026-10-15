@@ -38,6 +38,8 @@
     a.href = enlaceSeguro(i.url) || '#';
     a.target = '_blank';
     a.rel = 'noopener noreferrer';
+    a.append(' ', icono('external-link', 'externo'));
+    a.title = 'Se abre en una pestaña nueva';
     cuerpo.append(meta, a);
     li.append(crearIlustracion(f, i.titulo), cuerpo);
     return li;

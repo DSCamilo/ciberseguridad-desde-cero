@@ -64,7 +64,7 @@ function renderAside(){
   }).join('');
   return `
   <div>
-    <a class="back" href="../">← Todas las rutas</a>
+    <a class="back" href="../">${iconoHtml('arrow-left')} Todas las rutas</a>
     <p class="brand" style="margin-top:12px">Threat Intelligence</p>
     <p class="mono" style="margin-top:4px">Nivel 2 · 3 fases</p>
   </div>
@@ -103,8 +103,9 @@ function renderMain(){
   if (view.q && view.q.trim()) return renderSearch();
   const p = phases.find(x=>x.id===view.phase);
   const c = phaseCounts(p);
+  const TAB_ICONOS = {temas:'book-open', labs:'flask-conical', herramientas:'wrench', recursos:'library'};
   const tabs = [['temas','Temas',p.temas.length],['labs','Laboratorios',p.labs.length],['herramientas','Herramientas',(p.herr||[]).length],['recursos','Recursos',p.recursos.length]];
-  const seg = tabs.map(([k,l,n])=>`<button type="button" role="tab" aria-selected="${view.tab===k}" data-tab="${k}">${l} · ${n}</button>`).join('');
+  const seg = tabs.map(([k,l,n])=>`<button type="button" role="tab" aria-selected="${view.tab===k}" data-tab="${k}">${iconoHtml(TAB_ICONOS[k])} ${l} · ${n}</button>`).join('');
   let panel = '';
   if (view.tab === 'temas') {
     panel = p.temas.map((x,i)=>card(p.id+'-t-'+i, i, x.t, `<p>${x.c}</p>${x.p?`<ul>${x.p.map(q=>`<li>${q}</li>`).join('')}</ul>`:''}${quiz(x.q)}`)).join('');
