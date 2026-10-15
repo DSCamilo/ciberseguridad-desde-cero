@@ -1,5 +1,5 @@
 -- Esquema para sincronizar el progreso de las rutas.
--- Ejecutalo una vez en Supabase: SQL Editor -> New query -> pegar -> Run.
+-- Se puede ejecutar varias veces sin error. En Supabase: SQL Editor -> New query -> pegar -> Run.
 
 create table if not exists public.progreso (
   user_id    uuid        not null references auth.users(id) on delete cascade,
@@ -14,9 +14,13 @@ create table if not exists public.progreso (
 -- Cada persona solo ve y modifica sus propias filas.
 alter table public.progreso enable row level security;
 
+drop policy if exists "leer lo propio" on public.progreso;
 create policy "leer lo propio"      on public.progreso for select using (auth.uid() = user_id);
+drop policy if exists "insertar lo propio" on public.progreso;
 create policy "insertar lo propio"  on public.progreso for insert with check (auth.uid() = user_id);
+drop policy if exists "actualizar lo propio" on public.progreso;
 create policy "actualizar lo propio" on public.progreso for update using (auth.uid() = user_id) with check (auth.uid() = user_id);
+drop policy if exists "borrar lo propio" on public.progreso;
 create policy "borrar lo propio"    on public.progreso for delete using (auth.uid() = user_id);
 
 -- Permisos de la tabla para usuarios con sesion iniciada.
