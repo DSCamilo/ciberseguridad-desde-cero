@@ -24,6 +24,7 @@
   function tarjeta(i) {
     const f = fuentes.get(i.fuente);
     const li = el('li', 'nota');
+    const cuerpo = el('div', 'cuerpo');
     const meta = el('div', 'meta');
     meta.append(el('span', 'fuente', f ? f.nombre : i.fuente));
     const t = el('time', null, fechaTxt(i.fecha));
@@ -37,7 +38,8 @@
     a.href = enlaceSeguro(i.url) || '#';
     a.target = '_blank';
     a.rel = 'noopener noreferrer';
-    li.append(meta, a);
+    cuerpo.append(meta, a);
+    li.append(crearIlustracion(f, i.titulo), cuerpo);
     return li;
   }
 

@@ -1,0 +1,8 @@
+/* Ilustración de las noticias (la dibuja assets/js/ilustracion.js). Igual en claro y oscuro. */
+.ilus{position:relative;overflow:hidden;border-radius:10px;aspect-ratio:16/10;display:flex;align-items:flex-end;padding:8px 10px;color:#fff;
+  background:
+    radial-gradient(circle at 80% 18%,hsl(var(--h) 80% 70% / .35),transparent 55%),
+    linear-gradient(135deg,hsl(var(--h) 55% 30%),hsl(calc(var(--h) + 38) 60% 17%))}
+.ilus::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.16) 1px,transparent 1.2px);background-size:12px 12px;opacity:.6}
+.ilus svg{position:absolute;right:8%;top:50%;width:48%;max-width:84px;transform:translateY(-52%);fill:none;stroke:#fff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;opacity:.92}
+.ilus .sigla{position:relative;font-family:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;font-size:11px;font-weight:500;letter-spacing:.12em;color:rgba(255,255,255,.92);text-shadow:0 1px 2px rgba(0,0,0,.35)}

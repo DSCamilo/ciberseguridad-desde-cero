@@ -23,7 +23,7 @@
         const a = document.createElement('a');
         a.href = seguro(i.url); a.target = '_blank'; a.rel = 'noopener noreferrer';
         a.textContent = i.titulo;
-        li.append(meta, a);
+        li.append(crearIlustracion(fuentes.get(i.fuente), i.titulo), meta, a);
         return li;
       }));
     })
