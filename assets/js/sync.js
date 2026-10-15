@@ -8,7 +8,7 @@ const SB_RUTA = document.currentScript.dataset.ruta;
 const SB_META = document.currentScript.dataset.meta;
 const SB_POLITICA = '2026-10-15';
 const SB_CONSENT = '<label class="sync-consent"><input type="checkbox" required><span>Acepto la <a href="../privacidad/" target="_blank" rel="noopener">política de tratamiento de datos</a> y que mi correo, progreso y notas se guarden en Supabase (Estados Unidos).</span></label>';
-let sb = null, sbUser = null, sbMsg = '', sbBusy = false, sbTimer = null, sbApplying = false, sbForm = false, sbSent = false, sbDialogShown = false;
+let sb = null, sbUser = null, sbMsg = '', sbBusy = false, sbTimer = null, sbApplying = false, sbForm = false, sbSent = false, sbDialogShown = false, sbVistaNube = false;
 let sbMeta = {};
 try { sbMeta = JSON.parse(localStorage.getItem(SB_META) || '{}') || {}; } catch (e) { sbMeta = {}; }
 function sbSaveMeta(){ try { localStorage.setItem(SB_META, JSON.stringify(sbMeta)); } catch (e) {} }
@@ -49,9 +49,16 @@ function sbOpenDialog(){
 function syncBannerInner(){
   if (!sb || sbUser || sbSnoozed()) return '';
   if (sbSent) return '<div class="sync-banner" role="status"><h2>Revisá tu correo</h2><p>' + esc(sbMsg) + '</p><div class="sync-row"><button class="reset" type="button" id="sync-later">Cerrar</button></div></div>';
-  return '<form class="sync-form sync-banner"><h2>Guardá tu progreso en la nube</h2>'
-    + '<p>Iniciá sesión con tu correo y tu avance y tus notas te siguen en cualquier dispositivo. Es opcional: sin cuenta todo se guarda en este navegador.</p>'
-    + SB_CONSENT + '<div class="sync-row"><input type="email" required autocomplete="email" placeholder="nombre@correo.com" aria-label="Tu correo"><button class="reset" type="submit">Enviarme el enlace</button><button class="reset" type="button" id="sync-later">Ahora no</button></div>'
+  // Vista 1: elegir dónde guardar. Vista 2: formulario de correo para la nube.
+  if (!sbVistaNube) return '<div class="sync-banner" role="group" aria-label="Dónde guardar tu progreso"><h2>¿Dónde guardamos tu progreso?</h2>'
+    + '<p>Tu avance y tus notas se guardan siempre en este navegador. Si querés, también podés sincronizarlos en la nube para verlos desde otros dispositivos.</p>'
+    + '<div class="sync-opciones">'
+    + '<button class="reset sync-op" type="button" id="sync-local"><strong>Solo en este navegador</strong><span>Sin cuenta. Tus datos no salen de este dispositivo.</span></button>'
+    + '<button class="reset sync-op" type="button" id="sync-nube"><strong>Sincronizar en la nube</strong><span>Con tu correo. Está en pruebas y puede no estar disponible todavía.</span></button>'
+    + '</div></div>';
+  return '<form class="sync-form sync-banner"><h2>Sincronizar en la nube</h2>'
+    + '<p>Iniciá sesión con tu correo y tu avance y tus notas te siguen en cualquier dispositivo. Esta opción está en pruebas: si no funciona, tu progreso sigue guardado en este navegador.</p>'
+    + SB_CONSENT + '<div class="sync-row"><input type="email" required autocomplete="email" placeholder="nombre@correo.com" aria-label="Tu correo"><button class="reset" type="submit">Enviarme el enlace</button><button class="reset" type="button" id="sync-volver">Volver</button></div>'
     + (sbMsg ? '<p role="status">' + esc(sbMsg) + '</p>' : '')
     + '</form>';
 }
@@ -128,6 +135,9 @@ function sbInit(){
 document.addEventListener('click', async e => {
   if (!sb) return;
   if (e.target.closest('#sync-open')) { sbForm = true; sbMsg = ''; sbBox(); const i = document.getElementById('sync-email'); if (i) i.focus(); }
+  else if (e.target.closest('#sync-local')) { sbMeta.avisoHasta = Date.now() + 30 * 864e5; sbSaveMeta(); sbBox(); }
+  else if (e.target.closest('#sync-nube')) { sbVistaNube = true; sbMsg = ''; sbBox(); const i = document.querySelector('#sync-dialog input[type=email]'); if (i) i.focus(); }
+  else if (e.target.closest('#sync-volver')) { sbVistaNube = false; sbMsg = ''; sbBox(); }
   else if (e.target.closest('#sync-later')) { sbMeta.avisoHasta = Date.now() + 7 * 864e5; sbSaveMeta(); sbBox(); }
   else if (e.target.closest('#sync-del')) { await sbDelete(); }
   else if (e.target.closest('#sync-out')) { clearTimeout(sbTimer); await sb.auth.signOut(); sbMsg = 'Sesión cerrada. Tu progreso sigue en este navegador.'; sbBox(); }
@@ -137,6 +147,8 @@ function sbMotivo(error){
   const code = error.code || '', status = error.status || 0, msg = String(error.message || '').toLowerCase();
   if (code === 'over_email_send_rate_limit' || status === 429 || msg.includes('rate limit'))
     return 'Se alcanzó el límite de correos por hora. Esperá un rato y volvé a intentar. Tu progreso en este navegador está a salvo.';
+  if (code === 'email_address_not_authorized' || msg.includes('not authorized'))
+    return 'La sincronización en la nube todavía no está abierta al público. Tu progreso sigue guardado en este navegador.';
   if (code === 'email_address_invalid' || msg.includes('invalid'))
     return 'Ese correo no es válido. Revisalo e intentá de nuevo.';
   if (code === 'validation_failed' || msg.includes('redirect'))
