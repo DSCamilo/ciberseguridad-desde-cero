@@ -1,0 +1,546 @@
+{
+ "actualizado": "2026-10-15T21:11:32.501Z",
+ "fuentes": [
+  {
+   "id": "cisa",
+   "nombre": "CISA",
+   "idioma": "en",
+   "tipo": "avisos",
+   "sitio": "https://www.cisa.gov/news-events/cybersecurity-advisories"
+  },
+  {
+   "id": "incibe-avisos",
+   "nombre": "INCIBE-CERT · Avisos",
+   "idioma": "es",
+   "tipo": "avisos",
+   "sitio": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos"
+  },
+  {
+   "id": "incibe-blog",
+   "nombre": "INCIBE-CERT · Blog",
+   "idioma": "es",
+   "tipo": "noticias",
+   "sitio": "https://www.incibe.es/incibe-cert/blog"
+  },
+  {
+   "id": "hispasec",
+   "nombre": "Una al día (Hispasec)",
+   "idioma": "es",
+   "tipo": "noticias",
+   "sitio": "https://unaaldia.hispasec.com"
+  },
+  {
+   "id": "welivesecurity",
+   "nombre": "WeLiveSecurity (ESET)",
+   "idioma": "es",
+   "tipo": "noticias",
+   "sitio": "https://www.welivesecurity.com/la-es/"
+  },
+  {
+   "id": "segu-info",
+   "nombre": "Segu-Info",
+   "idioma": "es",
+   "tipo": "noticias",
+   "sitio": "https://blog.segu-info.com.ar"
+  },
+  {
+   "id": "thehackernews",
+   "nombre": "The Hacker News",
+   "idioma": "en",
+   "tipo": "noticias",
+   "sitio": "https://thehackernews.com"
+  },
+  {
+   "id": "bleepingcomputer",
+   "nombre": "BleepingComputer",
+   "idioma": "en",
+   "tipo": "noticias",
+   "sitio": "https://www.bleepingcomputer.com"
+  },
+  {
+   "id": "krebs",
+   "nombre": "Krebs on Security",
+   "idioma": "en",
+   "tipo": "noticias",
+   "sitio": "https://krebsonsecurity.com"
+  },
+  {
+   "id": "sans-isc",
+   "nombre": "SANS Internet Storm Center",
+   "idioma": "en",
+   "tipo": "noticias",
+   "sitio": "https://isc.sans.edu"
+  },
+  {
+   "id": "schneier",
+   "nombre": "Schneier on Security",
+   "idioma": "en",
+   "tipo": "noticias",
+   "sitio": "https://www.schneier.com"
+  }
+ ],
+ "items": [
+  {
+   "titulo": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
+   "fecha": "2026-10-15T20:25:04.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+   "url": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+   "fecha": "2026-10-15T20:24:36.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Android gets AI defenses against messaging scams, fake calls",
+   "url": "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/",
+   "fecha": "2026-10-15T19:48:43.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
+   "url": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
+   "fecha": "2026-10-15T18:49:33.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/",
+   "fecha": "2026-10-15T18:20:59.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Fake Arch Linux packages push malware with root privileges",
+   "url": "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/",
+   "fecha": "2026-10-15T17:12:31.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Arrestan a un ingeniero de OpenAI por plantar un dispositivo oculto de grabación",
+   "url": "https://blog.segu-info.com.ar/2026/10/arrestan-un-ingeniero-de-openai-por.html",
+   "fecha": "2026-10-15T17:04:00.000Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "Measuring Human Cryptanalysis Effort",
+   "url": "https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html",
+   "fecha": "2026-10-15T16:24:29.000Z",
+   "fuente": "schneier"
+  },
+  {
+   "titulo": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
+   "url": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",
+   "fecha": "2026-10-15T16:01:57.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
+   "url": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
+   "fecha": "2026-10-15T16:00:26.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
+   "url": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
+   "fecha": "2026-10-15T14:11:36.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Is AI pentesting as good as a human pentester?",
+   "url": "https://www.bleepingcomputer.com/news/security/is-ai-pentesting-as-good-as-a-human-pentester/",
+   "fecha": "2026-10-15T14:01:11.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Microsoft: Windows Server 2022 reached end of mainstream support",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-reached-end-of-mainstream-support/",
+   "fecha": "2026-10-15T13:18:36.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks",
+   "url": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
+   "fecha": "2026-10-15T12:58:05.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Anthropic advierte que los modelos de IA podrían autorreplicarse pronto en televisores inteligentes y dispositivos IoT",
+   "url": "https://blog.segu-info.com.ar/2026/10/anthropic-advierte-que-los-modelos-de.html",
+   "fecha": "2026-10-15T12:30:00.000Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "Next.js Ships Out-of-Band Patch for Two Critical RCE Flaws in Caching and SVG Processing",
+   "url": "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
+   "fecha": "2026-10-15T12:28:13.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules",
+   "url": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
+   "fecha": "2026-10-15T12:07:20.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Thermo Fisher Torrent Suite Software",
+   "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-01",
+   "fecha": "2026-10-15T12:00:00.000Z",
+   "fuente": "cisa"
+  },
+  {
+   "titulo": "J4Care dcm4che",
+   "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-02",
+   "fecha": "2026-10-15T12:00:00.000Z",
+   "fuente": "cisa"
+  },
+  {
+   "titulo": "Guangzhou Juan IoT Technology EseeCloud",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-02",
+   "fecha": "2026-10-15T12:00:00.000Z",
+   "fuente": "cisa"
+  },
+  {
+   "titulo": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/15/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "fecha": "2026-10-15T12:00:00.000Z",
+   "fuente": "cisa"
+  },
+  {
+   "titulo": "Eclipse Foundation Eclipse Milo",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-01",
+   "fecha": "2026-10-15T12:00:00.000Z",
+   "fuente": "cisa"
+  },
+  {
+   "titulo": "Police arrests 95 suspects in international CSAM crackdown action",
+   "url": "https://www.bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown/",
+   "fecha": "2026-10-15T11:55:38.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Microsoft fixes bug causing Windows black screens, Explorer crashes",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/",
+   "fecha": "2026-10-15T09:10:20.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Omisión de autenticación en Stela de Diaple Networking",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/omision-de-autenticacion-en-stela-de-diaple-networking",
+   "fecha": "2026-10-15T07:59:45.000Z",
+   "fuente": "incibe-avisos"
+  },
+  {
+   "titulo": "Múltiples vulnerabilidades en productos de Juniper Networks",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-juniper-networks",
+   "fecha": "2026-10-15T07:40:44.000Z",
+   "fuente": "incibe-avisos"
+  },
+  {
+   "titulo": "Inyección de código en PAN-OS de Palo Alto Networks",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/inyeccion-de-codigo-en-pan-os-de-palo-alto-networks",
+   "fecha": "2026-10-15T07:40:43.000Z",
+   "fuente": "incibe-avisos"
+  },
+  {
+   "titulo": "Múltiples vulnerabilidades en productos de Cisco",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-cisco-17",
+   "fecha": "2026-10-15T07:40:42.000Z",
+   "fuente": "incibe-avisos"
+  },
+  {
+   "titulo": "ISC Stormcast For Thursday, October 15th, 2026 https://isc.sans.edu/podcastdetail/10138, (Thu, Oct 15th)",
+   "url": "https://isc.sans.edu/diary/rss/33428",
+   "fecha": "2026-10-15T02:00:03.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "Panchan's Mining Island [Guest Diary], (Wed, Oct 14th)",
+   "url": "https://isc.sans.edu/diary/rss/33426",
+   "fecha": "2026-10-15T01:10:57.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "Cómo los estafadores se aprovechan de los propietarios de tiempos compartidos",
+   "url": "https://www.welivesecurity.com/es/estafas-enganos/estafas-tiempos-compartidos-falsos-compradores/",
+   "fecha": "2026-10-14T18:40:48.000Z",
+   "fuente": "welivesecurity"
+  },
+  {
+   "titulo": "Smart TVs de LG, vulnerables a la toma de control root sin autenticación desde la red local",
+   "url": "https://blog.segu-info.com.ar/2026/10/smart-tvs-de-lg-vulnerables-la-toma-de.html",
+   "fecha": "2026-10-14T18:30:00.000Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "Upcoming Speaking Engagements",
+   "url": "https://www.schneier.com/blog/archives/2026/10/upcoming-speaking-engagements-61.html",
+   "fecha": "2026-10-14T16:02:17.000Z",
+   "fuente": "schneier"
+  },
+  {
+   "titulo": "The Future of AI Cryptanalysis",
+   "url": "https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html",
+   "fecha": "2026-10-14T14:24:18.000Z",
+   "fuente": "schneier"
+  },
+  {
+   "titulo": "U.K. Sanctions Cryptomus for RU Money Laundering",
+   "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+   "fecha": "2026-10-14T14:22:49.000Z",
+   "fuente": "krebs"
+  },
+  {
+   "titulo": "Cyberattack on Connected Fridges in France",
+   "url": "https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html",
+   "fecha": "2026-10-14T14:10:22.000Z",
+   "fuente": "schneier"
+  },
+  {
+   "titulo": "Actualizaciones de seguridad de OCTUBRE para todas las empresas (nace la \"cohorte de riesgo\")",
+   "url": "https://blog.segu-info.com.ar/2026/10/actualizaciones-de-seguridad-de-octubre.html",
+   "fecha": "2026-10-14T12:27:00.000Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "Phishing a huéspedes con datos reales de reservas: cómo se produce y cómo evitarlo",
+   "url": "https://www.incibe.es/incibe-cert/blog/phishing-huespedes-con-datos-reales-de-reservas-como-se-produce-y-como-evitarlo",
+   "fecha": "2026-10-14T12:01:11.000Z",
+   "fuente": "incibe-blog"
+  },
+  {
+   "titulo": "Un ciberataque apaga vitrinas frigoríficas en supermercados franceses",
+   "url": "https://unaaldia.hispasec.com/un-ciberataque-apaga-vitrinas-frigorificas-en-supermercados-franceses/?utm_source=rss&utm_medium=rss&utm_campaign=un-ciberataque-apaga-vitrinas-frigorificas-en-supermercados-franceses",
+   "fecha": "2026-10-14T10:36:08.000Z",
+   "fuente": "hispasec"
+  },
+  {
+   "titulo": "Múltiples vulnerabilidades en Integrated Lights-Out de HPE",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-integrated-lights-out-de-hpe",
+   "fecha": "2026-10-14T09:52:52.000Z",
+   "fuente": "incibe-avisos"
+  },
+  {
+   "titulo": "Orphaned VBA Projects Inside DWG Files, (Wed, Oct 14th)",
+   "url": "https://isc.sans.edu/diary/rss/33420",
+   "fecha": "2026-10-14T06:49:46.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "ISC Stormcast For Wednesday, October 14th, 2026 https://isc.sans.edu/podcastdetail/10136, (Wed, Oct 14th)",
+   "url": "https://isc.sans.edu/diary/rss/33424",
+   "fecha": "2026-10-14T02:00:03.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "Microsoft Patches More Than 1,400 Security Flaws",
+   "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+   "fecha": "2026-10-13T23:24:53.000Z",
+   "fuente": "krebs"
+  },
+  {
+   "titulo": "October 2026 Microsoft Patch Tuesday, (Tue, Oct 13th)",
+   "url": "https://isc.sans.edu/diary/rss/33422",
+   "fecha": "2026-10-13T19:25:52.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "Alerta por un falso sitio de Frávega: el sistema de checkouts variables detrás de la estafa",
+   "url": "https://www.welivesecurity.com/es/estafas-enganos/falso-sitio-fravega-clonan-tienda-checkouts-descartables/",
+   "fecha": "2026-10-13T16:38:34.000Z",
+   "fuente": "welivesecurity"
+  },
+  {
+   "titulo": "Nuevos Punycode abren oportunidades de typosquatting en los navegadores Chromium",
+   "url": "https://blog.segu-info.com.ar/2026/10/nuevos-punycode-abren-oportunidades-de.html",
+   "fecha": "2026-10-13T12:30:00.000Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "ISC Stormcast For Tuesday, October 13th, 2026 https://isc.sans.edu/podcastdetail/10134, (Tue, Oct 13th)",
+   "url": "https://isc.sans.edu/diary/rss/33418",
+   "fecha": "2026-10-13T02:00:02.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "Ciberataques a sistemas de refrigeración obliga a descartar comida en supermercados de Francia",
+   "url": "https://blog.segu-info.com.ar/2026/10/ciberataques-sistemas-de-refrigeracion.html",
+   "fecha": "2026-10-12T16:30:00.000Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "FBI Arrests Suspect in FBI-Hacking Case",
+   "url": "https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html",
+   "fecha": "2026-10-12T15:01:26.000Z",
+   "fuente": "schneier"
+  },
+  {
+   "titulo": "Delincuentes de cuello blanco detrás de ransomware, grupos extorsivos y lavado de dinero",
+   "url": "https://blog.segu-info.com.ar/2026/10/delincuentes-de-cuello-blanco-detras-de.html",
+   "fecha": "2026-10-12T12:11:14.667Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "ISC Stormcast For Monday, October 12th, 2026 https://isc.sans.edu/podcastdetail/10132, (Mon, Oct 12th)",
+   "url": "https://isc.sans.edu/diary/rss/33416",
+   "fecha": "2026-10-12T02:00:03.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "Ledger confirma compromiso de cadena de suministro y un implante de hardware no autorizado. Pérdidas por U$s 90 millones",
+   "url": "https://blog.segu-info.com.ar/2026/10/ledger-confirma-compromiso-de-cadena-de.html",
+   "fecha": "2026-10-11T14:57:00.000Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "Why TLP should not replace your internal information classification, (Sat, Oct 10th)",
+   "url": "https://isc.sans.edu/diary/rss/33414",
+   "fecha": "2026-10-10T09:11:34.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "FBI Arrests Executive at Ransomware Negotiation Firm",
+   "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+   "fecha": "2026-10-10T00:17:42.000Z",
+   "fuente": "krebs"
+  },
+  {
+   "titulo": "Friday Squid Blogging: I Caught a Squid",
+   "url": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-i-caught-a-squid.html",
+   "fecha": "2026-10-09T20:24:45.000Z",
+   "fuente": "schneier"
+  },
+  {
+   "titulo": "Por qué las PyMEs buscan protección avanzada sin complejidad",
+   "url": "https://www.welivesecurity.com/es/seguridad-corporativa/pymes-proteccion-avanzada-sin-complicaciones/",
+   "fecha": "2026-10-09T15:49:43.000Z",
+   "fuente": "welivesecurity"
+  },
+  {
+   "titulo": "MATCHBOIL: nuevos trucos, las mismas intenciones maliciosas",
+   "url": "https://www.welivesecurity.com/es/investigaciones/matchboil-malware-uac-0099-evolucion/",
+   "fecha": "2026-10-08T16:56:28.000Z",
+   "fuente": "welivesecurity"
+  },
+  {
+   "titulo": "How Technology Empowers—and Imperils—Dictators",
+   "url": "https://www.schneier.com/blog/archives/2026/10/how-technology-empowers-and-imperils-dictators.html",
+   "fecha": "2026-10-08T11:07:35.000Z",
+   "fuente": "schneier"
+  },
+  {
+   "titulo": "Amatera: qué es y cómo funciona el infostealer que lidera las detecciones en América Latina",
+   "url": "https://www.welivesecurity.com/es/malware/amatera-infostealer-en-aumento-america-latina/",
+   "fecha": "2026-10-07T18:26:21.000Z",
+   "fuente": "welivesecurity"
+  },
+  {
+   "titulo": "Atacantes aprovechan un fallo crítico en Atlassian Data Center tras publicarse una prueba de concepto",
+   "url": "https://unaaldia.hispasec.com/atacantes-aprovechan-un-fallo-critico-en-atlassian-data-center-tras-publicarse-una-prueba-de-concepto/?utm_source=rss&utm_medium=rss&utm_campaign=atacantes-aprovechan-un-fallo-critico-en-atlassian-data-center-tras-publicarse-una-prueba-de-concepto",
+   "fecha": "2026-10-07T15:02:58.000Z",
+   "fuente": "hispasec"
+  },
+  {
+   "titulo": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
+   "url": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
+   "fecha": "2026-10-07T13:48:45.000Z",
+   "fuente": "krebs"
+  },
+  {
+   "titulo": "Apple’s Verified Photography System",
+   "url": "https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
+   "fecha": "2026-10-07T11:07:36.000Z",
+   "fuente": "schneier"
+  },
+  {
+   "titulo": "Dos fallos en LibreOffice y OpenOffice permiten ejecutar código al abrir hojas de cálculo sin avisos de macros",
+   "url": "https://unaaldia.hispasec.com/dos-fallos-en-libreoffice-y-openoffice-permiten-ejecutar-codigo-al-abrir-hojas-de-calculo-sin-avisos-de-macros/?utm_source=rss&utm_medium=rss&utm_campaign=dos-fallos-en-libreoffice-y-openoffice-permiten-ejecutar-codigo-al-abrir-hojas-de-calculo-sin-avisos-de-macros",
+   "fecha": "2026-10-06T13:08:29.000Z",
+   "fuente": "hispasec"
+  },
+  {
+   "titulo": "Una vulnerabilidad crítica en Rejetto HFS permite falsificar sesiones de administrador y ejecutar código",
+   "url": "https://unaaldia.hispasec.com/una-vulnerabilidad-critica-en-rejetto-hfs-permite-falsificar-sesiones-de-administrador-y-ejecutar-codigo/?utm_source=rss&utm_medium=rss&utm_campaign=una-vulnerabilidad-critica-en-rejetto-hfs-permite-falsificar-sesiones-de-administrador-y-ejecutar-codigo",
+   "fecha": "2026-10-05T12:59:09.000Z",
+   "fuente": "hispasec"
+  },
+  {
+   "titulo": "Un fallo en Steam para Windows permite escalar privilegios a SYSTEM sin UAC",
+   "url": "https://unaaldia.hispasec.com/un-fallo-en-steam-para-windows-permite-escalar-privilegios-a-system-sin-uac/?utm_source=rss&utm_medium=rss&utm_campaign=un-fallo-en-steam-para-windows-permite-escalar-privilegios-a-system-sin-uac",
+   "fecha": "2026-10-02T11:17:52.000Z",
+   "fuente": "hispasec"
+  },
+  {
+   "titulo": "Panorama de ciberamenazas en América Latina: balance del primer semestre de 2026",
+   "url": "https://www.welivesecurity.com/es/seguridad-corporativa/ciberamenazas-america-latina-balance-primer-semestre-2026/",
+   "fecha": "2026-10-01T16:38:45.000Z",
+   "fuente": "welivesecurity"
+  },
+  {
+   "titulo": "El phishing sigue llegando por correo, pero ya no se ve igual",
+   "url": "https://www.welivesecurity.com/es/seguridad-digital/phishing-correo-electronico-ya-no-se-ve-igual/",
+   "fecha": "2026-09-30T19:08:01.000Z",
+   "fuente": "welivesecurity"
+  },
+  {
+   "titulo": "Una campaña explota dos zero-days críticos en Citrix NetScaler para instalar web shells y moverse por la red",
+   "url": "https://unaaldia.hispasec.com/una-campana-explota-dos-zero-days-criticos-en-citrix-netscaler-para-instalar-web-shells-y-moverse-por-la-red/?utm_source=rss&utm_medium=rss&utm_campaign=una-campana-explota-dos-zero-days-criticos-en-citrix-netscaler-para-instalar-web-shells-y-moverse-por-la-red",
+   "fecha": "2026-09-30T15:08:31.000Z",
+   "fuente": "hispasec"
+  },
+  {
+   "titulo": "PDF malicioso: uno de los principales formatos utilizados en amenazas por correo electrónico en América Latina",
+   "url": "https://www.welivesecurity.com/es/cibercrimen/pdf-malicioso-amenazas-correo-electronico-america-latina/",
+   "fecha": "2026-09-29T16:20:09.000Z",
+   "fuente": "welivesecurity"
+  },
+  {
+   "titulo": "Una campaña automatizada saquea servidores de desarrollo Vite expuestos para robar secretos de AWS y Azure",
+   "url": "https://unaaldia.hispasec.com/una-campana-automatizada-saquea-servidores-de-desarrollo-vite-expuestos-para-robar-secretos-de-aws-y-azure/?utm_source=rss&utm_medium=rss&utm_campaign=una-campana-automatizada-saquea-servidores-de-desarrollo-vite-expuestos-para-robar-secretos-de-aws-y-azure",
+   "fecha": "2026-09-29T13:23:19.000Z",
+   "fuente": "hispasec"
+  },
+  {
+   "titulo": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
+   "url": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
+   "fecha": "2026-09-28T15:08:57.000Z",
+   "fuente": "krebs"
+  },
+  {
+   "titulo": "CISA da de plazo hasta el 30 de septiembre para parchear dos fallos críticos en Citrix NetScaler ya explotados",
+   "url": "https://unaaldia.hispasec.com/cisa-da-de-plazo-hasta-el-30-de-septiembre-para-parchear-dos-fallos-criticos-en-citrix-netscaler-ya-explotados/?utm_source=rss&utm_medium=rss&utm_campaign=cisa-da-de-plazo-hasta-el-30-de-septiembre-para-parchear-dos-fallos-criticos-en-citrix-netscaler-ya-explotados",
+   "fecha": "2026-09-28T11:56:55.000Z",
+   "fuente": "hispasec"
+  },
+  {
+   "titulo": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
+   "url": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
+   "fecha": "2026-09-25T21:44:40.000Z",
+   "fuente": "krebs"
+  },
+  {
+   "titulo": "OSINT actual: cómo convertir fuentes abiertas en inteligencia defensiva para tu organización",
+   "url": "https://www.incibe.es/incibe-cert/blog/osint-actual-como-convertir-fuentes-abiertas-en-inteligencia-defensiva-para-tu",
+   "fecha": "2026-09-17T11:47:38.000Z",
+   "fuente": "incibe-blog"
+  },
+  {
+   "titulo": "Data Broker Radaris Loses Domains in Privacy Fight",
+   "url": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
+   "fecha": "2026-09-16T18:14:22.000Z",
+   "fuente": "krebs"
+  },
+  {
+   "titulo": "Microsoft Plugs Nearly 1,000 Security Holes",
+   "url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
+   "fecha": "2026-09-08T21:44:22.000Z",
+   "fuente": "krebs"
+  },
+  {
+   "titulo": "Reglamento de ciberresiliencia (CRA): qué es, a quién afecta y cómo prepararse",
+   "url": "https://www.incibe.es/incibe-cert/blog/reglamento-de-ciberresiliencia-cra-que-es-quien-afecta-y-como-prepararse",
+   "fecha": "2026-09-03T11:30:17.000Z",
+   "fuente": "incibe-blog"
+  }
+ ]
+}

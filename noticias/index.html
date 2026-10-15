@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Noticias de ciberseguridad y seguridad informática | Ciberseguridad desde cero</title>
+<meta name="description" content="Titulares diarios de ciberseguridad en español e inglés desde fuentes públicas como CISA, INCIBE-CERT, The Hacker News y SANS. Filtrá por idioma, tipo y fuente.">
+<meta property="og:title" content="Noticias de ciberseguridad y seguridad informática | Ciberseguridad desde cero">
+<meta property="og:description" content="Titulares diarios de ciberseguridad en español e inglés desde fuentes públicas. Filtrá por idioma, tipo y fuente.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://dscamilo.github.io/ciberseguridad-desde-cero/noticias/">
+<meta property="og:image" content="https://dscamilo.github.io/ciberseguridad-desde-cero/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ciberseguridad desde cero: rutas de aprendizaje por niveles">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:locale" content="es_CO">
+<link rel="canonical" href="https://dscamilo.github.io/ciberseguridad-desde-cero/noticias/">
+<meta name="theme-color" content="#0f766e">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2714%27 fill=%27%230f766e%27/%3E%3Cpath d=%27M32 12l18 7v13c0 11-8 18-18 21-10-3-18-10-18-21V19z%27 fill=%27none%27 stroke=%27white%27 stroke-width=%275%27 stroke-linejoin=%27round%27/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="estilos.css">
+<link rel="stylesheet" href="../assets/css/comun.css">
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<div class="wrap">
+  <header class="top">
+    <a class="brand" href="../">Ruta<span>.</span></a>
+    <nav class="links" aria-label="Principal">
+      <a href="../#rutas">Rutas</a>
+      <a href="./" aria-current="page">Noticias</a>
+      <a href="../privacidad/">Privacidad</a>
+    </nav>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+    <section class="hero">
+      <span class="mono">Actualizado cada día</span>
+      <h1>Noticias de ciberseguridad</h1>
+      <p class="lede">Titulares de fuentes públicas en español e inglés. Hacé clic para leer la nota completa en el sitio original.</p>
+      <p class="aviso">Los titulares y enlaces pertenecen a sus autores; este sitio no reproduce su contenido, solo lo enlaza. Verificá siempre la información en la fuente.</p>
+    </section>
+
+    <section class="filtros" aria-label="Filtros" hidden>
+      <label class="campo grande"><span class="mono">Buscar</span><input type="search" id="q" placeholder="Palabra clave, por ejemplo ransomware" autocomplete="off"></label>
+      <label class="campo"><span class="mono">Idioma</span>
+        <select id="idioma"><option value="">Todos</option><option value="es">Español</option><option value="en">Inglés</option></select></label>
+      <label class="campo"><span class="mono">Tipo</span>
+        <select id="tipo"><option value="">Todos</option><option value="noticias">Noticias y análisis</option><option value="avisos">Avisos de vulnerabilidades</option></select></label>
+      <label class="campo"><span class="mono">Fuente</span>
+        <select id="fuente"><option value="">Todas</option></select></label>
+    </section>
+
+    <p class="estado" id="estado" role="status" aria-live="polite">Cargando noticias…</p>
+    <ul class="lista" id="lista"></ul>
+
+    <section class="fuentes" id="fuentes" hidden>
+      <h2>Fuentes</h2>
+      <ul id="fuentes-lista"></ul>
+    </section>
+
+    <noscript><p class="estado">Para ver las noticias necesitás activar JavaScript. También podés visitar directamente las fuentes: <a href="https://www.cisa.gov/news-events/cybersecurity-advisories" rel="noopener">CISA</a>, <a href="https://www.incibe.es/incibe-cert/blog" rel="noopener">INCIBE-CERT</a> y <a href="https://thehackernews.com" rel="noopener">The Hacker News</a>.</p></noscript>
+  </main>
+
+  <footer>
+    <span>Ruta de aprendizaje en ciberseguridad</span>
+    <span id="actualizado"></span>
+  </footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
