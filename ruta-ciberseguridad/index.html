@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Ruta de SOC Analyst y Pentesting | Ciberseguridad desde cero</title>
+<title>Ruta SOC Analyst: de Fundamentos a Pentesting | Ciberseguridad desde cero</title>
 <meta name="description" content="Ruta de ciberseguridad en 4 fases: fundamentos, SOC Analyst, Incident Response y Pentesting, con temas, laboratorios, preguntas y progreso guardado en tu navegador.">
-<meta property="og:title" content="Ruta de SOC Analyst y Pentesting | Ciberseguridad desde cero">
+<meta property="og:title" content="Ruta SOC Analyst: de Fundamentos a Pentesting | Ciberseguridad desde cero">
 <meta property="og:description" content="Ruta de ciberseguridad en 4 fases: fundamentos, SOC Analyst, Incident Response y Pentesting, con temas, laboratorios, preguntas y progreso guardado en tu navegador.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://dscamilo.github.io/ciberseguridad-desde-cero/ruta-ciberseguridad/">
@@ -140,7 +140,7 @@ h1,h2,.brand{font-family:"Manrope",system-ui,sans-serif}
 <a class="skip" href="#main">Saltar al contenido</a>
 <noscript>
 <div class="seo-static">
-<h1>Ruta de ciberseguridad: SOC Analyst, Incident Response y Pentesting</h1>
+<h1>Ruta SOC Analyst: de Fundamentos a Pentesting</h1>
 <p>Esta ruta te lleva desde los fundamentos de redes y sistemas hasta el trabajo de un analista SOC, la respuesta a incidentes y una introducción al pentesting. Cada fase combina temas, laboratorios prácticos y preguntas de repaso. Tu progreso y tus notas se guardan en tu navegador, sin cuentas ni registro. Para usar el seguimiento interactivo necesitás activar JavaScript.</p>
 <ul>
 <li>Fase 1: Fundamentos (4–5 semanas)</li>
@@ -476,8 +476,8 @@ function renderAside(){
   }).join('');
   return `
   <div>
-    <p class="brand">SOC → IR → Pentesting</p>
-    <p class="brand-sub">10 h por semana · desde cero</p>
+    <p class="brand">Ruta SOC Analyst</p>
+    <p class="brand-sub">De Fundamentos a Pentesting · 10 h por semana</p>
   </div>
   <div class="overall">
     <div class="mono" id="overall-text">${d} de ${total} completados · ${pct(d,total)}%</div>
@@ -579,7 +579,7 @@ function renderMain(){
 
 function copyResumen(btn){
   const d = doneTotal();
-  const lines = ['Ruta SOC → IR → Pentesting', `Progreso: ${d} de ${total} (${pct(d,total)}%)`];
+  const lines = ['Ruta SOC Analyst: de Fundamentos a Pentesting', `Progreso: ${d} de ${total} (${pct(d,total)}%)`];
   phases.forEach(p=>{ const c = phaseCounts(p); lines.push(`${p.n} ${p.name}: ${c.d}/${c.n}`); });
   const text = lines.join('\n');
   const ok = ()=>{ btn.textContent = 'Copiado'; setTimeout(()=>{ btn.textContent = 'Copiar resumen'; }, 2000); };
@@ -827,6 +827,16 @@ document.addEventListener('submit', async e => {
   document.head.appendChild(s);
 })();
 
+// Abrir una fase desde un enlace con ancla (por ejemplo ruta-ciberseguridad/#f3)
+function applyHash(){
+  const m = /^#(f\d+)$/.exec(location.hash);
+  if (!m || !phases.some(p => p.id === m[1])) return false;
+  view = {phase: m[1], tab: 'temas'};
+  saveView();
+  return true;
+}
+window.addEventListener('hashchange', () => { if (applyHash()) renderAll(); });
+applyHash();
 renderAll();
 </script>
 </body>
