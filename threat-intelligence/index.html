@@ -299,9 +299,6 @@ function renderAside(){
   <nav class="nav" aria-label="Fases">${items}</nav>
   <div class="aside-foot">
     <div class="sync-box" id="sync-box">${syncBoxHtml()}</div>
-    <button class="reset" type="button" id="export">Exportar progreso</button>
-    <button class="reset" type="button" id="import">Importar progreso</button>
-    <input type="file" id="import-file" accept="application/json,.json" hidden>
     <button class="reset" type="button" id="reset">Reiniciar progreso</button>
     <span class="mono">Tu progreso se guarda en este navegador.</span>
     <a class="priv" href="../privacidad/">Política de tratamiento de datos</a>
@@ -446,42 +443,6 @@ root.addEventListener('click', e=>{
   }
 });
 
-// Exportar e importar progreso (copia de seguridad en JSON)
-const BACKUP_APP = 'threat-intelligence';
-const BACKUP_STATE = () => ({progreso:progress,notas:notas});
-document.addEventListener('click', e => {
-  if (e.target.closest('#export')) {
-    const data = {app: BACKUP_APP, version: 1, fecha: new Date().toISOString(), datos: BACKUP_STATE()};
-    const url = URL.createObjectURL(new Blob([JSON.stringify(data, null, 2)], {type:'application/json'}));
-    const a = document.createElement('a');
-    a.href = url; a.download = BACKUP_APP + '-progreso-' + data.fecha.slice(0,10) + '.json';
-    document.body.appendChild(a); a.click(); a.remove();
-    setTimeout(() => URL.revokeObjectURL(url), 1000);
-  } else if (e.target.closest('#import')) {
-    const inp = document.getElementById('import-file'); if (inp) inp.click();
-  }
-});
-document.addEventListener('change', e => {
-  if (e.target.id !== 'import-file' || !e.target.files[0]) return;
-  const file = e.target.files[0];
-  const reader = new FileReader();
-  reader.onload = () => {
-    try {
-      const data = JSON.parse(reader.result);
-      const d = data && data.datos;
-      if (!data || data.app !== BACKUP_APP || !d || typeof d.progreso !== 'object' || d.progreso === null) throw new Error('formato');
-      if (!confirm('Esto reemplaza tu progreso y tus notas actuales en este navegador. ¿Continuar?')) return;
-      progress = d.progreso || {};
-      notas = (d.notas && typeof d.notas === 'object') ? d.notas : {};
-      store(KEY, progress); store(NKEY, notas);
-      renderAll();
-    } catch (err) {
-      alert('El archivo no es una copia de seguridad válida de esta ruta.');
-    }
-  };
-  reader.readAsText(file);
-  e.target.value = '';
-});
 // Sincronización opcional con Supabase (inicio de sesión por enlace al correo).
 // Sin sesión todo sigue funcionando solo con localStorage.
 const SB_URL = 'https://wavrteveawmympridvbp.supabase.co';
