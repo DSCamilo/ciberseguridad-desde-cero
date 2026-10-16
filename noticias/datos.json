@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-15T21:11:32.501Z",
+ "actualizado": "2026-10-16T15:23:34.499Z",
  "fuentes": [
   {
    "id": "cisa",
@@ -81,6 +81,114 @@
  ],
  "items": [
   {
+   "titulo": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
+   "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
+   "fecha": "2026-10-16T14:03:04.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Employees using personal ChatGPT at work? Here's what IT admins need to do",
+   "url": "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/",
+   "fecha": "2026-10-16T13:50:59.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "PwnEscape: vulnerabilidad crítica en Linux permite escapar de máquinas virtuales y controlar hosts",
+   "url": "https://blog.segu-info.com.ar/2026/10/vulnerabilidad-critica-en-linux-permite.html",
+   "fecha": "2026-10-16T13:00:00.000Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "Burger King Japan data breach exposes 11 million customer records",
+   "url": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
+   "fecha": "2026-10-16T12:01:29.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Cyber Threat Actors Use a Variety of Techniques to Target Election and Campaign Officials",
+   "url": "https://www.cisa.gov/resources-tools/resources/cyber-threat-actors-use-variety-techniques-target-election-and-campaign-officials",
+   "fecha": "2026-10-16T12:00:00.000Z",
+   "fuente": "cisa"
+  },
+  {
+   "titulo": "AdFection: spyware Zero-Click a través de publicidad dirigida",
+   "url": "https://blog.segu-info.com.ar/2026/10/adfection-spyware-zero-click-traves-de.html",
+   "fecha": "2026-10-16T11:45:00.000Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "AI Decision Models and Their Impact on AI SOC Platforms",
+   "url": "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",
+   "fecha": "2026-10-16T11:30:00.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Backdooring Open-Weight AI Models",
+   "url": "https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
+   "fecha": "2026-10-16T11:04:53.000Z",
+   "fuente": "schneier"
+  },
+  {
+   "titulo": "Microsoft: October Windows update may break Smart App Control",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/",
+   "fecha": "2026-10-16T08:44:22.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "BAE Systems cyberattack disrupts US federal court operations",
+   "url": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
+   "fecha": "2026-10-16T07:37:35.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
+   "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
+   "fecha": "2026-10-16T06:55:55.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
+   "url": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
+   "fecha": "2026-10-16T06:53:09.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "BeyondTrust patches zero-day exploited in attacks since August",
+   "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
+   "fecha": "2026-10-16T06:18:08.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
+   "url": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
+   "fecha": "2026-10-16T04:59:36.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "ISC Stormcast For Friday, October 16th, 2026 https://isc.sans.edu/podcastdetail/10140, (Fri, Oct 16th)",
+   "url": "https://isc.sans.edu/diary/rss/33432",
+   "fecha": "2026-10-16T02:00:03.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "Small Agents, Smaller Blast Radius: Controlling What AI Can Do, (Fri, Oct 16th)",
+   "url": "https://isc.sans.edu/diary/rss/33430",
+   "fecha": "2026-10-16T00:46:35.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "Vulnerabilidades críticas en Next.js permiten ejecutar código de forma remota",
+   "url": "https://blog.segu-info.com.ar/2026/10/vulnerabilidades-criticas-en-nextjs.html",
+   "fecha": "2026-10-15T23:07:59.673Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "Panchan's Mining Island [Guest Diary], (Wed, Oct 14th)",
+   "url": "https://isc.sans.edu/diary/rss/33426",
+   "fecha": "2026-10-15T23:03:42.000Z",
+   "fuente": "sans-isc"
+  },
+  {
    "titulo": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
    "fecha": "2026-10-15T20:25:04.000Z",
@@ -111,10 +219,10 @@
    "fuente": "bleepingcomputer"
   },
   {
-   "titulo": "Fake Arch Linux packages push malware with root privileges",
-   "url": "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/",
-   "fecha": "2026-10-15T17:12:31.000Z",
-   "fuente": "bleepingcomputer"
+   "titulo": "Cómo opera una estafa de inversión que utiliza medios falsos, figuras públicas y la identidad de una empresa financiera real",
+   "url": "https://www.welivesecurity.com/es/estafas-enganos/estafa-de-inversion-suplanta-a-vymarkets/",
+   "fecha": "2026-10-15T17:25:13.000Z",
+   "fuente": "welivesecurity"
   },
   {
    "titulo": "Arrestan a un ingeniero de OpenAI por plantar un dispositivo oculto de grabación",
@@ -135,52 +243,10 @@
    "fuente": "thehackernews"
   },
   {
-   "titulo": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
-   "url": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
-   "fecha": "2026-10-15T16:00:26.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
-   "url": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
-   "fecha": "2026-10-15T14:11:36.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Is AI pentesting as good as a human pentester?",
-   "url": "https://www.bleepingcomputer.com/news/security/is-ai-pentesting-as-good-as-a-human-pentester/",
-   "fecha": "2026-10-15T14:01:11.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Microsoft: Windows Server 2022 reached end of mainstream support",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-reached-end-of-mainstream-support/",
-   "fecha": "2026-10-15T13:18:36.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks",
-   "url": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
-   "fecha": "2026-10-15T12:58:05.000Z",
-   "fuente": "thehackernews"
-  },
-  {
    "titulo": "Anthropic advierte que los modelos de IA podrían autorreplicarse pronto en televisores inteligentes y dispositivos IoT",
    "url": "https://blog.segu-info.com.ar/2026/10/anthropic-advierte-que-los-modelos-de.html",
    "fecha": "2026-10-15T12:30:00.000Z",
    "fuente": "segu-info"
-  },
-  {
-   "titulo": "Next.js Ships Out-of-Band Patch for Two Critical RCE Flaws in Caching and SVG Processing",
-   "url": "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
-   "fecha": "2026-10-15T12:28:13.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules",
-   "url": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
-   "fecha": "2026-10-15T12:07:20.000Z",
-   "fuente": "thehackernews"
   },
   {
    "titulo": "Thermo Fisher Torrent Suite Software",
@@ -205,24 +271,6 @@
    "url": "https://www.cisa.gov/news-events/alerts/2026/10/15/cisa-adds-one-known-exploited-vulnerability-catalog",
    "fecha": "2026-10-15T12:00:00.000Z",
    "fuente": "cisa"
-  },
-  {
-   "titulo": "Eclipse Foundation Eclipse Milo",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-01",
-   "fecha": "2026-10-15T12:00:00.000Z",
-   "fuente": "cisa"
-  },
-  {
-   "titulo": "Police arrests 95 suspects in international CSAM crackdown action",
-   "url": "https://www.bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown/",
-   "fecha": "2026-10-15T11:55:38.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Microsoft fixes bug causing Windows black screens, Explorer crashes",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/",
-   "fecha": "2026-10-15T09:10:20.000Z",
-   "fuente": "bleepingcomputer"
   },
   {
    "titulo": "Omisión de autenticación en Stela de Diaple Networking",
@@ -252,12 +300,6 @@
    "titulo": "ISC Stormcast For Thursday, October 15th, 2026 https://isc.sans.edu/podcastdetail/10138, (Thu, Oct 15th)",
    "url": "https://isc.sans.edu/diary/rss/33428",
    "fecha": "2026-10-15T02:00:03.000Z",
-   "fuente": "sans-isc"
-  },
-  {
-   "titulo": "Panchan's Mining Island [Guest Diary], (Wed, Oct 14th)",
-   "url": "https://isc.sans.edu/diary/rss/33426",
-   "fecha": "2026-10-15T01:10:57.000Z",
    "fuente": "sans-isc"
   },
   {
@@ -363,40 +405,10 @@
    "fuente": "sans-isc"
   },
   {
-   "titulo": "Ciberataques a sistemas de refrigeración obliga a descartar comida en supermercados de Francia",
-   "url": "https://blog.segu-info.com.ar/2026/10/ciberataques-sistemas-de-refrigeracion.html",
-   "fecha": "2026-10-12T16:30:00.000Z",
-   "fuente": "segu-info"
-  },
-  {
    "titulo": "FBI Arrests Suspect in FBI-Hacking Case",
    "url": "https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html",
    "fecha": "2026-10-12T15:01:26.000Z",
    "fuente": "schneier"
-  },
-  {
-   "titulo": "Delincuentes de cuello blanco detrás de ransomware, grupos extorsivos y lavado de dinero",
-   "url": "https://blog.segu-info.com.ar/2026/10/delincuentes-de-cuello-blanco-detras-de.html",
-   "fecha": "2026-10-12T12:11:14.667Z",
-   "fuente": "segu-info"
-  },
-  {
-   "titulo": "ISC Stormcast For Monday, October 12th, 2026 https://isc.sans.edu/podcastdetail/10132, (Mon, Oct 12th)",
-   "url": "https://isc.sans.edu/diary/rss/33416",
-   "fecha": "2026-10-12T02:00:03.000Z",
-   "fuente": "sans-isc"
-  },
-  {
-   "titulo": "Ledger confirma compromiso de cadena de suministro y un implante de hardware no autorizado. Pérdidas por U$s 90 millones",
-   "url": "https://blog.segu-info.com.ar/2026/10/ledger-confirma-compromiso-de-cadena-de.html",
-   "fecha": "2026-10-11T14:57:00.000Z",
-   "fuente": "segu-info"
-  },
-  {
-   "titulo": "Why TLP should not replace your internal information classification, (Sat, Oct 10th)",
-   "url": "https://isc.sans.edu/diary/rss/33414",
-   "fecha": "2026-10-10T09:11:34.000Z",
-   "fuente": "sans-isc"
   },
   {
    "titulo": "FBI Arrests Executive at Ransomware Negotiation Firm",
@@ -447,12 +459,6 @@
    "fuente": "krebs"
   },
   {
-   "titulo": "Apple’s Verified Photography System",
-   "url": "https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
-   "fecha": "2026-10-07T11:07:36.000Z",
-   "fuente": "schneier"
-  },
-  {
    "titulo": "Dos fallos en LibreOffice y OpenOffice permiten ejecutar código al abrir hojas de cálculo sin avisos de macros",
    "url": "https://unaaldia.hispasec.com/dos-fallos-en-libreoffice-y-openoffice-permiten-ejecutar-codigo-al-abrir-hojas-de-calculo-sin-avisos-de-macros/?utm_source=rss&utm_medium=rss&utm_campaign=dos-fallos-en-libreoffice-y-openoffice-permiten-ejecutar-codigo-al-abrir-hojas-de-calculo-sin-avisos-de-macros",
    "fecha": "2026-10-06T13:08:29.000Z",
@@ -487,12 +493,6 @@
    "url": "https://unaaldia.hispasec.com/una-campana-explota-dos-zero-days-criticos-en-citrix-netscaler-para-instalar-web-shells-y-moverse-por-la-red/?utm_source=rss&utm_medium=rss&utm_campaign=una-campana-explota-dos-zero-days-criticos-en-citrix-netscaler-para-instalar-web-shells-y-moverse-por-la-red",
    "fecha": "2026-09-30T15:08:31.000Z",
    "fuente": "hispasec"
-  },
-  {
-   "titulo": "PDF malicioso: uno de los principales formatos utilizados en amenazas por correo electrónico en América Latina",
-   "url": "https://www.welivesecurity.com/es/cibercrimen/pdf-malicioso-amenazas-correo-electronico-america-latina/",
-   "fecha": "2026-09-29T16:20:09.000Z",
-   "fuente": "welivesecurity"
   },
   {
    "titulo": "Una campaña automatizada saquea servidores de desarrollo Vite expuestos para robar secretos de AWS y Azure",
