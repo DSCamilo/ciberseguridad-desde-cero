@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17T14:13:32.191Z",
+ "actualizado": "2026-10-18T14:35:30.652Z",
  "fuentes": [
   {
    "id": "cisa",
@@ -80,6 +80,42 @@
   }
  ],
  "items": [
+  {
+   "titulo": "Hackers exploit SiteGuard WAF flaw to run commands as SYSTEM, root",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
+   "fecha": "2026-10-18T14:23:16.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Exploit para obtener privilegios de root en OpenBSD (fallo de memoria compartida con 37 años)",
+   "url": "https://blog.segu-info.com.ar/2026/10/exploit-para-obtener-privilegios-de.html",
+   "fecha": "2026-10-18T14:00:00.000Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "Orphaned VBA Projects Inside DWG Files: YARA Rule, (Sun, Oct 18th)",
+   "url": "https://isc.sans.edu/diary/rss/33434",
+   "fecha": "2026-10-18T12:59:30.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+   "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+   "fecha": "2026-10-18T08:23:02.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+   "fecha": "2026-10-17T15:18:51.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
+   "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+   "fecha": "2026-10-17T14:32:48.000Z",
+   "fuente": "bleepingcomputer"
+  },
   {
    "titulo": "Vulnerabilidad Zero-Day en Microsoft Windows Server permite a los atacantes bloquear servidores con un solo paquete",
    "url": "https://blog.segu-info.com.ar/2026/10/vulnerabilidad-zero-day-en-microsoft.html",
@@ -207,12 +243,6 @@
    "fuente": "bleepingcomputer"
   },
   {
-   "titulo": "BAE Systems cyberattack disrupts US federal court operations",
-   "url": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
-   "fecha": "2026-10-16T07:37:35.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
    "titulo": "Gestión incorrecta de mayúsculas y minúsculas en Wazuh Manager",
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/gestion-incorrecta-de-mayusculas-y-minusculas-en-wazuh-manager",
    "fecha": "2026-10-16T07:37:32.000Z",
@@ -243,18 +273,6 @@
    "fuente": "incibe-avisos"
   },
   {
-   "titulo": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
-   "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
-   "fecha": "2026-10-16T06:55:55.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "BeyondTrust patches zero-day exploited in attacks since August",
-   "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
-   "fecha": "2026-10-16T06:18:08.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
    "titulo": "ISC Stormcast For Friday, October 16th, 2026 https://isc.sans.edu/podcastdetail/10140, (Fri, Oct 16th)",
    "url": "https://isc.sans.edu/diary/rss/33432",
    "fecha": "2026-10-16T02:00:03.000Z",
@@ -277,12 +295,6 @@
    "url": "https://isc.sans.edu/diary/rss/33426",
    "fecha": "2026-10-15T23:03:42.000Z",
    "fuente": "sans-isc"
-  },
-  {
-   "titulo": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
-   "fecha": "2026-10-15T20:25:04.000Z",
-   "fuente": "bleepingcomputer"
   },
   {
    "titulo": "Cómo opera una estafa de inversión que utiliza medios falsos, figuras públicas y la identidad de una empresa financiera real",
@@ -357,12 +369,6 @@
    "fuente": "schneier"
   },
   {
-   "titulo": "Actualizaciones de seguridad de OCTUBRE para todas las empresas (nace la \"cohorte de riesgo\")",
-   "url": "https://blog.segu-info.com.ar/2026/10/actualizaciones-de-seguridad-de-octubre.html",
-   "fecha": "2026-10-14T12:27:00.000Z",
-   "fuente": "segu-info"
-  },
-  {
    "titulo": "Phishing a huéspedes con datos reales de reservas: cómo se produce y cómo evitarlo",
    "url": "https://www.incibe.es/incibe-cert/blog/phishing-huespedes-con-datos-reales-de-reservas-como-se-produce-y-como-evitarlo",
    "fecha": "2026-10-14T12:01:11.000Z",
@@ -403,12 +409,6 @@
    "url": "https://www.welivesecurity.com/es/estafas-enganos/falso-sitio-fravega-clonan-tienda-checkouts-descartables/",
    "fecha": "2026-10-13T16:38:34.000Z",
    "fuente": "welivesecurity"
-  },
-  {
-   "titulo": "ISC Stormcast For Tuesday, October 13th, 2026 https://isc.sans.edu/podcastdetail/10134, (Tue, Oct 13th)",
-   "url": "https://isc.sans.edu/diary/rss/33418",
-   "fecha": "2026-10-13T02:00:02.000Z",
-   "fuente": "sans-isc"
   },
   {
    "titulo": "FBI Arrests Suspect in FBI-Hacking Case",
