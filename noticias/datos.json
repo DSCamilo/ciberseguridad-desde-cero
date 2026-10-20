@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-19T17:29:18.027Z",
+ "actualizado": "2026-10-20T15:39:53.906Z",
  "fuentes": [
   {
    "id": "cisa",
@@ -81,40 +81,136 @@
  ],
  "items": [
   {
-   "titulo": "OpenCode hack exposes API keys amid AI distillation attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
-   "fecha": "2026-10-19T17:27:15.000Z",
+   "titulo": "DHS bans DeepSeek products across US federal civilian agencies",
+   "url": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
+   "fecha": "2026-10-20T14:19:05.000Z",
    "fuente": "bleepingcomputer"
   },
   {
-   "titulo": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
-   "url": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
-   "fecha": "2026-10-19T16:28:47.000Z",
+   "titulo": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
+   "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
+   "fecha": "2026-10-20T14:07:17.000Z",
    "fuente": "thehackernews"
   },
   {
-   "titulo": "Microsoft fixes game, app crashes caused by recent Windows update",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update/",
-   "fecha": "2026-10-19T14:55:23.000Z",
+   "titulo": "CJIS v6.1 Compliance: 5 Practical Priorities for Agencies",
+   "url": "https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/",
+   "fecha": "2026-10-20T13:51:00.000Z",
    "fuente": "bleepingcomputer"
   },
   {
-   "titulo": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
-   "url": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
-   "fecha": "2026-10-19T14:14:07.000Z",
+   "titulo": "Hacker gets 8 years for stealing $3.3 million from taxpayers",
+   "url": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/",
+   "fecha": "2026-10-20T13:18:36.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
+   "url": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
+   "fecha": "2026-10-20T12:59:44.000Z",
    "fuente": "thehackernews"
   },
   {
-   "titulo": "Inside the Underground Market for Know Your Client Services",
-   "url": "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/",
-   "fecha": "2026-10-19T14:00:10.000Z",
+   "titulo": "NSA, CISA y NIST publican nuevas directrices de seguridad para detectar y desactivar agentes de IA maliciosos",
+   "url": "https://blog.segu-info.com.ar/2026/10/nsa-cisa-y-nist-publican-nuevas.html",
+   "fecha": "2026-10-20T12:30:00.000Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "Windows Server 2025 gets support for quick machine recovery",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/",
+   "fecha": "2026-10-20T12:16:32.000Z",
    "fuente": "bleepingcomputer"
   },
   {
-   "titulo": "F5 releases out-of-band patches for critical NGINX vulnerabilities",
-   "url": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/",
-   "fecha": "2026-10-19T13:49:24.000Z",
+   "titulo": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
+   "url": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
+   "fecha": "2026-10-20T11:41:06.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "What Security Teams Can Do To Tame Wild Code",
+   "url": "https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html",
+   "fecha": "2026-10-20T11:33:04.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
+   "url": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
+   "fecha": "2026-10-20T11:32:59.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
+   "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
+   "fecha": "2026-10-20T11:31:22.000Z",
    "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Ahold Delhaize: Cyberattack affects services across US and Europe",
+   "url": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/",
+   "fecha": "2026-10-20T11:18:35.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
+   "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
+   "fecha": "2026-10-20T11:06:25.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Possible new Cellebrite iPhone Radio Zero-Day",
+   "url": "https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
+   "fecha": "2026-10-20T11:03:13.000Z",
+   "fuente": "schneier"
+  },
+  {
+   "titulo": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
+   "url": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html",
+   "fecha": "2026-10-20T10:56:08.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Revolut outage disrupts online banking operations worldwide",
+   "url": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
+   "fecha": "2026-10-20T09:46:44.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
+   "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
+   "fecha": "2026-10-20T08:21:29.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Múltiples vulnerabilidades en FacturaScripts",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-facturascripts",
+   "fecha": "2026-10-20T07:14:47.000Z",
+   "fuente": "incibe-avisos"
+  },
+  {
+   "titulo": "ISC Stormcast For Tuesday, October 20th, 2026 https://isc.sans.edu/podcastdetail/10142, (Tue, Oct 20th)",
+   "url": "https://isc.sans.edu/diary/rss/33436",
+   "fecha": "2026-10-20T02:00:03.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "Nikkei discloses third data breach in a month, 1.8M records exposed",
+   "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
+   "fecha": "2026-10-19T21:49:48.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Vulnerabilidad crítica de ejecución remota de código (RCE) en Drupal 8.x a 12.x",
+   "url": "https://blog.segu-info.com.ar/2026/10/vulnerabilidad-critica-de-ejecucion.html",
+   "fecha": "2026-10-19T20:34:01.256Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "Qué hacer cuando una empresa informa una brecha de datos, pero aporta poca información",
+   "url": "https://www.welivesecurity.com/es/seguridad-digital/que-hacer-ante-una-brecha-de-datos-con-poca-informacion/",
+   "fecha": "2026-10-19T17:50:02.000Z",
+   "fuente": "welivesecurity"
   },
   {
    "titulo": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
@@ -123,46 +219,16 @@
    "fuente": "krebs"
   },
   {
-   "titulo": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
-   "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
-   "fecha": "2026-10-19T13:05:45.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Microsoft fixes classic Outlook bug that hid Copilot buttons",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/",
-   "fecha": "2026-10-19T12:44:44.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
    "titulo": "ATT&CK v20: actualizaciones en IA, infraestructuras críticas, ciberespionaje y dispositivos móviles",
    "url": "https://blog.segu-info.com.ar/2026/10/att-v20-actualizaciones-en-ia.html",
    "fecha": "2026-10-19T12:12:00.000Z",
    "fuente": "segu-info"
   },
   {
-   "titulo": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
-   "url": "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
-   "fecha": "2026-10-19T11:50:00.000Z",
-   "fuente": "thehackernews"
-  },
-  {
    "titulo": "Training AIs to Solve CAPTCHAs",
    "url": "https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html",
    "fecha": "2026-10-19T11:07:43.000Z",
    "fuente": "schneier"
-  },
-  {
-   "titulo": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
-   "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
-   "fecha": "2026-10-19T10:06:40.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
-   "fecha": "2026-10-19T08:58:41.000Z",
-   "fuente": "bleepingcomputer"
   },
   {
    "titulo": "Validación incorrecta del origen en Remote Support de BeyondTrust",
@@ -177,24 +243,6 @@
    "fuente": "incibe-avisos"
   },
   {
-   "titulo": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
-   "url": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
-   "fecha": "2026-10-19T06:29:44.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
-   "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
-   "fecha": "2026-10-19T06:07:08.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
-   "fecha": "2026-10-18T14:23:16.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
    "titulo": "Exploit para obtener privilegios de root en OpenBSD (fallo de memoria compartida con 37 años)",
    "url": "https://blog.segu-info.com.ar/2026/10/exploit-para-obtener-privilegios-de.html",
    "fecha": "2026-10-18T14:00:00.000Z",
@@ -205,18 +253,6 @@
    "url": "https://isc.sans.edu/diary/rss/33434",
    "fecha": "2026-10-18T12:59:30.000Z",
    "fuente": "sans-isc"
-  },
-  {
-   "titulo": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
-   "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
-   "fecha": "2026-10-18T08:23:02.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
-   "fecha": "2026-10-17T15:18:51.000Z",
-   "fuente": "bleepingcomputer"
   },
   {
    "titulo": "Vulnerabilidad Zero-Day en Microsoft Windows Server permite a los atacantes bloquear servidores con un solo paquete",
@@ -285,12 +321,6 @@
    "fuente": "incibe-avisos"
   },
   {
-   "titulo": "Omisión de autenticación mediante suplantación en Remote Support de BeyondTrust",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/omision-de-autenticacion-mediante-suplantacion-en-remote-support-de-beyondtrust",
-   "fecha": "2026-10-16T07:37:29.000Z",
-   "fuente": "incibe-avisos"
-  },
-  {
    "titulo": "ISC Stormcast For Friday, October 16th, 2026 https://isc.sans.edu/podcastdetail/10140, (Fri, Oct 16th)",
    "url": "https://isc.sans.edu/diary/rss/33432",
    "fecha": "2026-10-16T02:00:03.000Z",
@@ -321,22 +351,10 @@
    "fuente": "welivesecurity"
   },
   {
-   "titulo": "Arrestan a un ingeniero de OpenAI por plantar un dispositivo oculto de grabación",
-   "url": "https://blog.segu-info.com.ar/2026/10/arrestan-un-ingeniero-de-openai-por.html",
-   "fecha": "2026-10-15T17:04:00.000Z",
-   "fuente": "segu-info"
-  },
-  {
    "titulo": "Measuring Human Cryptanalysis Effort",
    "url": "https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html",
    "fecha": "2026-10-15T16:24:29.000Z",
    "fuente": "schneier"
-  },
-  {
-   "titulo": "Anthropic advierte que los modelos de IA podrían autorreplicarse pronto en televisores inteligentes y dispositivos IoT",
-   "url": "https://blog.segu-info.com.ar/2026/10/anthropic-advierte-que-los-modelos-de.html",
-   "fecha": "2026-10-15T12:30:00.000Z",
-   "fuente": "segu-info"
   },
   {
    "titulo": "Thermo Fisher Torrent Suite Software",
@@ -411,22 +429,10 @@
    "fuente": "krebs"
   },
   {
-   "titulo": "October 2026 Microsoft Patch Tuesday, (Tue, Oct 13th)",
-   "url": "https://isc.sans.edu/diary/rss/33422",
-   "fecha": "2026-10-13T19:25:52.000Z",
-   "fuente": "sans-isc"
-  },
-  {
    "titulo": "Alerta por un falso sitio de Frávega: el sistema de checkouts variables detrás de la estafa",
    "url": "https://www.welivesecurity.com/es/estafas-enganos/falso-sitio-fravega-clonan-tienda-checkouts-descartables/",
    "fecha": "2026-10-13T16:38:34.000Z",
    "fuente": "welivesecurity"
-  },
-  {
-   "titulo": "FBI Arrests Suspect in FBI-Hacking Case",
-   "url": "https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html",
-   "fecha": "2026-10-12T15:01:26.000Z",
-   "fuente": "schneier"
   },
   {
    "titulo": "FBI Arrests Executive at Ransomware Negotiation Firm",
@@ -486,12 +492,6 @@
    "titulo": "Panorama de ciberamenazas en América Latina: balance del primer semestre de 2026",
    "url": "https://www.welivesecurity.com/es/seguridad-corporativa/ciberamenazas-america-latina-balance-primer-semestre-2026/",
    "fecha": "2026-10-01T16:38:45.000Z",
-   "fuente": "welivesecurity"
-  },
-  {
-   "titulo": "El phishing sigue llegando por correo, pero ya no se ve igual",
-   "url": "https://www.welivesecurity.com/es/seguridad-digital/phishing-correo-electronico-ya-no-se-ve-igual/",
-   "fecha": "2026-09-30T19:08:01.000Z",
    "fuente": "welivesecurity"
   },
   {
