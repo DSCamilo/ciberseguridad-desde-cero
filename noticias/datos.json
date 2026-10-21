@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-20T15:39:53.906Z",
+ "actualizado": "2026-10-21T15:58:24.340Z",
  "fuentes": [
   {
    "id": "cisa",
@@ -81,34 +81,142 @@
  ],
  "items": [
   {
-   "titulo": "DHS bans DeepSeek products across US federal civilian agencies",
-   "url": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
-   "fecha": "2026-10-20T14:19:05.000Z",
+   "titulo": "Widespread PHP Flaw May Cause Many Site Outages Today",
+   "url": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+   "fecha": "2026-10-21T15:26:07.000Z",
+   "fuente": "krebs"
+  },
+  {
+   "titulo": "Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) [infocon yellow], (Wed, Oct 21st)",
+   "url": "https://isc.sans.edu/diary/rss/33440",
+   "fecha": "2026-10-21T15:12:02.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "PHP ships emergency patches for critical PHP2Shell flaws",
+   "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
+   "fecha": "2026-10-21T14:07:05.000Z",
    "fuente": "bleepingcomputer"
   },
   {
-   "titulo": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
-   "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
-   "fecha": "2026-10-20T14:07:17.000Z",
+   "titulo": "ClickFix has never been bigger, and AI tools are its most convincing lure yet",
+   "url": "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
+   "fecha": "2026-10-21T14:00:10.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
+   "url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
+   "fecha": "2026-10-21T14:00:00.000Z",
    "fuente": "thehackernews"
   },
   {
-   "titulo": "CJIS v6.1 Compliance: 5 Practical Priorities for Agencies",
-   "url": "https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/",
-   "fecha": "2026-10-20T13:51:00.000Z",
-   "fuente": "bleepingcomputer"
+   "titulo": "[Actualización 21/10/2026] Múltiples vulnerabilidades en PHP",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-php",
+   "fecha": "2026-10-21T13:53:11.000Z",
+   "fuente": "incibe-avisos"
   },
   {
-   "titulo": "Hacker gets 8 years for stealing $3.3 million from taxpayers",
-   "url": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/",
-   "fecha": "2026-10-20T13:18:36.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
-   "url": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
-   "fecha": "2026-10-20T12:59:44.000Z",
+   "titulo": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
+   "url": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
+   "fecha": "2026-10-21T13:15:09.000Z",
    "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Microsoft PowerToys adds CursorHide, Button Lock mouse tools",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/",
+   "fecha": "2026-10-21T12:20:34.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
+   "url": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
+   "fecha": "2026-10-21T12:05:00.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
+   "url": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
+   "fecha": "2026-10-21T11:53:34.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Workshop on Economics and Information Security (WEIS) Archive",
+   "url": "https://www.schneier.com/blog/archives/2026/10/workshop-on-economics-and-information-security-weis-archive.html",
+   "fecha": "2026-10-21T11:02:22.000Z",
+   "fuente": "schneier"
+  },
+  {
+   "titulo": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
+   "url": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
+   "fecha": "2026-10-21T10:36:53.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "The Harness Is the Hard Part of Agentic Pentesting",
+   "url": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html",
+   "fecha": "2026-10-21T10:32:40.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Attackers Hijacked Over 300 Tor Exit Relays to Intercept SSH Connections",
+   "url": "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html",
+   "fecha": "2026-10-21T10:30:27.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Microsoft says October updates didn’t actually fix VPN issues",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/",
+   "fecha": "2026-10-21T10:14:53.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
+   "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
+   "fecha": "2026-10-21T09:05:17.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
+   "fecha": "2026-10-21T08:36:24.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Múltiples vulnerabilidades en productos de Oracle",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-oracle",
+   "fecha": "2026-10-21T06:10:46.000Z",
+   "fuente": "incibe-avisos"
+  },
+  {
+   "titulo": "ISC Stormcast For Wednesday, October 21st, 2026 https://isc.sans.edu/podcastdetail/10144, (Wed, Oct 21st)",
+   "url": "https://isc.sans.edu/diary/rss/33438",
+   "fecha": "2026-10-21T02:00:03.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
+   "url": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
+   "fecha": "2026-10-21T01:01:50.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
+   "url": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
+   "fecha": "2026-10-21T00:46:42.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Vulnerabilidad CRÍTICA (10 de 10) en PHP de 5.x a 8.x (preparate para PHP2shell!)",
+   "url": "https://blog.segu-info.com.ar/2026/10/vulnerabilidad-critica-10-de-10-en-php.html",
+   "fecha": "2026-10-20T23:06:38.943Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
+   "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
+   "fecha": "2026-10-20T20:56:43.000Z",
+   "fuente": "bleepingcomputer"
   },
   {
    "titulo": "NSA, CISA y NIST publican nuevas directrices de seguridad para detectar y desactivar agentes de IA maliciosos",
@@ -117,70 +225,40 @@
    "fuente": "segu-info"
   },
   {
-   "titulo": "Windows Server 2025 gets support for quick machine recovery",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/",
-   "fecha": "2026-10-20T12:16:32.000Z",
-   "fuente": "bleepingcomputer"
+   "titulo": "#StopRansomware: SafePay Ransomware",
+   "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-293a",
+   "fecha": "2026-10-20T12:00:00.000Z",
+   "fuente": "cisa"
   },
   {
-   "titulo": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
-   "url": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
-   "fecha": "2026-10-20T11:41:06.000Z",
-   "fuente": "thehackernews"
+   "titulo": "Hitachi Energy RTU500 Product",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-05",
+   "fecha": "2026-10-20T12:00:00.000Z",
+   "fuente": "cisa"
   },
   {
-   "titulo": "What Security Teams Can Do To Tame Wild Code",
-   "url": "https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html",
-   "fecha": "2026-10-20T11:33:04.000Z",
-   "fuente": "thehackernews"
+   "titulo": "Hitachi Energy MicroSCADA X SYS600 Product",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-04",
+   "fecha": "2026-10-20T12:00:00.000Z",
+   "fuente": "cisa"
   },
   {
-   "titulo": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
-   "url": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
-   "fecha": "2026-10-20T11:32:59.000Z",
-   "fuente": "thehackernews"
+   "titulo": "HMS Networks PEAK-System PCAN Windows drivers",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-01",
+   "fecha": "2026-10-20T12:00:00.000Z",
+   "fuente": "cisa"
   },
   {
-   "titulo": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
-   "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
-   "fecha": "2026-10-20T11:31:22.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Ahold Delhaize: Cyberattack affects services across US and Europe",
-   "url": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/",
-   "fecha": "2026-10-20T11:18:35.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
-   "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
-   "fecha": "2026-10-20T11:06:25.000Z",
-   "fuente": "thehackernews"
+   "titulo": "Moxa AIG-302 ThingsPro Edge",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-03",
+   "fecha": "2026-10-20T12:00:00.000Z",
+   "fuente": "cisa"
   },
   {
    "titulo": "Possible new Cellebrite iPhone Radio Zero-Day",
    "url": "https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
    "fecha": "2026-10-20T11:03:13.000Z",
    "fuente": "schneier"
-  },
-  {
-   "titulo": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
-   "url": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html",
-   "fecha": "2026-10-20T10:56:08.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Revolut outage disrupts online banking operations worldwide",
-   "url": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
-   "fecha": "2026-10-20T09:46:44.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
-   "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
-   "fecha": "2026-10-20T08:21:29.000Z",
-   "fuente": "thehackernews"
   },
   {
    "titulo": "Múltiples vulnerabilidades en FacturaScripts",
@@ -193,12 +271,6 @@
    "url": "https://isc.sans.edu/diary/rss/33436",
    "fecha": "2026-10-20T02:00:03.000Z",
    "fuente": "sans-isc"
-  },
-  {
-   "titulo": "Nikkei discloses third data breach in a month, 1.8M records exposed",
-   "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
-   "fecha": "2026-10-19T21:49:48.000Z",
-   "fuente": "bleepingcomputer"
   },
   {
    "titulo": "Vulnerabilidad crítica de ejecución remota de código (RCE) en Drupal 8.x a 12.x",
@@ -273,30 +345,6 @@
    "fuente": "segu-info"
   },
   {
-   "titulo": "Key Practices for Incident Readiness and Response in Super Intelligence Training and Evaluation",
-   "url": "https://www.cisa.gov/resources-tools/resources/key-practices-incident-readiness-and-response-super-intelligence-training-and-evaluation",
-   "fecha": "2026-10-16T12:00:00.000Z",
-   "fuente": "cisa"
-  },
-  {
-   "titulo": "CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support",
-   "url": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support",
-   "fecha": "2026-10-16T12:00:00.000Z",
-   "fuente": "cisa"
-  },
-  {
-   "titulo": "Cyber Threat Actors Use a Variety of Techniques to Target Election and Campaign Officials",
-   "url": "https://www.cisa.gov/resources-tools/resources/cyber-threat-actors-use-variety-techniques-target-election-and-campaign-officials",
-   "fecha": "2026-10-16T12:00:00.000Z",
-   "fuente": "cisa"
-  },
-  {
-   "titulo": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-   "url": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-   "fecha": "2026-10-16T12:00:00.000Z",
-   "fuente": "cisa"
-  },
-  {
    "titulo": "AdFection: spyware Zero-Click a través de publicidad dirigida",
    "url": "https://blog.segu-info.com.ar/2026/10/adfection-spyware-zero-click-traves-de.html",
    "fecha": "2026-10-16T11:45:00.000Z",
@@ -309,18 +357,6 @@
    "fuente": "schneier"
   },
   {
-   "titulo": "Gestión incorrecta de mayúsculas y minúsculas en Wazuh Manager",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/gestion-incorrecta-de-mayusculas-y-minusculas-en-wazuh-manager",
-   "fecha": "2026-10-16T07:37:32.000Z",
-   "fuente": "incibe-avisos"
-  },
-  {
-   "titulo": "Múltiples vulnerabilidades en Next.js de Vercel",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-nextjs-de-vercel",
-   "fecha": "2026-10-16T07:37:31.000Z",
-   "fuente": "incibe-avisos"
-  },
-  {
    "titulo": "ISC Stormcast For Friday, October 16th, 2026 https://isc.sans.edu/podcastdetail/10140, (Fri, Oct 16th)",
    "url": "https://isc.sans.edu/diary/rss/33432",
    "fecha": "2026-10-16T02:00:03.000Z",
@@ -331,12 +367,6 @@
    "url": "https://isc.sans.edu/diary/rss/33430",
    "fecha": "2026-10-16T00:46:35.000Z",
    "fuente": "sans-isc"
-  },
-  {
-   "titulo": "Vulnerabilidades críticas en Next.js permiten ejecutar código de forma remota",
-   "url": "https://blog.segu-info.com.ar/2026/10/vulnerabilidades-criticas-en-nextjs.html",
-   "fecha": "2026-10-15T23:07:59.673Z",
-   "fuente": "segu-info"
   },
   {
    "titulo": "Panchan's Mining Island [Guest Diary], (Wed, Oct 14th)",
@@ -355,12 +385,6 @@
    "url": "https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html",
    "fecha": "2026-10-15T16:24:29.000Z",
    "fuente": "schneier"
-  },
-  {
-   "titulo": "Thermo Fisher Torrent Suite Software",
-   "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-01",
-   "fecha": "2026-10-15T12:00:00.000Z",
-   "fuente": "cisa"
   },
   {
    "titulo": "ISC Stormcast For Thursday, October 15th, 2026 https://isc.sans.edu/podcastdetail/10138, (Thu, Oct 15th)",
@@ -393,12 +417,6 @@
    "fuente": "krebs"
   },
   {
-   "titulo": "Cyberattack on Connected Fridges in France",
-   "url": "https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html",
-   "fecha": "2026-10-14T14:10:22.000Z",
-   "fuente": "schneier"
-  },
-  {
    "titulo": "Phishing a huéspedes con datos reales de reservas: cómo se produce y cómo evitarlo",
    "url": "https://www.incibe.es/incibe-cert/blog/phishing-huespedes-con-datos-reales-de-reservas-como-se-produce-y-como-evitarlo",
    "fecha": "2026-10-14T12:01:11.000Z",
@@ -409,18 +427,6 @@
    "url": "https://unaaldia.hispasec.com/un-ciberataque-apaga-vitrinas-frigorificas-en-supermercados-franceses/?utm_source=rss&utm_medium=rss&utm_campaign=un-ciberataque-apaga-vitrinas-frigorificas-en-supermercados-franceses",
    "fecha": "2026-10-14T10:36:08.000Z",
    "fuente": "hispasec"
-  },
-  {
-   "titulo": "Orphaned VBA Projects Inside DWG Files, (Wed, Oct 14th)",
-   "url": "https://isc.sans.edu/diary/rss/33420",
-   "fecha": "2026-10-14T06:49:46.000Z",
-   "fuente": "sans-isc"
-  },
-  {
-   "titulo": "ISC Stormcast For Wednesday, October 14th, 2026 https://isc.sans.edu/podcastdetail/10136, (Wed, Oct 14th)",
-   "url": "https://isc.sans.edu/diary/rss/33424",
-   "fecha": "2026-10-14T02:00:03.000Z",
-   "fuente": "sans-isc"
   },
   {
    "titulo": "Microsoft Patches More Than 1,400 Security Flaws",
@@ -529,12 +535,6 @@
    "url": "https://www.incibe.es/incibe-cert/blog/osint-actual-como-convertir-fuentes-abiertas-en-inteligencia-defensiva-para-tu",
    "fecha": "2026-09-17T11:47:38.000Z",
    "fuente": "incibe-blog"
-  },
-  {
-   "titulo": "Data Broker Radaris Loses Domains in Privacy Fight",
-   "url": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
-   "fecha": "2026-09-16T18:14:22.000Z",
-   "fuente": "krebs"
   },
   {
    "titulo": "Reglamento de ciberresiliencia (CRA): qué es, a quién afecta y cómo prepararse",
