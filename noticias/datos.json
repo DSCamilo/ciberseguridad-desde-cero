@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23T15:45:32.566Z",
+ "actualizado": "2026-10-24T14:34:15.710Z",
  "fuentes": [
   {
    "id": "cisa",
@@ -81,6 +81,102 @@
  ],
  "items": [
   {
+   "titulo": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
+   "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+   "fecha": "2026-10-24T14:17:32.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+   "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+   "fecha": "2026-10-24T11:09:29.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+   "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+   "fecha": "2026-10-24T11:03:33.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+   "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+   "fecha": "2026-10-24T10:36:33.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+   "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+   "fecha": "2026-10-24T09:04:24.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+   "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+   "fecha": "2026-10-24T06:25:57.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Friday Squid Blogging: Increasing Squid Populations",
+   "url": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html",
+   "fecha": "2026-10-23T21:00:09.000Z",
+   "fuente": "schneier"
+  },
+  {
+   "titulo": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+   "fecha": "2026-10-23T20:55:05.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "PHP2Shell: guía completa de verificación, mitigación y respuesta (CVE-2026-109618 y CVE-2026-109619)",
+   "url": "https://blog.segu-info.com.ar/2026/10/php2shell-guia-completa-de-verificacion.html",
+   "fecha": "2026-10-23T20:54:47.297Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "(Reliable)? php2shell exploitability, (Fri, Oct 23rd)",
+   "url": "https://isc.sans.edu/diary/rss/33452",
+   "fecha": "2026-10-23T20:04:47.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "Microsoft Teams to get AI-powered, context-aware phishing detection",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
+   "fecha": "2026-10-23T18:54:41.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+   "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+   "fecha": "2026-10-23T18:50:13.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
+   "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+   "fecha": "2026-10-23T17:54:08.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+   "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+   "fecha": "2026-10-23T17:50:47.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Microsoft: Windows Server 2016 reaches end of support in January",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
+   "fecha": "2026-10-23T17:05:07.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Quest Diagnostics confirms data breach exposed patient records",
+   "url": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
+   "fecha": "2026-10-23T16:40:07.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
    "titulo": "PHP shares mitigation for new RCE vulnerability with no patch",
    "url": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
    "fecha": "2026-10-23T15:38:05.000Z",
@@ -97,12 +193,6 @@
    "url": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
    "fecha": "2026-10-23T14:00:10.000Z",
    "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
-   "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
-   "fecha": "2026-10-23T13:50:56.000Z",
-   "fuente": "thehackernews"
   },
   {
    "titulo": "PHP Vulnerability Wrap-Up, (Fri, Oct 23rd)",
@@ -123,18 +213,6 @@
    "fuente": "segu-info"
   },
   {
-   "titulo": "PHP Warns of Another Unpatched RCE Two Days After Emergency PHP2Shell Patches",
-   "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
-   "fecha": "2026-10-23T11:25:43.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
-   "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
-   "fecha": "2026-10-23T11:11:23.000Z",
-   "fuente": "thehackernews"
-  },
-  {
    "titulo": "Compromised TLS Certificates",
    "url": "https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html",
    "fecha": "2026-10-23T11:04:22.000Z",
@@ -145,24 +223,6 @@
    "url": "https://isc.sans.edu/diary/rss/33448",
    "fecha": "2026-10-23T10:25:11.000Z",
    "fuente": "sans-isc"
-  },
-  {
-   "titulo": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
-   "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
-   "fecha": "2026-10-23T09:36:00.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
-   "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
-   "fecha": "2026-10-23T08:40:43.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
-   "url": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
-   "fecha": "2026-10-23T08:35:45.000Z",
-   "fuente": "thehackernews"
   },
   {
    "titulo": "Múltiples actualizaciones en productos de Fortinet",
@@ -201,52 +261,10 @@
    "fuente": "hispasec"
   },
   {
-   "titulo": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
-   "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
-   "fecha": "2026-10-23T07:40:45.000Z",
-   "fuente": "thehackernews"
-  },
-  {
    "titulo": "Railway advierte que roten sus secretos tras una posible brecha de seguridad",
    "url": "https://blog.segu-info.com.ar/2026/10/railway-advierte-que-roten-sus-secretos.html",
    "fecha": "2026-10-22T22:54:56.497Z",
    "fuente": "segu-info"
-  },
-  {
-   "titulo": "Railway warns devs to rotate secrets after potential breach",
-   "url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
-   "fecha": "2026-10-22T21:25:31.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Capcom confirms data breach affecting 11.7 million accounts",
-   "url": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
-   "fecha": "2026-10-22T20:22:45.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "LiteLLM release pipeline hacked to distribute info-stealer malware",
-   "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
-   "fecha": "2026-10-22T19:12:51.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
-   "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
-   "fecha": "2026-10-22T19:05:35.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
-   "fecha": "2026-10-22T17:18:22.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Microsoft shares how to fix broken Exchange Online EWS apps",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
-   "fecha": "2026-10-22T15:49:32.000Z",
-   "fuente": "bleepingcomputer"
   },
   {
    "titulo": "MythicRatatoskr: el backdoor que utilizó la red Yggdrasil antes de un ataque destructivo de Sandworm",
@@ -333,7 +351,7 @@
    "fuente": "sans-isc"
   },
   {
-   "titulo": "Vulnerabilidad CRÍTICA (10 de 10) en PHP de 5.x a 8.x. Post actualizado con datos para todas las versiones",
+   "titulo": "Vulnerabilidad CRÍTICA en PHP de 5.x a 8.x. Post actualizado con datos para todas las versiones",
    "url": "https://blog.segu-info.com.ar/2026/10/vulnerabilidad-critica-10-de-10-en-php.html",
    "fecha": "2026-10-20T23:06:38.943Z",
    "fuente": "segu-info"
@@ -375,12 +393,6 @@
    "fuente": "sans-isc"
   },
   {
-   "titulo": "Vulnerabilidad crítica de ejecución remota de código (RCE) en Drupal 8.x a 12.x",
-   "url": "https://blog.segu-info.com.ar/2026/10/vulnerabilidad-critica-de-ejecucion.html",
-   "fecha": "2026-10-19T20:34:01.256Z",
-   "fuente": "segu-info"
-  },
-  {
    "titulo": "Qué hacer cuando una empresa informa una brecha de datos, pero aporta poca información",
    "url": "https://www.welivesecurity.com/es/seguridad-digital/que-hacer-ante-una-brecha-de-datos-con-poca-informacion/",
    "fecha": "2026-10-19T17:50:02.000Z",
@@ -417,22 +429,10 @@
    "fuente": "schneier"
   },
   {
-   "titulo": "ISC Stormcast For Friday, October 16th, 2026 https://isc.sans.edu/podcastdetail/10140, (Fri, Oct 16th)",
-   "url": "https://isc.sans.edu/diary/rss/33432",
-   "fecha": "2026-10-16T02:00:03.000Z",
-   "fuente": "sans-isc"
-  },
-  {
    "titulo": "Cómo opera una estafa de inversión que utiliza medios falsos, figuras públicas y la identidad de una empresa financiera real",
    "url": "https://www.welivesecurity.com/es/estafas-enganos/estafa-de-inversion-suplanta-a-vymarkets/",
    "fecha": "2026-10-15T17:25:13.000Z",
    "fuente": "welivesecurity"
-  },
-  {
-   "titulo": "Measuring Human Cryptanalysis Effort",
-   "url": "https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html",
-   "fecha": "2026-10-15T16:24:29.000Z",
-   "fuente": "schneier"
   },
   {
    "titulo": "Cómo los estafadores se aprovechan de los propietarios de tiempos compartidos",
