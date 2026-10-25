@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24T14:34:15.710Z",
+ "actualizado": "2026-10-25T14:57:11.325Z",
  "fuentes": [
   {
    "id": "cisa",
@@ -81,6 +81,18 @@
  ],
  "items": [
   {
+   "titulo": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+   "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+   "fecha": "2026-10-25T06:54:29.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Node2shell > Python2shell > HTML2shell (echale la culpa a #Brotli)",
+   "url": "https://blog.segu-info.com.ar/2026/10/node2shell-python2shell-html2shell.html",
+   "fecha": "2026-10-25T01:21:48.651Z",
+   "fuente": "segu-info"
+  },
+  {
    "titulo": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
    "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
    "fecha": "2026-10-24T14:17:32.000Z",
@@ -156,12 +168,6 @@
    "titulo": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
    "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
    "fecha": "2026-10-23T17:54:08.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
-   "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
-   "fecha": "2026-10-23T17:50:47.000Z",
    "fuente": "thehackernews"
   },
   {
@@ -354,12 +360,6 @@
    "titulo": "Vulnerabilidad CRÍTICA en PHP de 5.x a 8.x. Post actualizado con datos para todas las versiones",
    "url": "https://blog.segu-info.com.ar/2026/10/vulnerabilidad-critica-10-de-10-en-php.html",
    "fecha": "2026-10-20T23:06:38.943Z",
-   "fuente": "segu-info"
-  },
-  {
-   "titulo": "NSA, CISA y NIST publican nuevas directrices de seguridad para detectar y desactivar agentes de IA maliciosos",
-   "url": "https://blog.segu-info.com.ar/2026/10/nsa-cisa-y-nist-publican-nuevas.html",
-   "fecha": "2026-10-20T12:30:00.000Z",
    "fuente": "segu-info"
   },
   {
