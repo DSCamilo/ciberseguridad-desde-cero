@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26T17:24:02.831Z",
+ "actualizado": "2026-10-27T16:40:40.691Z",
  "fuentes": [
   {
    "id": "cisa",
@@ -81,52 +81,154 @@
  ],
  "items": [
   {
-   "titulo": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
-   "url": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
-   "fecha": "2026-10-26T16:27:57.000Z",
+   "titulo": "Warp discloses breach exposing AI agent logs, user telemetry data",
+   "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
+   "fecha": "2026-10-27T16:15:39.000Z",
    "fuente": "bleepingcomputer"
   },
   {
-   "titulo": "Microsoft releases emergency .NET patches for critical Brotli flaw",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/",
-   "fecha": "2026-10-26T15:38:24.000Z",
+   "titulo": "Tailscale warns of SSH flaws allowing root privilege escalation",
+   "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
+   "fecha": "2026-10-27T14:09:46.000Z",
    "fuente": "bleepingcomputer"
   },
   {
-   "titulo": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
-   "url": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
-   "fecha": "2026-10-26T14:06:13.000Z",
+   "titulo": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
+   "url": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
+   "fecha": "2026-10-27T14:01:11.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
+   "url": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+   "fecha": "2026-10-27T13:59:48.000Z",
    "fuente": "thehackernews"
   },
   {
-   "titulo": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
-   "url": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
-   "fecha": "2026-10-26T14:00:10.000Z",
+   "titulo": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+   "url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+   "fecha": "2026-10-27T13:59:09.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Carga sin restricciones de archivos en la aplicación PuMuKIT",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/carga-sin-restricciones-de-archivos-en-la-aplicacion-pumukit",
+   "fecha": "2026-10-27T13:14:20.000Z",
+   "fuente": "incibe-avisos"
+  },
+  {
+   "titulo": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
+   "url": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+   "fecha": "2026-10-27T12:09:50.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
+   "url": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
+   "fecha": "2026-10-27T11:46:00.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
+   "url": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
+   "fecha": "2026-10-27T11:32:46.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
+   "url": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
+   "fecha": "2026-10-27T11:32:31.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Hiding Capabilities in AI Models",
+   "url": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
+   "fecha": "2026-10-27T11:01:26.000Z",
+   "fuente": "schneier"
+  },
+  {
+   "titulo": "Una mirada al uso de PHP en el sector público argentino",
+   "url": "https://blog.segu-info.com.ar/2026/10/una-mirada-al-uso-de-php-en-el-sector.html",
+   "fecha": "2026-10-27T11:01:00.000Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "Apple backports CoreGraphics zero-day patches to older iPhones",
+   "url": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
+   "fecha": "2026-10-27T10:36:12.000Z",
    "fuente": "bleepingcomputer"
   },
   {
-   "titulo": "Chinese man extradited for role in $36 million cryptocurrency scam",
-   "url": "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
-   "fecha": "2026-10-26T13:56:44.000Z",
+   "titulo": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
+   "url": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
+   "fecha": "2026-10-27T09:33:06.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Energy giant ENGIE discloses data breach affecting customers",
+   "url": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
+   "fecha": "2026-10-27T09:25:50.000Z",
    "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Múltiples vulnerabilidades en Cloud BI Platform de Sisense",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-cloud-bi-platform-de-sisense",
+   "fecha": "2026-10-27T08:28:12.000Z",
+   "fuente": "incibe-avisos"
+  },
+  {
+   "titulo": "Escritura fuera de límites en productos de Palo Alto Networks",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/escritura-fuera-de-limites-en-productos-de-palo-alto-networks",
+   "fecha": "2026-10-27T08:25:56.000Z",
+   "fuente": "incibe-avisos"
+  },
+  {
+   "titulo": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
+   "url": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
+   "fecha": "2026-10-27T08:22:43.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
+   "fecha": "2026-10-27T08:20:54.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "ISC Stormcast For Tuesday, October 27th, 2026 https://isc.sans.edu/podcastdetail/10152, (Tue, Oct 27th)",
+   "url": "https://isc.sans.edu/diary/rss/33462",
+   "fecha": "2026-10-27T02:55:13.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "Apple Patches for October 2026, (Mon, Oct 26th)",
+   "url": "https://isc.sans.edu/diary/rss/33458",
+   "fecha": "2026-10-27T02:09:55.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "University of Copenhagen data breach exposes data of 525,000 people",
+   "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
+   "fecha": "2026-10-26T22:20:36.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Former pentester used ARTEX AI to steal 8.2 million data records",
+   "url": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
+   "fecha": "2026-10-26T21:08:28.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "PHP2Shell: lo que hay que saber sobre dos fallas críticas en PHP",
+   "url": "https://www.welivesecurity.com/es/seguridad-digital/php2shell-lo-que-hay-que-saber-sobre-dos-fallas-criticas-en-php/",
+   "fecha": "2026-10-26T19:10:16.000Z",
+   "fuente": "welivesecurity"
   },
   {
    "titulo": "Cross-Site Scripting reflejado en el software IsMyGym de Zuinq Studio",
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/cross-site-scripting-reflejado-en-el-software-ismygym-de-zuinq-studio",
    "fecha": "2026-10-26T12:01:15.000Z",
    "fuente": "incibe-avisos"
-  },
-  {
-   "titulo": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
-   "url": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
-   "fecha": "2026-10-26T11:52:41.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
-   "url": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
-   "fecha": "2026-10-26T11:23:56.000Z",
-   "fuente": "thehackernews"
   },
   {
    "titulo": "Bias in Qwen3-Coder Model",
@@ -141,64 +243,10 @@
    "fuente": "incibe-avisos"
   },
   {
-   "titulo": "Impacto de vulnerabilidades críticas de PHP y Java en entornos de Sage CRM",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/impacto-de-vulnerabilidades-criticas-de-php-y-java-en-entornos-de-sage-crm",
-   "fecha": "2026-10-26T10:32:42.000Z",
-   "fuente": "incibe-avisos"
-  },
-  {
-   "titulo": "Múltiples vulnerabilidades en productos de Oracle",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-oracle-0",
-   "fecha": "2026-10-26T10:30:09.000Z",
-   "fuente": "incibe-avisos"
-  },
-  {
-   "titulo": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
-   "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
-   "fecha": "2026-10-26T10:26:52.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Inyección SQL en VeloCloud Orchestrator de Arista",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/inyeccion-sql-en-velocloud-orchestrator-de-arista",
-   "fecha": "2026-10-26T10:22:19.000Z",
-   "fuente": "incibe-avisos"
-  },
-  {
-   "titulo": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
-   "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
-   "fecha": "2026-10-26T09:54:02.000Z",
-   "fuente": "thehackernews"
-  },
-  {
    "titulo": "Looking for a Language [Guest Diary], (Wed, Oct 21st)",
    "url": "https://isc.sans.edu/diary/rss/33442",
    "fecha": "2026-10-26T09:38:03.000Z",
    "fuente": "sans-isc"
-  },
-  {
-   "titulo": "PHP2Shell security flaws now sucessfully exploited in the wild",
-   "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
-   "fecha": "2026-10-26T09:19:57.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
-   "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
-   "fecha": "2026-10-26T08:35:51.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
-   "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
-   "fecha": "2026-10-26T07:49:46.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
-   "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
-   "fecha": "2026-10-26T06:03:48.000Z",
-   "fuente": "thehackernews"
   },
   {
    "titulo": "ISC Stormcast For Monday, October 26th, 2026 https://isc.sans.edu/podcastdetail/10150, (Mon, Oct 26th)",
@@ -213,34 +261,16 @@
    "fuente": "sans-isc"
   },
   {
-   "titulo": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
-   "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
-   "fecha": "2026-10-25T17:44:09.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
-   "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
-   "fecha": "2026-10-25T15:49:38.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
    "titulo": "Observación de una explotación tipo PHP2Shell con evidencia real de RCE",
    "url": "https://blog.segu-info.com.ar/2026/10/observacion-de-una-explotacion-tipo.html",
    "fecha": "2026-10-25T15:08:07.804Z",
    "fuente": "segu-info"
   },
   {
-   "titulo": "Node2shell > Python2shell > HTML2shell (echale la culpa a #Brotli)",
+   "titulo": "Node2shell > Python2shell > PHP2Shell > HTML2shell (echale la culpa a #Brotli)",
    "url": "https://blog.segu-info.com.ar/2026/10/node2shell-python2shell-html2shell.html",
    "fecha": "2026-10-25T01:21:48.651Z",
    "fuente": "segu-info"
-  },
-  {
-   "titulo": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
-   "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
-   "fecha": "2026-10-24T14:17:32.000Z",
-   "fuente": "bleepingcomputer"
   },
   {
    "titulo": "Friday Squid Blogging: Increasing Squid Populations",
@@ -333,28 +363,10 @@
    "fuente": "cisa"
   },
   {
-   "titulo": "ISC Stormcast For Thursday, October 22nd, 2026 https://isc.sans.edu/podcastdetail/10146, (Thu, Oct 22nd)",
-   "url": "https://isc.sans.edu/diary/rss/33446",
-   "fecha": "2026-10-22T02:00:02.000Z",
-   "fuente": "sans-isc"
-  },
-  {
-   "titulo": "Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) [infocon yellow], (Wed, Oct 21st)",
-   "url": "https://isc.sans.edu/diary/rss/33440",
-   "fecha": "2026-10-21T21:02:43.000Z",
-   "fuente": "sans-isc"
-  },
-  {
    "titulo": "PHP publica parches de urgencia por dos fallos críticos PHP2Shell con intentos de explotación",
    "url": "https://unaaldia.hispasec.com/php-publica-parches-de-urgencia-por-dos-fallos-criticos-php2shell-con-intentos-de-explotacion/?utm_source=rss&utm_medium=rss&utm_campaign=php-publica-parches-de-urgencia-por-dos-fallos-criticos-php2shell-con-intentos-de-explotacion",
    "fecha": "2026-10-21T19:41:51.000Z",
    "fuente": "hispasec"
-  },
-  {
-   "titulo": "Alerta máxima: descubren de 8 certificados intermedios comprometidos",
-   "url": "https://blog.segu-info.com.ar/2026/10/alerta-maxima-descubren-de-8.html",
-   "fecha": "2026-10-21T17:01:00.000Z",
-   "fuente": "segu-info"
   },
   {
    "titulo": "¿Es una estafa? Cómo identificar un anuncio fraudulento antes de hacer clic",
@@ -423,12 +435,6 @@
    "fuente": "schneier"
   },
   {
-   "titulo": "Friday Squid Blogging: Squid Before the Chicxulub Meteor Impact",
-   "url": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-squid-before-the-chicxulub-meteor-impact.html",
-   "fecha": "2026-10-16T21:06:47.000Z",
-   "fuente": "schneier"
-  },
-  {
    "titulo": "Cómo opera una estafa de inversión que utiliza medios falsos, figuras públicas y la identidad de una empresa financiera real",
    "url": "https://www.welivesecurity.com/es/estafas-enganos/estafa-de-inversion-suplanta-a-vymarkets/",
    "fecha": "2026-10-15T17:25:13.000Z",
@@ -480,12 +486,6 @@
    "titulo": "Por qué las PyMEs buscan protección avanzada sin complejidad",
    "url": "https://www.welivesecurity.com/es/seguridad-corporativa/pymes-proteccion-avanzada-sin-complicaciones/",
    "fecha": "2026-10-09T15:49:43.000Z",
-   "fuente": "welivesecurity"
-  },
-  {
-   "titulo": "MATCHBOIL: nuevos trucos, las mismas intenciones maliciosas",
-   "url": "https://www.welivesecurity.com/es/investigaciones/matchboil-malware-uac-0099-evolucion/",
-   "fecha": "2026-10-08T16:56:28.000Z",
    "fuente": "welivesecurity"
   },
   {
