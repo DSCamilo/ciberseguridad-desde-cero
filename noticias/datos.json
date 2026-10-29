@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T17:10:50.899Z",
+ "actualizado": "2026-10-29T17:26:52.496Z",
  "fuentes": [
   {
    "id": "cisa",
@@ -81,52 +81,178 @@
  ],
  "items": [
   {
-   "titulo": "Sony ISP subsidiary data breach exposes 2.5 million customer records",
-   "url": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
-   "fecha": "2026-10-28T16:45:47.000Z",
+   "titulo": "Múltiples vulnerabilidades en la aplicación de SABBATIC",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-la-aplicacion-de-sabbatic",
+   "fecha": "2026-10-29T16:47:15.000Z",
+   "fuente": "incibe-avisos"
+  },
+  {
+   "titulo": "Chrome extensions with 13.4 million installs caught hijacking searches",
+   "url": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
+   "fecha": "2026-10-29T16:10:31.000Z",
    "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+   "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+   "fecha": "2026-10-29T15:57:05.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Detección de PHP2Shell con Wazuh (Open Source)",
+   "url": "https://blog.segu-info.com.ar/2026/10/deteccion-de-php2shell-con-wazuh-open.html",
+   "fecha": "2026-10-29T15:30:00.000Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
+   "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+   "fecha": "2026-10-29T15:20:29.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Microsoft fixes Remote Desktop failures caused by recent Windows updates",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/",
+   "fecha": "2026-10-29T14:35:40.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "3 Ways AI Agents Already Operate in Your Browser",
+   "url": "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/",
+   "fecha": "2026-10-29T14:00:10.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
+   "fecha": "2026-10-29T13:59:48.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
+   "url": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+   "fecha": "2026-10-29T13:42:40.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Ejecución remota de código descubiertos por Anthropic en Chrome, Safari, Android, Windows y Linux (CVE-2026-98432)",
+   "url": "https://blog.segu-info.com.ar/2026/10/ejecucion-remota-de-codigo-sin.html",
+   "fecha": "2026-10-29T13:14:00.000Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "Windows 11 KB5127936 update released with 41 changes and fixes",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/",
+   "fecha": "2026-10-29T12:00:07.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
+   "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+   "fecha": "2026-10-29T11:39:41.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
+   "url": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
+   "fecha": "2026-10-29T11:39:18.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
+   "url": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
+   "fecha": "2026-10-29T11:33:41.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
+   "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
+   "fecha": "2026-10-29T11:33:15.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
+   "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+   "fecha": "2026-10-29T11:10:13.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+   "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+   "fecha": "2026-10-29T10:44:46.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Escritura fuera de límites en PHP para Windows",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/escritura-fuera-de-limites-en-php-para-windows",
+   "fecha": "2026-10-29T08:53:12.000Z",
+   "fuente": "incibe-avisos"
+  },
+  {
+   "titulo": "Múltiples vulnerabilidades en OpenScape Endpoint Management de Mitel",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-openscape-endpoint-management-de-mitel",
+   "fecha": "2026-10-29T08:53:10.000Z",
+   "fuente": "incibe-avisos"
+  },
+  {
+   "titulo": "Múltiples vulnerabilidades en productos de Cisco",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-cisco-20",
+   "fecha": "2026-10-29T08:53:09.000Z",
+   "fuente": "incibe-avisos"
+  },
+  {
+   "titulo": "Cross-Site Scripting reflejado en la configuración de PHP-CGI/PHP-FPM de ICT Innovations",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/cross-site-scripting-reflejado-en-la-configuracion-de-php-cgiphp-fpm-de-ict",
+   "fecha": "2026-10-29T08:32:13.000Z",
+   "fuente": "incibe-avisos"
+  },
+  {
+   "titulo": "Deploying a Local Ghidra Server for Your Malware Analysis Lab, (Thu, Oct 29th)",
+   "url": "https://isc.sans.edu/diary/rss/33470",
+   "fecha": "2026-10-29T06:17:41.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "ISC Stormcast For Thursday, October 29th, 2026 https://isc.sans.edu/podcastdetail/10156, (Thu, Oct 29th)",
+   "url": "https://isc.sans.edu/diary/rss/33468",
+   "fecha": "2026-10-29T03:10:12.000Z",
+   "fuente": "sans-isc"
   },
   {
    "titulo": "Yet Another ClickFix Campaign, (Wed, Oct 28th)",
    "url": "https://isc.sans.edu/diary/rss/33466",
-   "fecha": "2026-10-28T16:07:03.000Z",
+   "fecha": "2026-10-29T00:42:15.000Z",
    "fuente": "sans-isc"
   },
   {
-   "titulo": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
-   "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
-   "fecha": "2026-10-28T16:02:45.000Z",
-   "fuente": "thehackernews"
+   "titulo": "Ataque PHP2Shell compromete 25 servidores y vulnera una red vinculada al gobierno de EE.UU.",
+   "url": "https://blog.segu-info.com.ar/2026/10/ataque-php2shell-compromete-25.html",
+   "fecha": "2026-10-28T21:58:09.903Z",
+   "fuente": "segu-info"
   },
   {
-   "titulo": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
-   "url": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
-   "fecha": "2026-10-28T16:00:00.000Z",
+   "titulo": "Police seize Virtualine bulletproof service tied to ransowmare, cybercrime",
+   "url": "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/",
+   "fecha": "2026-10-28T20:47:22.000Z",
    "fuente": "bleepingcomputer"
   },
   {
-   "titulo": "Microsoft urges Entra ID admins to migrate users to passkeys",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
-   "fecha": "2026-10-28T14:48:32.000Z",
+   "titulo": "Una semana caótica para la ciberseguridad: lecciones y alertas",
+   "url": "https://www.welivesecurity.com/es/seguridad-corporativa/semana-negra-ciberseguridad-php-linux-gitlab/",
+   "fecha": "2026-10-28T18:44:57.000Z",
+   "fuente": "welivesecurity"
+  },
+  {
+   "titulo": "Discord to let search engines index public server messages",
+   "url": "https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/",
+   "fecha": "2026-10-28T18:44:16.000Z",
    "fuente": "bleepingcomputer"
   },
   {
-   "titulo": "InfraTrust report warns of exploited flaws in critical network infrastructure",
-   "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
-   "fecha": "2026-10-28T14:00:00.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Even after PHP2Shell, blast radius matters more than a CVSS score",
-   "url": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
-   "fecha": "2026-10-28T13:50:59.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
-   "url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
-   "fecha": "2026-10-28T12:48:03.000Z",
-   "fuente": "thehackernews"
+   "titulo": "ESET APT Activity Report del segundo y tercer semestre de 2026",
+   "url": "https://www.welivesecurity.com/es/informes/reporte-actividad-apt-activity-report-q2-2026-q3-2026/",
+   "fecha": "2026-10-28T17:41:00.000Z",
+   "fuente": "welivesecurity"
   },
   {
    "titulo": "Claude Security incorpora análisis continuo de repositorios y seguimiento de correcciones",
@@ -135,94 +261,10 @@
    "fuente": "segu-info"
   },
   {
-   "titulo": "Hackers now scanning systems for recently-patched Oracle flaw",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/",
-   "fecha": "2026-10-28T12:19:57.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
-   "url": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
-   "fecha": "2026-10-28T11:50:00.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Wazuh and AI for Enhanced SOC Workflows",
-   "url": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
-   "fecha": "2026-10-28T11:30:00.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
-   "url": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
-   "fecha": "2026-10-28T11:15:51.000Z",
-   "fuente": "thehackernews"
-  },
-  {
    "titulo": "Studying Fraudulent North Korean IT Workers",
    "url": "https://www.schneier.com/blog/archives/2026/10/studying-fraudulent-north-korean-it-workers.html",
    "fecha": "2026-10-28T11:05:00.000Z",
    "fuente": "schneier"
-  },
-  {
-   "titulo": "CISA warns of hackers now exploiting critical Node2Shell flaw",
-   "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
-   "fecha": "2026-10-28T10:46:23.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
-   "url": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
-   "fecha": "2026-10-28T10:30:00.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
-   "url": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
-   "fecha": "2026-10-28T09:43:15.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Escritura fuera de límites en SDDC Manager de Broadcom",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/escritura-fuera-de-limites-en-sddc-manager-de-broadcom",
-   "fecha": "2026-10-28T09:06:04.000Z",
-   "fuente": "incibe-avisos"
-  },
-  {
-   "titulo": "Múltiples vulnerabilidades en productos de Citrix",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-citrix-2",
-   "fecha": "2026-10-28T09:06:02.000Z",
-   "fuente": "incibe-avisos"
-  },
-  {
-   "titulo": "Múltiples vulnerabilidades en Fireware OS de WatchGuard",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-fireware-os-de-watchguard",
-   "fecha": "2026-10-28T09:06:01.000Z",
-   "fuente": "incibe-avisos"
-  },
-  {
-   "titulo": "Inyección SQL (SQLi) en el módulo de autenticación de usuarios de Futurum Software",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/inyeccion-sql-sqli-en-el-modulo-de-autenticacion-de-usuarios-de-futurum-software",
-   "fecha": "2026-10-28T08:44:49.000Z",
-   "fuente": "incibe-avisos"
-  },
-  {
-   "titulo": "Múltiples vulnerabilidades en NoviGest Desktop App de Tactis",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-novigest-desktop-app-de-tactis",
-   "fecha": "2026-10-28T08:39:43.000Z",
-   "fuente": "incibe-avisos"
-  },
-  {
-   "titulo": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
-   "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
-   "fecha": "2026-10-28T08:15:07.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
-   "url": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html",
-   "fecha": "2026-10-28T07:37:50.000Z",
-   "fuente": "thehackernews"
   },
   {
    "titulo": "ISC Stormcast For Wednesday, October 28th, 2026 https://isc.sans.edu/podcastdetail/10154, (Wed, Oct 28th)",
@@ -297,21 +339,9 @@
    "fuente": "sans-isc"
   },
   {
-   "titulo": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
-   "url": "https://isc.sans.edu/diary/rss/33454",
-   "fecha": "2026-10-25T19:57:53.000Z",
-   "fuente": "sans-isc"
-  },
-  {
    "titulo": "Observación de una explotación tipo PHP2Shell con evidencia real de RCE",
    "url": "https://blog.segu-info.com.ar/2026/10/observacion-de-una-explotacion-tipo.html",
    "fecha": "2026-10-25T15:08:07.804Z",
-   "fuente": "segu-info"
-  },
-  {
-   "titulo": "Node2shell > Python2shell > PHP2Shell > HTML2shell (echale la culpa a #Brotli)",
-   "url": "https://blog.segu-info.com.ar/2026/10/node2shell-python2shell-html2shell.html",
-   "fecha": "2026-10-25T01:21:48.651Z",
    "fuente": "segu-info"
   },
   {
@@ -319,24 +349,6 @@
    "url": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html",
    "fecha": "2026-10-23T21:00:09.000Z",
    "fuente": "schneier"
-  },
-  {
-   "titulo": "PHP2Shell: guía completa de verificación, mitigación y respuesta (CVE-2026-109618 y CVE-2026-109619)",
-   "url": "https://blog.segu-info.com.ar/2026/10/php2shell-guia-completa-de-verificacion.html",
-   "fecha": "2026-10-23T20:54:47.297Z",
-   "fuente": "segu-info"
-  },
-  {
-   "titulo": "(Reliable)? php2shell exploitability, (Fri, Oct 23rd)",
-   "url": "https://isc.sans.edu/diary/rss/33452",
-   "fecha": "2026-10-23T20:04:47.000Z",
-   "fuente": "sans-isc"
-  },
-  {
-   "titulo": "Telemetría de ataques realizados mediante #PHP2Shell",
-   "url": "https://blog.segu-info.com.ar/2026/10/telemetria-de-ataques-realizados.html",
-   "fecha": "2026-10-23T14:09:00.000Z",
-   "fuente": "segu-info"
   },
   {
    "titulo": "Compromised TLS Certificates",
@@ -447,12 +459,6 @@
    "fuente": "welivesecurity"
   },
   {
-   "titulo": "Cómo los estafadores se aprovechan de los propietarios de tiempos compartidos",
-   "url": "https://www.welivesecurity.com/es/estafas-enganos/estafas-tiempos-compartidos-falsos-compradores/",
-   "fecha": "2026-10-14T18:40:48.000Z",
-   "fuente": "welivesecurity"
-  },
-  {
    "titulo": "U.K. Sanctions Cryptomus for RU Money Laundering",
    "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
    "fecha": "2026-10-14T14:22:49.000Z",
@@ -475,12 +481,6 @@
    "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
    "fecha": "2026-10-13T23:24:53.000Z",
    "fuente": "krebs"
-  },
-  {
-   "titulo": "Alerta por un falso sitio de Frávega: el sistema de checkouts variables detrás de la estafa",
-   "url": "https://www.welivesecurity.com/es/estafas-enganos/falso-sitio-fravega-clonan-tienda-checkouts-descartables/",
-   "fecha": "2026-10-13T16:38:34.000Z",
-   "fuente": "welivesecurity"
   },
   {
    "titulo": "FBI Arrests Executive at Ransomware Negotiation Firm",
