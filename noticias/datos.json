@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30T17:01:35.866Z",
+ "actualizado": "2026-10-31T16:06:36.048Z",
  "fuentes": [
   {
    "id": "cisa",
@@ -81,6 +81,102 @@
  ],
  "items": [
   {
+   "titulo": "New Android SMS of Death exploit can remotely crash unpatched phones",
+   "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+   "fecha": "2026-10-31T15:35:11.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Sitios JavaScript comprometidos atacan a los administradores de WordPress para implementar una puerta trasera PHP persistente.",
+   "url": "https://blog.segu-info.com.ar/2026/10/sitios-javascript-comprometidos-atacan.html",
+   "fecha": "2026-10-31T14:16:00.000Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "Reddit to lock content behind logins to fight scrapers",
+   "url": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
+   "fecha": "2026-10-31T14:05:15.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+   "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+   "fecha": "2026-10-31T13:10:19.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+   "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+   "fecha": "2026-10-31T12:50:09.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+   "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+   "fecha": "2026-10-31T12:01:56.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
+   "url": "https://isc.sans.edu/diary/rss/33476",
+   "fecha": "2026-10-31T10:52:53.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "YARA-X 1.22.1 Release, (Sat, Oct 31st)",
+   "url": "https://isc.sans.edu/diary/rss/33474",
+   "fecha": "2026-10-31T10:48:17.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
+   "url": "https://isc.sans.edu/diary/rss/33454",
+   "fecha": "2026-10-31T10:45:40.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+   "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+   "fecha": "2026-10-31T08:27:43.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+   "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+   "fecha": "2026-10-31T05:33:41.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
+   "url": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+   "fecha": "2026-10-31T04:56:12.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+   "fecha": "2026-10-30T21:09:46.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Friday Squid Blogging: Bigfin Squid Off California Coast",
+   "url": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-bigfin-squid-off-california-coast.html",
+   "fecha": "2026-10-30T21:04:36.000Z",
+   "fuente": "schneier"
+  },
+  {
+   "titulo": "Ataque a Binance: unos ciberdelincuentes roban 6.300 millones de dólares",
+   "url": "https://www.welivesecurity.com/es/cibercrimen/ataque-a-binance-ciberdelincuentes-roban-6300-millones-de-dolares/",
+   "fecha": "2026-10-30T18:00:03.000Z",
+   "fuente": "welivesecurity"
+  },
+  {
+   "titulo": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+   "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+   "fecha": "2026-10-30T16:58:44.000Z",
+   "fuente": "thehackernews"
+  },
+  {
    "titulo": "Trezor warns of suspected crypto-theft implant in hardware wallet",
    "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
    "fecha": "2026-10-30T15:58:20.000Z",
@@ -123,51 +219,9 @@
    "fuente": "segu-info"
   },
   {
-   "titulo": "CISA says max severity GitLab flaw now exploited in the wild",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
-   "fecha": "2026-10-30T13:00:32.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
    "titulo": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
    "url": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
    "fecha": "2026-10-30T12:21:56.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
-   "url": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
-   "fecha": "2026-10-30T11:58:53.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Microsoft finally fixes VPN issues caused by September updates",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
-   "fecha": "2026-10-30T11:20:26.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
-   "url": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
-   "fecha": "2026-10-30T10:40:45.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Drupal warns of critical Commerce Core flaw exploited in attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
-   "fecha": "2026-10-30T10:16:07.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
-   "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
-   "fecha": "2026-10-30T09:18:13.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
-   "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
-   "fecha": "2026-10-30T08:55:47.000Z",
    "fuente": "thehackernews"
   },
   {
@@ -175,18 +229,6 @@
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/exposicion-de-informacion-en-el-editor-de-comentarios-de-forocoches",
    "fecha": "2026-10-30T08:24:41.000Z",
    "fuente": "incibe-avisos"
-  },
-  {
-   "titulo": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
-   "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
-   "fecha": "2026-10-30T07:45:30.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
-   "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
-   "fecha": "2026-10-30T07:27:05.000Z",
-   "fuente": "thehackernews"
   },
   {
    "titulo": "ISC Stormcast For Friday, October 30th, 2026 https://isc.sans.edu/podcastdetail/10158, (Fri, Oct 30th)",
@@ -199,12 +241,6 @@
    "url": "https://blog.segu-info.com.ar/2026/10/roban-binance-mas-de-5800-millones-de.html",
    "fecha": "2026-10-29T23:43:48.458Z",
    "fuente": "segu-info"
-  },
-  {
-   "titulo": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
-   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
-   "fecha": "2026-10-29T23:35:52.000Z",
-   "fuente": "bleepingcomputer"
   },
   {
    "titulo": "Quishing: cómo funcionan las estafas con códigos QR y cómo protegerte",
@@ -309,12 +345,6 @@
    "fuente": "segu-info"
   },
   {
-   "titulo": "Explotación efectiva de PHP2Shell confirmada (de nuevo, ahora por KEV)",
-   "url": "https://blog.segu-info.com.ar/2026/10/explotacion-activa-de-php2shell.html",
-   "fecha": "2026-10-27T20:48:00.000Z",
-   "fuente": "segu-info"
-  },
-  {
    "titulo": "Inteligencia artificial y ciberseguridad: qué nos muestran realmente los casos de 2026",
    "url": "https://www.welivesecurity.com/es/seguridad-digital/inteligencia-artificial-ciberseguridad-casos-2026/",
    "fecha": "2026-10-27T16:57:54.000Z",
@@ -327,18 +357,6 @@
    "fuente": "schneier"
   },
   {
-   "titulo": "ISC Stormcast For Tuesday, October 27th, 2026 https://isc.sans.edu/podcastdetail/10152, (Tue, Oct 27th)",
-   "url": "https://isc.sans.edu/diary/rss/33462",
-   "fecha": "2026-10-27T02:55:13.000Z",
-   "fuente": "sans-isc"
-  },
-  {
-   "titulo": "Apple Patches for October 2026, (Mon, Oct 26th)",
-   "url": "https://isc.sans.edu/diary/rss/33458",
-   "fecha": "2026-10-27T02:09:55.000Z",
-   "fuente": "sans-isc"
-  },
-  {
    "titulo": "PHP2Shell: lo que hay que saber sobre dos fallas críticas en PHP",
    "url": "https://www.welivesecurity.com/es/seguridad-digital/php2shell-lo-que-hay-que-saber-sobre-dos-fallas-criticas-en-php/",
    "fecha": "2026-10-26T19:10:16.000Z",
@@ -349,12 +367,6 @@
    "url": "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html",
    "fecha": "2026-10-26T11:03:31.000Z",
    "fuente": "schneier"
-  },
-  {
-   "titulo": "Looking for a Language [Guest Diary], (Wed, Oct 21st)",
-   "url": "https://isc.sans.edu/diary/rss/33442",
-   "fecha": "2026-10-26T09:38:03.000Z",
-   "fuente": "sans-isc"
   },
   {
    "titulo": "Friday Squid Blogging: Increasing Squid Populations",
@@ -423,12 +435,6 @@
    "fuente": "cisa"
   },
   {
-   "titulo": "Workshop on Economics and Information Security (WEIS) Archive",
-   "url": "https://www.schneier.com/blog/archives/2026/10/workshop-on-economics-and-information-security-weis-archive.html",
-   "fecha": "2026-10-21T11:02:22.000Z",
-   "fuente": "schneier"
-  },
-  {
    "titulo": "Hitachi Energy MicroSCADA X SYS600 Product",
    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-04",
    "fecha": "2026-10-20T12:00:00.000Z",
@@ -445,12 +451,6 @@
    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-05",
    "fecha": "2026-10-20T12:00:00.000Z",
    "fuente": "cisa"
-  },
-  {
-   "titulo": "Qué hacer cuando una empresa informa una brecha de datos, pero aporta poca información",
-   "url": "https://www.welivesecurity.com/es/seguridad-digital/que-hacer-ante-una-brecha-de-datos-con-poca-informacion/",
-   "fecha": "2026-10-19T17:50:02.000Z",
-   "fuente": "welivesecurity"
   },
   {
    "titulo": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
