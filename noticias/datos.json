@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31T16:06:36.048Z",
+ "actualizado": "2026-11-01T17:08:01.357Z",
  "fuentes": [
   {
    "id": "cisa",
@@ -80,6 +80,54 @@
   }
  ],
  "items": [
+  {
+   "titulo": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+   "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+   "fecha": "2026-11-01T15:11:21.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
+   "fecha": "2026-11-01T13:53:11.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "OneNote File Extraction, (Sun, Nov 1st)",
+   "url": "https://isc.sans.edu/diary/rss/33478",
+   "fecha": "2026-11-01T09:12:23.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+   "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+   "fecha": "2026-11-01T08:51:31.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+   "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+   "fecha": "2026-11-01T07:25:40.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+   "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+   "fecha": "2026-11-01T07:03:00.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+   "url": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+   "fecha": "2026-11-01T07:02:58.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Northflank security breach leads to abuse of customers' AI API keys",
+   "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+   "fecha": "2026-10-31T18:01:12.000Z",
+   "fuente": "bleepingcomputer"
+  },
   {
    "titulo": "New Android SMS of Death exploit can remotely crash unpatched phones",
    "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
@@ -171,58 +219,16 @@
    "fuente": "welivesecurity"
   },
   {
-   "titulo": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
-   "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
-   "fecha": "2026-10-30T16:58:44.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Trezor warns of suspected crypto-theft implant in hardware wallet",
-   "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
-   "fecha": "2026-10-30T15:58:20.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
    "titulo": "Bloatware in Aftermarket Auto Parts",
    "url": "https://www.schneier.com/blog/archives/2026/10/bloatware-in-aftermarket-auto-parts.html",
    "fecha": "2026-10-30T15:20:02.000Z",
    "fuente": "schneier"
   },
   {
-   "titulo": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
-   "url": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
-   "fecha": "2026-10-30T15:17:28.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Malicious Claude Code extension on Cursor planted SSH backdoors",
-   "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
-   "fecha": "2026-10-30T14:36:54.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
-   "url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
-   "fecha": "2026-10-30T14:08:14.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
-   "url": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
-   "fecha": "2026-10-30T14:00:10.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
    "titulo": "Herramientas gratuitas para detectar errores de configuración de seguridad en Microsoft 365 y Google Workspace",
    "url": "https://blog.segu-info.com.ar/2026/10/herramientas-gratuitas-para-detectar.html",
    "fecha": "2026-10-30T13:13:00.000Z",
    "fuente": "segu-info"
-  },
-  {
-   "titulo": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
-   "url": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
-   "fecha": "2026-10-30T12:21:56.000Z",
-   "fuente": "thehackernews"
   },
   {
    "titulo": "Exposición de información en el editor de comentarios de Forocoches",
@@ -331,12 +337,6 @@
    "url": "https://www.schneier.com/blog/archives/2026/10/studying-fraudulent-north-korean-it-workers.html",
    "fecha": "2026-10-28T11:05:00.000Z",
    "fuente": "schneier"
-  },
-  {
-   "titulo": "ISC Stormcast For Wednesday, October 28th, 2026 https://isc.sans.edu/podcastdetail/10154, (Wed, Oct 28th)",
-   "url": "https://isc.sans.edu/diary/rss/33464",
-   "fecha": "2026-10-28T02:30:11.000Z",
-   "fuente": "sans-isc"
   },
   {
    "titulo": "Más actualizaciones para Broccoli 2Shell (HTTP2Shell - CVE-2026-111497), revisa TODOS tus dispositivos y aplicaciones",
