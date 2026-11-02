@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-01T17:08:01.357Z",
+ "actualizado": "2026-11-02T20:47:55.025Z",
  "fuentes": [
   {
    "id": "cisa",
@@ -81,16 +81,130 @@
  ],
  "items": [
   {
-   "titulo": "Alpine Linux rebuilds GitLab after attempted RCE attack",
-   "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
-   "fecha": "2026-11-01T15:11:21.000Z",
+   "titulo": "Exploit \"SMS de la muerte\" en Android puede bloquear teléfonos de forma remota",
+   "url": "https://blog.segu-info.com.ar/2026/11/exploit-sms-de-la-muerte-en-android.html",
+   "fecha": "2026-11-02T19:46:54.130Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "Fintech platform Sageworks taken offline after suspected cyberattack",
+   "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
+   "fecha": "2026-11-02T19:00:45.000Z",
    "fuente": "bleepingcomputer"
   },
   {
-   "titulo": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
-   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
-   "fecha": "2026-11-01T13:53:11.000Z",
+   "titulo": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker",
+   "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+   "fecha": "2026-11-02T18:16:34.000Z",
    "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
+   "url": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
+   "fecha": "2026-11-02T16:57:56.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
+   "url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+   "fecha": "2026-11-02T15:50:26.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "BTCPay Server warns of hot wallet crypto thefts on outdated instances",
+   "url": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
+   "fecha": "2026-11-02T15:03:07.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Your Mobile Carrier Stores Your Call Logs for Years",
+   "url": "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/",
+   "fecha": "2026-11-02T15:01:11.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Mutipath TCP: Use and Detection, (Mon, Nov 2nd)",
+   "url": "https://isc.sans.edu/diary/rss/33482",
+   "fecha": "2026-11-02T14:52:05.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
+   "url": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
+   "fecha": "2026-11-02T14:46:05.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Hackers disrupt refrigeration systems at European supermarkets",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/",
+   "fecha": "2026-11-02T14:28:39.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Microsoft fixes Smart App Control broken by October Windows update",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update/",
+   "fecha": "2026-11-02T13:57:29.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
+   "fecha": "2026-11-02T12:47:00.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "PHP2Shell, por qué un exploit no funciona en todas partes",
+   "url": "https://blog.segu-info.com.ar/2026/11/php2shell-por-que-un-exploit-no.html",
+   "fecha": "2026-11-02T12:03:00.000Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "AI Vulnerability Finding",
+   "url": "https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html",
+   "fecha": "2026-11-02T12:02:34.000Z",
+   "fuente": "schneier"
+  },
+  {
+   "titulo": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
+   "url": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
+   "fecha": "2026-11-02T11:50:00.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
+   "url": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
+   "fecha": "2026-11-02T11:30:00.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Synology warns of C3RB3R ransomware attacks targeting NAS devices",
+   "url": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
+   "fecha": "2026-11-02T11:28:42.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data",
+   "url": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
+   "fecha": "2026-11-02T11:08:45.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts",
+   "url": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
+   "fecha": "2026-11-02T10:49:59.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+   "url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+   "fecha": "2026-11-02T05:51:07.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "ISC Stormcast For Monday, November 2nd, 2026 https://isc.sans.edu/podcastdetail/10160, (Mon, Nov 2nd)",
+   "url": "https://isc.sans.edu/diary/rss/33480",
+   "fecha": "2026-11-02T02:00:03.000Z",
+   "fuente": "sans-isc"
   },
   {
    "titulo": "OneNote File Extraction, (Sun, Nov 1st)",
@@ -99,70 +213,10 @@
    "fuente": "sans-isc"
   },
   {
-   "titulo": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
-   "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
-   "fecha": "2026-11-01T08:51:31.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
-   "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
-   "fecha": "2026-11-01T07:25:40.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
-   "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
-   "fecha": "2026-11-01T07:03:00.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
-   "url": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
-   "fecha": "2026-11-01T07:02:58.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Northflank security breach leads to abuse of customers' AI API keys",
-   "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
-   "fecha": "2026-10-31T18:01:12.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "New Android SMS of Death exploit can remotely crash unpatched phones",
-   "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
-   "fecha": "2026-10-31T15:35:11.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
    "titulo": "Sitios JavaScript comprometidos atacan a los administradores de WordPress para implementar una puerta trasera PHP persistente.",
    "url": "https://blog.segu-info.com.ar/2026/10/sitios-javascript-comprometidos-atacan.html",
    "fecha": "2026-10-31T14:16:00.000Z",
    "fuente": "segu-info"
-  },
-  {
-   "titulo": "Reddit to lock content behind logins to fight scrapers",
-   "url": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
-   "fecha": "2026-10-31T14:05:15.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
-   "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
-   "fecha": "2026-10-31T13:10:19.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
-   "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
-   "fecha": "2026-10-31T12:50:09.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
-   "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
-   "fecha": "2026-10-31T12:01:56.000Z",
-   "fuente": "thehackernews"
   },
   {
    "titulo": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
@@ -181,30 +235,6 @@
    "url": "https://isc.sans.edu/diary/rss/33454",
    "fecha": "2026-10-31T10:45:40.000Z",
    "fuente": "sans-isc"
-  },
-  {
-   "titulo": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
-   "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
-   "fecha": "2026-10-31T08:27:43.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
-   "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
-   "fecha": "2026-10-31T05:33:41.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
-   "url": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
-   "fecha": "2026-10-31T04:56:12.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
-   "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
-   "fecha": "2026-10-30T21:09:46.000Z",
-   "fuente": "bleepingcomputer"
   },
   {
    "titulo": "Friday Squid Blogging: Bigfin Squid Off California Coast",
@@ -297,18 +327,6 @@
    "fuente": "sans-isc"
   },
   {
-   "titulo": "ISC Stormcast For Thursday, October 29th, 2026 https://isc.sans.edu/podcastdetail/10156, (Thu, Oct 29th)",
-   "url": "https://isc.sans.edu/diary/rss/33468",
-   "fecha": "2026-10-29T03:10:12.000Z",
-   "fuente": "sans-isc"
-  },
-  {
-   "titulo": "Yet Another ClickFix Campaign, (Wed, Oct 28th)",
-   "url": "https://isc.sans.edu/diary/rss/33466",
-   "fecha": "2026-10-29T00:42:15.000Z",
-   "fuente": "sans-isc"
-  },
-  {
    "titulo": "Ataque PHP2Shell compromete 25 servidores y vulnera una red vinculada al gobierno de EE.UU.",
    "url": "https://blog.segu-info.com.ar/2026/10/ataque-php2shell-compromete-25.html",
    "fecha": "2026-10-28T21:58:09.903Z",
@@ -327,22 +345,10 @@
    "fuente": "welivesecurity"
   },
   {
-   "titulo": "Claude Security incorpora análisis continuo de repositorios y seguimiento de correcciones",
-   "url": "https://blog.segu-info.com.ar/2026/10/claude-security-incorpora-analisis.html",
-   "fecha": "2026-10-28T12:30:00.000Z",
-   "fuente": "segu-info"
-  },
-  {
    "titulo": "Studying Fraudulent North Korean IT Workers",
    "url": "https://www.schneier.com/blog/archives/2026/10/studying-fraudulent-north-korean-it-workers.html",
    "fecha": "2026-10-28T11:05:00.000Z",
    "fuente": "schneier"
-  },
-  {
-   "titulo": "Más actualizaciones para Broccoli 2Shell (HTTP2Shell - CVE-2026-111497), revisa TODOS tus dispositivos y aplicaciones",
-   "url": "https://blog.segu-info.com.ar/2026/10/mas-actualizaciones-para-broccoli.html",
-   "fecha": "2026-10-27T21:33:00.000Z",
-   "fuente": "segu-info"
   },
   {
    "titulo": "Inteligencia artificial y ciberseguridad: qué nos muestran realmente los casos de 2026",
@@ -397,12 +403,6 @@
    "url": "https://unaaldia.hispasec.com/node-js-corrige-un-fallo-en-brotli-que-abre-la-puerta-a-ejecucion-remota-de-codigo/?utm_source=rss&utm_medium=rss&utm_campaign=node-js-corrige-un-fallo-en-brotli-que-abre-la-puerta-a-ejecucion-remota-de-codigo",
    "fecha": "2026-10-22T13:37:07.000Z",
    "fuente": "hispasec"
-  },
-  {
-   "titulo": "New Serious PHP Vulnerabilities Released and Patched",
-   "url": "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
-   "fecha": "2026-10-22T13:26:51.000Z",
-   "fuente": "schneier"
   },
   {
    "titulo": "Managing AI Token Consumption for Operational Resilience",
@@ -534,12 +534,6 @@
    "titulo": "OSINT actual: cómo convertir fuentes abiertas en inteligencia defensiva para tu organización",
    "url": "https://www.incibe.es/incibe-cert/blog/osint-actual-como-convertir-fuentes-abiertas-en-inteligencia-defensiva-para-tu",
    "fecha": "2026-09-17T11:47:38.000Z",
-   "fuente": "incibe-blog"
-  },
-  {
-   "titulo": "Reglamento de ciberresiliencia (CRA): qué es, a quién afecta y cómo prepararse",
-   "url": "https://www.incibe.es/incibe-cert/blog/reglamento-de-ciberresiliencia-cra-que-es-quien-afecta-y-como-prepararse",
-   "fecha": "2026-09-03T11:30:17.000Z",
    "fuente": "incibe-blog"
   }
  ]
