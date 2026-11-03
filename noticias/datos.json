@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-02T20:47:55.025Z",
+ "actualizado": "2026-11-03T18:27:34.221Z",
  "fuentes": [
   {
    "id": "cisa",
@@ -81,10 +81,172 @@
  ],
  "items": [
   {
+   "titulo": "#Fromagegate: Cómo proteger tus heladeras y la cadena de frío en tu negocio",
+   "url": "https://blog.segu-info.com.ar/2026/11/fromagegate-como-proteger-tus-heladeras.html",
+   "fecha": "2026-11-03T17:21:17.446Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
+   "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+   "fecha": "2026-11-03T16:55:58.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
+   "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+   "fecha": "2026-11-03T15:59:19.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+   "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+   "fecha": "2026-11-03T15:41:53.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Interrumpen los sistemas de refrigeración en supermercados europeos (DE NUEVO!)",
+   "url": "https://blog.segu-info.com.ar/2026/11/interrumpen-los-sistemas-de.html",
+   "fecha": "2026-11-03T15:30:05.422Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
+   "url": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+   "fecha": "2026-11-03T15:16:32.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Barracuda warns of critical flaws allowing root access to devices",
+   "url": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
+   "fecha": "2026-11-03T15:06:16.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
+   "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+   "fecha": "2026-11-03T15:00:10.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
+   "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+   "fecha": "2026-11-03T14:00:00.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Police seizes over 100 servers in investment scam crackdown",
+   "url": "https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown/",
+   "fecha": "2026-11-03T13:33:49.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Desmantelan una botnet de Android de 1,3 millones en decodificadores de TV",
+   "url": "https://blog.segu-info.com.ar/2026/11/desmantelan-una-botnet-de-android-de-13.html",
+   "fecha": "2026-11-03T12:09:00.000Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "Google adds new $250,000 Cloud VRP reward for Root-in-Cloud bugs",
+   "url": "https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/",
+   "fecha": "2026-11-03T12:05:52.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "AIs Hacking the Law",
+   "url": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
+   "fecha": "2026-11-03T12:01:00.000Z",
+   "fuente": "schneier"
+  },
+  {
+   "titulo": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
+   "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+   "fecha": "2026-11-03T11:23:53.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
+   "url": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
+   "fecha": "2026-11-03T11:18:20.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
+   "url": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
+   "fecha": "2026-11-03T11:00:45.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Harvard University data breach exposed info of 851,000 accounts",
+   "url": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/",
+   "fecha": "2026-11-03T10:53:25.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Uso de memoria después de liberarla en productos de Red Hat",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/uso-de-memoria-despues-de-liberarla-en-productos-de-red-hat",
+   "fecha": "2026-11-03T10:48:31.000Z",
+   "fuente": "incibe-avisos"
+  },
+  {
+   "titulo": "Múltiples vulnerabilidades en Tenable Identity Exposure",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-tenable-identity-exposure-0",
+   "fecha": "2026-11-03T10:48:29.000Z",
+   "fuente": "incibe-avisos"
+  },
+  {
+   "titulo": "Boletín de seguridad de Android: noviembre 2026",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/boletin-de-seguridad-de-android-noviembre-2026",
+   "fecha": "2026-11-03T10:48:28.000Z",
+   "fuente": "incibe-avisos"
+  },
+  {
+   "titulo": "Múltiples vulnerabilidades en productos de MediaTek",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-mediatek-1",
+   "fecha": "2026-11-03T10:48:27.000Z",
+   "fuente": "incibe-avisos"
+  },
+  {
+   "titulo": "Múltiples vulnerabilidades en ALO Suite de AM System",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-alo-suite-de-am-system",
+   "fecha": "2026-11-03T09:51:21.000Z",
+   "fuente": "incibe-avisos"
+  },
+  {
+   "titulo": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+   "fecha": "2026-11-03T08:31:48.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+   "url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+   "fecha": "2026-11-03T02:24:31.000Z",
+   "fuente": "krebs"
+  },
+  {
+   "titulo": "ISC Stormcast For Tuesday, November 3rd, 2026 https://isc.sans.edu/podcastdetail/10162, (Tue, Nov 3rd)",
+   "url": "https://isc.sans.edu/diary/rss/33484",
+   "fecha": "2026-11-03T02:00:02.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
+   "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
+   "fecha": "2026-11-02T21:40:14.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
    "titulo": "Exploit \"SMS de la muerte\" en Android puede bloquear teléfonos de forma remota",
    "url": "https://blog.segu-info.com.ar/2026/11/exploit-sms-de-la-muerte-en-android.html",
    "fecha": "2026-11-02T19:46:54.130Z",
    "fuente": "segu-info"
+  },
+  {
+   "titulo": "Sitios web falsos y agentes de IA: riesgos y cómo protegerse",
+   "url": "https://www.welivesecurity.com/es/seguridad-digital/sitios-web-falsos-agentes-ia-como-protegerse/",
+   "fecha": "2026-11-02T19:04:53.000Z",
+   "fuente": "welivesecurity"
   },
   {
    "titulo": "Fintech platform Sageworks taken offline after suspected cyberattack",
@@ -93,64 +255,10 @@
    "fuente": "bleepingcomputer"
   },
   {
-   "titulo": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker",
-   "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
-   "fecha": "2026-11-02T18:16:34.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
-   "url": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
-   "fecha": "2026-11-02T16:57:56.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
-   "url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
-   "fecha": "2026-11-02T15:50:26.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "BTCPay Server warns of hot wallet crypto thefts on outdated instances",
-   "url": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
-   "fecha": "2026-11-02T15:03:07.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Your Mobile Carrier Stores Your Call Logs for Years",
-   "url": "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/",
-   "fecha": "2026-11-02T15:01:11.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
    "titulo": "Mutipath TCP: Use and Detection, (Mon, Nov 2nd)",
    "url": "https://isc.sans.edu/diary/rss/33482",
    "fecha": "2026-11-02T14:52:05.000Z",
    "fuente": "sans-isc"
-  },
-  {
-   "titulo": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
-   "url": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
-   "fecha": "2026-11-02T14:46:05.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Hackers disrupt refrigeration systems at European supermarkets",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/",
-   "fecha": "2026-11-02T14:28:39.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Microsoft fixes Smart App Control broken by October Windows update",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update/",
-   "fecha": "2026-11-02T13:57:29.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
-   "fecha": "2026-11-02T12:47:00.000Z",
-   "fuente": "bleepingcomputer"
   },
   {
    "titulo": "PHP2Shell, por qué un exploit no funciona en todas partes",
@@ -163,42 +271,6 @@
    "url": "https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html",
    "fecha": "2026-11-02T12:02:34.000Z",
    "fuente": "schneier"
-  },
-  {
-   "titulo": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
-   "url": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
-   "fecha": "2026-11-02T11:50:00.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
-   "url": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
-   "fecha": "2026-11-02T11:30:00.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Synology warns of C3RB3R ransomware attacks targeting NAS devices",
-   "url": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
-   "fecha": "2026-11-02T11:28:42.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data",
-   "url": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
-   "fecha": "2026-11-02T11:08:45.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts",
-   "url": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
-   "fecha": "2026-11-02T10:49:59.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
-   "url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
-   "fecha": "2026-11-02T05:51:07.000Z",
-   "fuente": "thehackernews"
   },
   {
    "titulo": "ISC Stormcast For Monday, November 2nd, 2026 https://isc.sans.edu/podcastdetail/10160, (Mon, Nov 2nd)",
@@ -261,12 +333,6 @@
    "fuente": "segu-info"
   },
   {
-   "titulo": "Exposición de información en el editor de comentarios de Forocoches",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/exposicion-de-informacion-en-el-editor-de-comentarios-de-forocoches",
-   "fecha": "2026-10-30T08:24:41.000Z",
-   "fuente": "incibe-avisos"
-  },
-  {
    "titulo": "ISC Stormcast For Friday, October 30th, 2026 https://isc.sans.edu/podcastdetail/10158, (Fri, Oct 30th)",
    "url": "https://isc.sans.edu/diary/rss/33472",
    "fecha": "2026-10-30T03:30:17.000Z",
@@ -283,54 +349,6 @@
    "url": "https://www.welivesecurity.com/es/seguridad-moviles/quishing-estafas-codigos-qr-como-protegerte/",
    "fecha": "2026-10-29T19:25:38.000Z",
    "fuente": "welivesecurity"
-  },
-  {
-   "titulo": "Múltiples vulnerabilidades en la aplicación de SABBATIC",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-la-aplicacion-de-sabbatic",
-   "fecha": "2026-10-29T16:47:15.000Z",
-   "fuente": "incibe-avisos"
-  },
-  {
-   "titulo": "Detección de PHP2Shell con Wazuh (Open Source)",
-   "url": "https://blog.segu-info.com.ar/2026/10/deteccion-de-php2shell-con-wazuh-open.html",
-   "fecha": "2026-10-29T15:30:00.000Z",
-   "fuente": "segu-info"
-  },
-  {
-   "titulo": "Ejecución remota de código descubiertos por Anthropic en Chrome, Safari, Android, Windows y Linux (CVE-2026-98432)",
-   "url": "https://blog.segu-info.com.ar/2026/10/ejecucion-remota-de-codigo-sin.html",
-   "fecha": "2026-10-29T13:14:00.000Z",
-   "fuente": "segu-info"
-  },
-  {
-   "titulo": "Escritura fuera de límites en PHP para Windows",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/escritura-fuera-de-limites-en-php-para-windows",
-   "fecha": "2026-10-29T08:53:12.000Z",
-   "fuente": "incibe-avisos"
-  },
-  {
-   "titulo": "Múltiples vulnerabilidades en OpenScape Endpoint Management de Mitel",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-openscape-endpoint-management-de-mitel",
-   "fecha": "2026-10-29T08:53:10.000Z",
-   "fuente": "incibe-avisos"
-  },
-  {
-   "titulo": "[Actualización 30/10/2026] Múltiples vulnerabilidades en productos de Cisco",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/actualizacion-30102026-multiples-vulnerabilidades-en-productos-de-cisco",
-   "fecha": "2026-10-29T08:53:09.000Z",
-   "fuente": "incibe-avisos"
-  },
-  {
-   "titulo": "Deploying a Local Ghidra Server for Your Malware Analysis Lab, (Thu, Oct 29th)",
-   "url": "https://isc.sans.edu/diary/rss/33470",
-   "fecha": "2026-10-29T06:17:41.000Z",
-   "fuente": "sans-isc"
-  },
-  {
-   "titulo": "Ataque PHP2Shell compromete 25 servidores y vulnera una red vinculada al gobierno de EE.UU.",
-   "url": "https://blog.segu-info.com.ar/2026/10/ataque-php2shell-compromete-25.html",
-   "fecha": "2026-10-28T21:58:09.903Z",
-   "fuente": "segu-info"
   },
   {
    "titulo": "Una semana caótica para la ciberseguridad: lecciones y alertas",
@@ -381,12 +399,6 @@
    "fuente": "schneier"
   },
   {
-   "titulo": "Compromised TLS Certificates",
-   "url": "https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html",
-   "fecha": "2026-10-23T11:04:22.000Z",
-   "fuente": "schneier"
-  },
-  {
    "titulo": "Node.js corrige fallos graves de TLS y Brotli en sus ramas 26, 24 y 22",
    "url": "https://unaaldia.hispasec.com/node-js-corrige-fallos-graves-de-tls-y-brotli-en-sus-ramas-26-24-y-22/?utm_source=rss&utm_medium=rss&utm_campaign=node-js-corrige-fallos-graves-de-tls-y-brotli-en-sus-ramas-26-24-y-22",
    "fecha": "2026-10-23T08:01:02.000Z",
@@ -415,12 +427,6 @@
    "url": "https://unaaldia.hispasec.com/php-publica-parches-de-urgencia-por-dos-fallos-criticos-php2shell-con-intentos-de-explotacion/?utm_source=rss&utm_medium=rss&utm_campaign=php-publica-parches-de-urgencia-por-dos-fallos-criticos-php2shell-con-intentos-de-explotacion",
    "fecha": "2026-10-21T19:41:51.000Z",
    "fuente": "hispasec"
-  },
-  {
-   "titulo": "¿Es una estafa? Cómo identificar un anuncio fraudulento antes de hacer clic",
-   "url": "https://www.welivesecurity.com/es/seguridad-digital/anuncios-fraudulentos-como-detectar-estafas/",
-   "fecha": "2026-10-21T16:20:05.000Z",
-   "fuente": "welivesecurity"
   },
   {
    "titulo": "Widespread PHP Flaw May Cause Many Site Outages Today",
@@ -522,12 +528,6 @@
    "titulo": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
    "url": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
    "fecha": "2026-09-28T15:08:57.000Z",
-   "fuente": "krebs"
-  },
-  {
-   "titulo": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
-   "url": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
-   "fecha": "2026-09-25T21:44:40.000Z",
    "fuente": "krebs"
   },
   {
