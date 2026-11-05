@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T18:38:56.022Z",
+ "actualizado": "2026-11-05T18:45:32.934Z",
  "fuentes": [
   {
    "id": "cisa",
@@ -81,28 +81,148 @@
  ],
  "items": [
   {
-   "titulo": "Cyberattack disrupts blood storage refrigeration systems in France",
-   "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
-   "fecha": "2026-11-04T18:02:56.000Z",
+   "titulo": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
+   "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+   "fecha": "2026-11-05T17:45:29.000Z",
    "fuente": "bleepingcomputer"
   },
   {
-   "titulo": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
-   "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
-   "fecha": "2026-11-04T17:00:46.000Z",
-   "fuente": "thehackernews"
+   "titulo": "SSHole: falla de OpenSSH en sistemas con musl (Alpine, OpenWrt, Buildroot, Yocto)",
+   "url": "https://blog.segu-info.com.ar/2026/11/sshole-falla-de-openssh-en-sistemas-con.html",
+   "fecha": "2026-11-05T16:30:00.000Z",
+   "fuente": "segu-info"
   },
   {
-   "titulo": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
-   "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
-   "fecha": "2026-11-04T17:00:38.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
-   "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
-   "fecha": "2026-11-04T16:58:46.000Z",
+   "titulo": "Hackers backdoor Linux servers using trojanized CWP web server",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
+   "fecha": "2026-11-05T16:24:26.000Z",
    "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "DigiCert data breach exposes customer information, identity documents",
+   "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+   "fecha": "2026-11-05T16:12:46.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)",
+   "url": "https://isc.sans.edu/diary/rss/33492",
+   "fecha": "2026-11-05T15:29:08.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "Closing the Identity Gap at the Service Desk",
+   "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
+   "fecha": "2026-11-05T15:00:10.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
+   "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+   "fecha": "2026-11-05T14:41:10.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
+   "url": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
+   "fecha": "2026-11-05T12:25:00.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+   "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+   "fecha": "2026-11-05T12:08:54.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Vulnerabilidad en APT, presente en Debian y Ubuntu, permite realizar MitM y ejecutar código como root",
+   "url": "https://blog.segu-info.com.ar/2026/11/vulnerabilidad-en-apt-presente-en.html",
+   "fecha": "2026-11-05T12:00:00.000Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "ISC Stormcast For Thursday, November 5th, 2026 https://isc.sans.edu/podcastdetail/10166, (Thu, Nov 5th)",
+   "url": "https://isc.sans.edu/diary/rss/33490",
+   "fecha": "2026-11-05T11:25:11.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
+   "url": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
+   "fecha": "2026-11-05T10:06:19.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
+   "url": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
+   "fecha": "2026-11-05T09:18:29.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Múltiples vulnerabilidades en MatchPoint de TPC Software",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-matchpoint-de-tpc-software",
+   "fecha": "2026-11-05T09:16:54.000Z",
+   "fuente": "incibe-avisos"
+  },
+  {
+   "titulo": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
+   "url": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
+   "fecha": "2026-11-05T09:13:28.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+   "url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
+   "fecha": "2026-11-05T08:42:03.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Múltiples vulnerabilidades en AuthPoint Gateway de WatchGuard",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-authpoint-gateway-de-watchguard",
+   "fecha": "2026-11-05T08:24:16.000Z",
+   "fuente": "incibe-avisos"
+  },
+  {
+   "titulo": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
+   "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
+   "fecha": "2026-11-05T07:06:33.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+   "fecha": "2026-11-05T05:17:04.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Want to Rent an Internet Address at the White House?",
+   "url": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+   "fecha": "2026-11-05T04:36:17.000Z",
+   "fuente": "krebs"
+  },
+  {
+   "titulo": "Vercel rolls out new protection against stolen session cookie attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+   "fecha": "2026-11-04T21:31:18.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+   "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+   "fecha": "2026-11-04T20:58:19.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+   "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+   "fecha": "2026-11-04T19:05:19.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "SlippyNunchucks abusó de Sogou Input Method para desplegar DarkVigil mediante secuestro de DNS",
+   "url": "https://www.welivesecurity.com/es/investigaciones/slippynunchucks-sogou-input-method-distribucion-malware/",
+   "fecha": "2026-11-04T18:55:05.000Z",
+   "fuente": "welivesecurity"
   },
   {
    "titulo": "Hackean el software de navegación (basado en Linux de 15 años) de un vehículo Renault Latitude",
@@ -111,34 +231,10 @@
    "fuente": "segu-info"
   },
   {
-   "titulo": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
-   "url": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
-   "fecha": "2026-11-04T16:06:43.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "mSecure password manager hack prompts password reset warnings",
-   "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
-   "fecha": "2026-11-04T16:00:18.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
-   "url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
-   "fecha": "2026-11-04T15:00:10.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "SonicWall warns of unpatched flaws in end-of-life GMS software",
-   "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
-   "fecha": "2026-11-04T14:42:25.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
-   "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-   "fecha": "2026-11-04T14:27:52.000Z",
-   "fuente": "thehackernews"
+   "titulo": "IA, seguridad en la nube y respuesta a incidentes: las habilidades más buscadas en ciberseguridad",
+   "url": "https://www.welivesecurity.com/es/seguridad-digital/habilidades-ciberseguridad-ia-nube-respuesta-incidentes/",
+   "fecha": "2026-11-04T15:58:46.000Z",
+   "fuente": "welivesecurity"
   },
   {
    "titulo": "The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)",
@@ -147,52 +243,10 @@
    "fuente": "sans-isc"
   },
   {
-   "titulo": "US charges two Canadians accused of hacking US universities",
-   "url": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/",
-   "fecha": "2026-11-04T13:13:20.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
    "titulo": "Vulnerabilidad crítica en WordPress explotada activamente (CVE-2026-119977)",
    "url": "https://blog.segu-info.com.ar/2026/11/vulnerabilidad-critica-en-wordpress.html",
    "fecha": "2026-11-04T12:18:00.000Z",
    "fuente": "segu-info"
-  },
-  {
-   "titulo": "CISA flags WordPress RCE flaw as actively exploited in attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
-   "fecha": "2026-11-04T12:11:05.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
-   "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
-   "fecha": "2026-11-04T12:07:04.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
-   "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
-   "fecha": "2026-11-04T11:46:27.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
-   "url": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
-   "fecha": "2026-11-04T11:34:20.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
-   "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
-   "fecha": "2026-11-04T11:24:31.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
-   "fecha": "2026-11-04T09:39:54.000Z",
-   "fuente": "bleepingcomputer"
   },
   {
    "titulo": "Múltiples vulnerabilidades en Coupa Total Spend Management Platform de Coupa",
@@ -210,18 +264,6 @@
    "titulo": "Uso de memoria previamente liberada en productos de WatchGuard",
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/uso-de-memoria-previamente-liberada-en-productos-de-watchguard",
    "fecha": "2026-11-04T08:25:35.000Z",
-   "fuente": "incibe-avisos"
-  },
-  {
-   "titulo": "Múltiples vulnerabilidades en GMS de SonicWall",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-gms-de-sonicwall",
-   "fecha": "2026-11-04T08:25:34.000Z",
-   "fuente": "incibe-avisos"
-  },
-  {
-   "titulo": "Omisión de autenticación en StorageGRID de NetApp",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/omision-de-autenticacion-en-storagegrid-de-netapp",
-   "fecha": "2026-11-04T08:25:33.000Z",
    "fuente": "incibe-avisos"
   },
   {
@@ -291,12 +333,6 @@
    "fuente": "sans-isc"
   },
   {
-   "titulo": "PHP2Shell, por qué un exploit no funciona en todas partes",
-   "url": "https://blog.segu-info.com.ar/2026/11/php2shell-por-que-un-exploit-no.html",
-   "fecha": "2026-11-02T12:03:00.000Z",
-   "fuente": "segu-info"
-  },
-  {
    "titulo": "AI Vulnerability Finding",
    "url": "https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html",
    "fecha": "2026-11-02T12:02:34.000Z",
@@ -312,24 +348,6 @@
    "titulo": "OneNote File Extraction, (Sun, Nov 1st)",
    "url": "https://isc.sans.edu/diary/rss/33478",
    "fecha": "2026-11-01T09:12:23.000Z",
-   "fuente": "sans-isc"
-  },
-  {
-   "titulo": "Sitios JavaScript comprometidos atacan a los administradores de WordPress para implementar una puerta trasera PHP persistente.",
-   "url": "https://blog.segu-info.com.ar/2026/10/sitios-javascript-comprometidos-atacan.html",
-   "fecha": "2026-10-31T14:16:00.000Z",
-   "fuente": "segu-info"
-  },
-  {
-   "titulo": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
-   "url": "https://isc.sans.edu/diary/rss/33476",
-   "fecha": "2026-10-31T10:52:53.000Z",
-   "fuente": "sans-isc"
-  },
-  {
-   "titulo": "YARA-X 1.22.1 Release, (Sat, Oct 31st)",
-   "url": "https://isc.sans.edu/diary/rss/33474",
-   "fecha": "2026-10-31T10:48:17.000Z",
    "fuente": "sans-isc"
   },
   {
@@ -375,22 +393,10 @@
    "fuente": "schneier"
   },
   {
-   "titulo": "Inteligencia artificial y ciberseguridad: qué nos muestran realmente los casos de 2026",
-   "url": "https://www.welivesecurity.com/es/seguridad-digital/inteligencia-artificial-ciberseguridad-casos-2026/",
-   "fecha": "2026-10-27T16:57:54.000Z",
-   "fuente": "welivesecurity"
-  },
-  {
    "titulo": "Hiding Capabilities in AI Models",
    "url": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
    "fecha": "2026-10-27T11:01:26.000Z",
    "fuente": "schneier"
-  },
-  {
-   "titulo": "PHP2Shell: lo que hay que saber sobre dos fallas críticas en PHP",
-   "url": "https://www.welivesecurity.com/es/seguridad-digital/php2shell-lo-que-hay-que-saber-sobre-dos-fallas-criticas-en-php/",
-   "fecha": "2026-10-26T19:10:16.000Z",
-   "fuente": "welivesecurity"
   },
   {
    "titulo": "Bias in Qwen3-Coder Model",
@@ -523,12 +529,6 @@
    "url": "https://unaaldia.hispasec.com/un-fallo-en-steam-para-windows-permite-escalar-privilegios-a-system-sin-uac/?utm_source=rss&utm_medium=rss&utm_campaign=un-fallo-en-steam-para-windows-permite-escalar-privilegios-a-system-sin-uac",
    "fecha": "2026-10-02T11:17:52.000Z",
    "fuente": "hispasec"
-  },
-  {
-   "titulo": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
-   "url": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
-   "fecha": "2026-09-28T15:08:57.000Z",
-   "fuente": "krebs"
   },
   {
    "titulo": "OSINT actual: cómo convertir fuentes abiertas en inteligencia defensiva para tu organización",
