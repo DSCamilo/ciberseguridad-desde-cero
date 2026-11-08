@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-07T16:50:58.353Z",
+ "actualizado": "2026-11-08T17:04:51.519Z",
  "fuentes": [
   {
    "id": "cisa",
@@ -81,6 +81,24 @@
  ],
  "items": [
   {
+   "titulo": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
+   "url": "https://isc.sans.edu/diary/rss/33498",
+   "fecha": "2026-11-08T15:44:33.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+   "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+   "fecha": "2026-11-08T15:43:08.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Chainalysis y otras empresas confirman brechas de seguridad relacionadas con IA y que expone credenciales de sus usuarios",
+   "url": "https://blog.segu-info.com.ar/2026/11/chainalysis-y-otras-empresas-confirman.html",
+   "fecha": "2026-11-08T14:29:00.000Z",
+   "fuente": "segu-info"
+  },
+  {
    "titulo": "Hackers pull off $133 million French bank heist via service provider",
    "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
    "fecha": "2026-11-07T15:25:35.000Z",
@@ -145,12 +163,6 @@
    "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
    "fecha": "2026-11-06T16:08:38.000Z",
    "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
-   "url": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
-   "fecha": "2026-11-06T15:25:31.000Z",
-   "fuente": "bleepingcomputer"
   },
   {
    "titulo": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
@@ -345,12 +357,6 @@
    "fuente": "segu-info"
   },
   {
-   "titulo": "Interrumpen los sistemas de refrigeración en supermercados europeos (DE NUEVO!)",
-   "url": "https://blog.segu-info.com.ar/2026/11/interrumpen-los-sistemas-de.html",
-   "fecha": "2026-11-03T15:30:05.422Z",
-   "fuente": "segu-info"
-  },
-  {
    "titulo": "AIs Hacking the Law",
    "url": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
    "fecha": "2026-11-03T12:01:00.000Z",
@@ -397,12 +403,6 @@
    "url": "https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html",
    "fecha": "2026-11-02T12:02:34.000Z",
    "fuente": "schneier"
-  },
-  {
-   "titulo": "ISC Stormcast For Monday, November 2nd, 2026 https://isc.sans.edu/podcastdetail/10160, (Mon, Nov 2nd)",
-   "url": "https://isc.sans.edu/diary/rss/33480",
-   "fecha": "2026-11-02T02:00:03.000Z",
-   "fuente": "sans-isc"
   },
   {
    "titulo": "Friday Squid Blogging: Bigfin Squid Off California Coast",
