@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T18:57:02.618Z",
+ "actualizado": "2026-11-13T18:31:44.896Z",
  "fuentes": [
   {
    "id": "cisa",
@@ -81,51 +81,141 @@
  ],
  "items": [
   {
-   "titulo": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
-   "url": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
-   "fecha": "2026-11-12T18:07:15.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
-   "url": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
-   "fecha": "2026-11-12T18:02:51.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
-   "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
-   "fecha": "2026-11-12T17:50:27.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
-   "url": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
-   "fecha": "2026-11-12T16:27:01.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
-   "url": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
-   "fecha": "2026-11-12T16:04:00.000Z",
+   "titulo": "German military drone operations disrupted by cyberattack",
+   "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
+   "fecha": "2026-11-13T17:31:56.000Z",
    "fuente": "bleepingcomputer"
   },
   {
-   "titulo": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
-   "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
-   "fecha": "2026-11-12T15:38:49.000Z",
+   "titulo": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+   "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+   "fecha": "2026-11-13T16:53:08.000Z",
    "fuente": "thehackernews"
   },
   {
-   "titulo": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
-   "url": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
-   "fecha": "2026-11-12T15:15:40.000Z",
+   "titulo": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
+   "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+   "fecha": "2026-11-13T16:21:43.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "AlphaProof Code: verificación formal y matemática de la seguridad de un software",
+   "url": "https://blog.segu-info.com.ar/2026/11/alphaproof-code-verificacion-formal-y.html",
+   "fecha": "2026-11-13T16:00:00.000Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+   "url": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+   "fecha": "2026-11-13T15:27:05.000Z",
    "fuente": "thehackernews"
   },
   {
-   "titulo": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
-   "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
-   "fecha": "2026-11-12T15:07:20.000Z",
+   "titulo": "How one AI agent exposed five critical enterprise security gaps",
+   "url": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
+   "fecha": "2026-11-13T15:01:11.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+   "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+   "fecha": "2026-11-13T14:28:58.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
+   "url": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
+   "fecha": "2026-11-13T13:54:20.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Microsoft says November security updates cause printing issues",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
+   "fecha": "2026-11-13T12:27:40.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "AI Doesn’t Have to Go Rogue to Break the World",
+   "url": "https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html",
+   "fecha": "2026-11-13T12:03:30.000Z",
+   "fuente": "schneier"
+  },
+  {
+   "titulo": "When an AI Agent Goes Wrong, Can You Stop It?",
+   "url": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
+   "fecha": "2026-11-13T11:52:31.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+   "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
+   "fecha": "2026-11-13T11:10:40.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+   "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+   "fecha": "2026-11-13T10:55:03.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Check Point warns of zero-day flaw exploited for root access",
+   "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
+   "fecha": "2026-11-13T10:44:22.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Múltiples vulnerabilidades en productos de Check Point",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-check-point-0",
+   "fecha": "2026-11-13T10:36:10.000Z",
+   "fuente": "incibe-avisos"
+  },
+  {
+   "titulo": "Múltiples vulnerabilidades en productos de Citrix",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-citrix-3",
+   "fecha": "2026-11-13T09:54:25.000Z",
+   "fuente": "incibe-avisos"
+  },
+  {
+   "titulo": "Microsoft confirms Windows activation failures after November updates",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
+   "fecha": "2026-11-13T09:36:18.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Múltiples vulnerabilidades en OpenKM Community Edition de OpenKM",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-openkm-community-edition-de-openkm",
+   "fecha": "2026-11-13T08:42:53.000Z",
+   "fuente": "incibe-avisos"
+  },
+  {
+   "titulo": "Police arrest 354 suspects in dark web cybercrime crackdown",
+   "url": "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/",
+   "fecha": "2026-11-13T08:34:20.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+   "fecha": "2026-11-13T08:05:49.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
+   "url": "https://isc.sans.edu/diary/rss/33518",
+   "fecha": "2026-11-13T03:41:41.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "ISC Stormcast For Friday, November 13th, 2026 https://isc.sans.edu/podcastdetail/10178, (Fri, Nov 13th)",
+   "url": "https://isc.sans.edu/diary/rss/33516",
+   "fecha": "2026-11-13T02:00:03.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
+   "fecha": "2026-11-12T22:53:10.000Z",
    "fuente": "bleepingcomputer"
   },
   {
@@ -133,36 +223,6 @@
    "url": "https://blog.segu-info.com.ar/2026/11/falla-critica-en-el-modulo-http2-de.html",
    "fecha": "2026-11-12T15:02:00.000Z",
    "fuente": "segu-info"
-  },
-  {
-   "titulo": "Your Endpoint Management Platform Could Be Your Biggest Security Risk",
-   "url": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
-   "fecha": "2026-11-12T15:00:10.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Apify rotates API tokens, prompts 2FA resets after breach",
-   "url": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/",
-   "fecha": "2026-11-12T14:36:47.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
-   "url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
-   "fecha": "2026-11-12T13:08:28.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Microsoft: Recent Windows updates cause SQL Server performance issues",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
-   "fecha": "2026-11-12T12:11:11.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
-   "url": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
-   "fecha": "2026-11-12T12:09:14.000Z",
-   "fuente": "thehackernews"
   },
   {
    "titulo": "Another Way Police Are Locating People from Their Smartphones",
@@ -183,18 +243,6 @@
    "fuente": "sans-isc"
   },
   {
-   "titulo": "Microsoft confirms Windows security updates installation issues",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
-   "fecha": "2026-11-12T10:24:07.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Hackers plant GSocket on Linux servers for persistent access",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
-   "fecha": "2026-11-12T09:38:00.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
    "titulo": "Desbordamiento de búfer en EOS de Arista",
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/desbordamiento-de-bufer-en-eos-de-arista",
    "fecha": "2026-11-12T08:46:49.000Z",
@@ -207,28 +255,10 @@
    "fuente": "incibe-avisos"
   },
   {
-   "titulo": "Múltiples vulnerabilidades en MiVoice MX-ONE de Mitel",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-mivoice-mx-one-de-mitel",
-   "fecha": "2026-11-12T08:46:46.000Z",
-   "fuente": "incibe-avisos"
-  },
-  {
-   "titulo": "Inyección SQL en WhatsApp para Dolibarr de Sgestion / EasySoft",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/inyeccion-sql-en-whatsapp-para-dolibarr-de-sgestion-easysoft",
-   "fecha": "2026-11-12T08:34:23.000Z",
-   "fuente": "incibe-avisos"
-  },
-  {
    "titulo": "ISC Stormcast For Thursday, November 12th, 2026 https://isc.sans.edu/podcastdetail/10176, (Thu, Nov 12th)",
    "url": "https://isc.sans.edu/diary/rss/33512",
    "fecha": "2026-11-12T02:00:03.000Z",
    "fuente": "sans-isc"
-  },
-  {
-   "titulo": "Baker Tilly notifies clients of data breach at third-party provider",
-   "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
-   "fecha": "2026-11-11T23:01:31.000Z",
-   "fuente": "bleepingcomputer"
   },
   {
    "titulo": "Microsoft Patch Tuesday November 2026, (Tue, Nov 10th)",
@@ -245,7 +275,7 @@
   {
    "titulo": "Microsoft corrige 1.259 vulnerabilidades, incluida una falla en Outlook que ya está siendo explotada y que podría exponer hashes NTLMv2",
    "url": "https://blog.segu-info.com.ar/2026/11/microsoft-corrige-1259-vulnerabilidades.html",
-   "fecha": "2026-11-11T17:35:42.509Z",
+   "fecha": "2026-11-11T17:55:00.000Z",
    "fuente": "segu-info"
   },
   {
@@ -271,12 +301,6 @@
    "url": "https://blog.segu-info.com.ar/2026/11/la-contrasena-predeterminada-adminadmin.html",
    "fecha": "2026-11-11T12:00:00.000Z",
    "fuente": "segu-info"
-  },
-  {
-   "titulo": "Múltiples vulnerabilidades en productos de Ivanti",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-ivanti-5",
-   "fecha": "2026-11-11T11:52:42.000Z",
-   "fuente": "incibe-avisos"
   },
   {
    "titulo": "ISC Stormcast For Wednesday, November 11th, 2026 https://isc.sans.edu/podcastdetail/10174, (Wed, Nov 11th)",
@@ -333,18 +357,6 @@
    "fuente": "sans-isc"
   },
   {
-   "titulo": "Attackers Searching for SAP Netweaver Webshells, (Mon, Nov 9th)",
-   "url": "https://isc.sans.edu/diary/rss/33502",
-   "fecha": "2026-11-09T18:18:15.000Z",
-   "fuente": "sans-isc"
-  },
-  {
-   "titulo": "ARTEX: atacantes chinos utilizan framework basados en IA para atacar organizaciones en todo el mundo",
-   "url": "https://blog.segu-info.com.ar/2026/11/artex-atacantes-chinos-utilizan.html",
-   "fecha": "2026-11-09T12:30:00.000Z",
-   "fuente": "segu-info"
-  },
-  {
    "titulo": "AI Security",
    "url": "https://www.schneier.com/blog/archives/2026/11/ai-security.html",
    "fecha": "2026-11-09T12:05:39.000Z",
@@ -355,12 +367,6 @@
    "url": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
    "fecha": "2026-11-09T12:00:00.000Z",
    "fuente": "cisa"
-  },
-  {
-   "titulo": "ISC Stormcast For Monday, November 9th, 2026 https://isc.sans.edu/podcastdetail/10170, (Mon, Nov 9th)",
-   "url": "https://isc.sans.edu/diary/rss/33500",
-   "fecha": "2026-11-09T02:05:10.000Z",
-   "fuente": "sans-isc"
   },
   {
    "titulo": "Friday Squid Blogging: New Jurassic Squid Predecessors",
@@ -445,12 +451,6 @@
    "url": "https://www.welivesecurity.com/es/seguridad-digital/sitios-web-falsos-agentes-ia-como-protegerse/",
    "fecha": "2026-11-02T19:04:53.000Z",
    "fuente": "welivesecurity"
-  },
-  {
-   "titulo": "AI Vulnerability Finding",
-   "url": "https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html",
-   "fecha": "2026-11-02T12:02:34.000Z",
-   "fuente": "schneier"
   },
   {
    "titulo": "Ataque a Binance: unos ciberdelincuentes roban 6.300 millones de dólares",
