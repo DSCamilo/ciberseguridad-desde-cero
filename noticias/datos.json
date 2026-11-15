@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T17:09:45.501Z",
+ "actualizado": "2026-11-15T17:42:51.636Z",
  "fuentes": [
   {
    "id": "cisa",
@@ -80,6 +80,36 @@
   }
  ],
  "items": [
+  {
+   "titulo": "TSMC employee data breach linked to cloud provider",
+   "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+   "fecha": "2026-11-15T15:23:48.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "El tiempo medio transcurrido desde la divulgación de una vulnerabilidad hasta su explotación pasó de 771 días a \"menos siete días\"",
+   "url": "https://blog.segu-info.com.ar/2026/11/el-tiempo-medio-transcurrido-desde-la.html",
+   "fecha": "2026-11-15T14:00:00.000Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+   "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+   "fecha": "2026-11-15T11:27:31.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+   "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+   "fecha": "2026-11-15T08:22:04.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Cursor confirms security breach led to malicious Claude Code extension",
+   "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+   "fecha": "2026-11-14T17:27:25.000Z",
+   "fuente": "bleepingcomputer"
+  },
   {
    "titulo": "Upcoming Speaking Engagements",
    "url": "https://www.schneier.com/blog/archives/2026/11/upcoming-speaking-engagements-62.html",
@@ -189,24 +219,6 @@
    "fuente": "thehackernews"
   },
   {
-   "titulo": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
-   "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
-   "fecha": "2026-11-13T11:10:40.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
-   "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
-   "fecha": "2026-11-13T10:55:03.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Check Point warns of zero-day flaw exploited for root access",
-   "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
-   "fecha": "2026-11-13T10:44:22.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
    "titulo": "Múltiples vulnerabilidades en productos de Check Point",
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-check-point-0",
    "fecha": "2026-11-13T10:36:10.000Z",
@@ -217,12 +229,6 @@
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-citrix-3",
    "fecha": "2026-11-13T09:54:25.000Z",
    "fuente": "incibe-avisos"
-  },
-  {
-   "titulo": "Microsoft confirms Windows activation failures after November updates",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
-   "fecha": "2026-11-13T09:36:18.000Z",
-   "fuente": "bleepingcomputer"
   },
   {
    "titulo": "Múltiples vulnerabilidades en OpenKM Community Edition de OpenKM",
@@ -343,12 +349,6 @@
    "url": "https://www.welivesecurity.com/es/investigaciones/turla-cereal-microsoft-exchange/",
    "fecha": "2026-11-10T16:10:28.000Z",
    "fuente": "welivesecurity"
-  },
-  {
-   "titulo": "SAP parchea cuatro fallas de CVSS 10.0, incluidas dos que permiten la ejecución remota de código",
-   "url": "https://blog.segu-info.com.ar/2026/11/sap-parchea-cuatro-fallas-de-cvss-100.html",
-   "fecha": "2026-11-10T15:30:00.000Z",
-   "fuente": "segu-info"
   },
   {
    "titulo": "Apple Patches Everyting: November 2026 Edition, (Tue, Nov 10th)",
