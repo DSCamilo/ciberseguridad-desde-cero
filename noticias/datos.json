@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T17:58:20.382Z",
+ "actualizado": "2026-11-22T18:31:01.025Z",
  "fuentes": [
   {
    "id": "cisa",
@@ -81,6 +81,48 @@
  ],
  "items": [
   {
+   "titulo": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+   "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+   "fecha": "2026-11-22T15:43:04.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+   "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+   "fecha": "2026-11-22T15:15:25.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "FastUnlock: Zero-Day en Bitlocker",
+   "url": "https://blog.segu-info.com.ar/2026/11/fastunlock-zero-day-en-bitlocker.html",
+   "fecha": "2026-11-22T13:30:00.000Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+   "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+   "fecha": "2026-11-22T05:06:55.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+   "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+   "fecha": "2026-11-22T05:03:41.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+   "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+   "fecha": "2026-11-21T22:59:58.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+   "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+   "fecha": "2026-11-21T18:01:58.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
    "titulo": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
    "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
    "fecha": "2026-11-21T15:17:27.000Z",
@@ -159,52 +201,16 @@
    "fuente": "bleepingcomputer"
   },
   {
-   "titulo": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
-   "url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
-   "fecha": "2026-11-20T16:58:16.000Z",
-   "fuente": "thehackernews"
-  },
-  {
    "titulo": "Tres brechas y fugas sin fin: la cadena de suministro de IA necesita señuelos",
    "url": "https://blog.segu-info.com.ar/2026/11/tres-brechas-y-fugas-sin-fin-la-cadena.html",
    "fecha": "2026-11-20T16:50:45.462Z",
    "fuente": "segu-info"
   },
   {
-   "titulo": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
-   "url": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
-   "fecha": "2026-11-20T15:58:06.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Still tracking company passwords in spreadsheets? You’re flying blind.",
-   "url": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/",
-   "fecha": "2026-11-20T15:00:10.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "N-able says recent security breach led to major service outage",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
-   "fecha": "2026-11-20T13:18:36.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
    "titulo": "Vulnerabilidad crítica de omisión de autenticación en VMware vCenter Server",
    "url": "https://blog.segu-info.com.ar/2026/11/vulnerabilidad-critica-de-omision-de.html",
    "fecha": "2026-11-20T12:56:00.000Z",
    "fuente": "segu-info"
-  },
-  {
-   "titulo": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
-   "url": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
-   "fecha": "2026-11-20T12:20:00.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Microsoft now automatically installs Windows 11 26H2 on unmanaged devices",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs/",
-   "fecha": "2026-11-20T12:14:28.000Z",
-   "fuente": "bleepingcomputer"
   },
   {
    "titulo": "Opening a 400-Year-Old Cryptex",
@@ -337,12 +343,6 @@
    "url": "https://isc.sans.edu/diary/rss/33528",
    "fecha": "2026-11-18T02:00:03.000Z",
    "fuente": "sans-isc"
-  },
-  {
-   "titulo": "Vulnerabilidades críticas en Java SE y OpenJDK. Bienvenida #Java4Shell (CVE-2026-114938)",
-   "url": "https://blog.segu-info.com.ar/2026/11/vulnerabilidades-criticas-en-java-se-y.html",
-   "fecha": "2026-11-17T18:52:56.762Z",
-   "fuente": "segu-info"
   },
   {
    "titulo": "Guía de notificaciones CRA: qué deben comunicar los fabricantes y cómo utilizar la plataforma SRP",
