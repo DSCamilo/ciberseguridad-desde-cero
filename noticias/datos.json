@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T18:31:01.025Z",
+ "actualizado": "2026-11-23T22:40:16.262Z",
  "fuentes": [
   {
    "id": "cisa",
@@ -81,16 +81,136 @@
  ],
  "items": [
   {
-   "titulo": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
-   "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
-   "fecha": "2026-11-22T15:43:04.000Z",
+   "titulo": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
+   "url": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
+   "fecha": "2026-11-23T20:54:51.000Z",
    "fuente": "bleepingcomputer"
   },
   {
-   "titulo": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
-   "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
-   "fecha": "2026-11-22T15:15:25.000Z",
+   "titulo": "OpenRouter drops AI providers over leaked prompts and secrets",
+   "url": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
+   "fecha": "2026-11-23T20:00:20.000Z",
    "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Microsoft Azure flaw exploited to steal customers' API credentials",
+   "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+   "fecha": "2026-11-23T19:42:20.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Spanish LaLiga confirms hackers stole soccer fans’ personal data",
+   "url": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
+   "fecha": "2026-11-23T18:38:40.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
+   "url": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
+   "fecha": "2026-11-23T17:45:15.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "GlobeTopper loses $2.5 million after hackers steal $70k in gift cards",
+   "url": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
+   "fecha": "2026-11-23T16:50:01.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "La botnet BADBOX regresa con una cifra récord de 40.000 millones de solicitudes publicitarias diarias",
+   "url": "https://blog.segu-info.com.ar/2026/11/la-botnet-badbox-regresa-con-una-cifra.html",
+   "fecha": "2026-11-23T15:11:00.000Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+   "url": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
+   "fecha": "2026-11-23T15:10:48.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "AI Agents Are Creating a Shared Responsibility Gap",
+   "url": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
+   "fecha": "2026-11-23T15:00:10.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Microsoft testing fix for Windows 11 Bluetooth audio quality drops",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/",
+   "fecha": "2026-11-23T13:28:45.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
+   "url": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
+   "fecha": "2026-11-23T13:22:20.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+   "fecha": "2026-11-23T12:41:04.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+   "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+   "fecha": "2026-11-23T12:28:09.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Vulnerabilidad en la API de Microsoft Entra Connect Health, ya corregida",
+   "url": "https://blog.segu-info.com.ar/2026/11/vulnerabilidad-en-la-api-de-microsoft.html",
+   "fecha": "2026-11-23T12:10:00.000Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "Call center operator gets 8 years for helping scam 30,000 Americans",
+   "url": "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/",
+   "fecha": "2026-11-23T12:02:23.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Humans Have Rights. Machines Do Not.",
+   "url": "https://www.schneier.com/blog/archives/2026/11/humans-have-rights-machines-do-not.html",
+   "fecha": "2026-11-23T12:00:54.000Z",
+   "fuente": "schneier"
+  },
+  {
+   "titulo": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "fecha": "2026-11-23T12:00:00.000Z",
+   "fuente": "cisa"
+  },
+  {
+   "titulo": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+   "fecha": "2026-11-23T09:11:56.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+   "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+   "fecha": "2026-11-23T09:04:08.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+   "url": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+   "fecha": "2026-11-23T08:24:15.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "ISC Stormcast For Monday, November 23rd, 2026 https://isc.sans.edu/podcastdetail/10190, (Mon, Nov 23rd)",
+   "url": "https://isc.sans.edu/diary/rss/33548",
+   "fecha": "2026-11-23T02:00:04.000Z",
+   "fuente": "sans-isc"
+  },
+  {
+   "titulo": "A brief history of syslog timestamps, (Sun, Nov 22nd)",
+   "url": "https://isc.sans.edu/diary/rss/33530",
+   "fecha": "2026-11-22T18:40:18.000Z",
+   "fuente": "sans-isc"
   },
   {
    "titulo": "FastUnlock: Zero-Day en Bitlocker",
@@ -99,76 +219,10 @@
    "fuente": "segu-info"
   },
   {
-   "titulo": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
-   "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
-   "fecha": "2026-11-22T05:06:55.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
-   "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
-   "fecha": "2026-11-22T05:03:41.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
-   "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
-   "fecha": "2026-11-21T22:59:58.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
-   "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
-   "fecha": "2026-11-21T18:01:58.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
-   "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
-   "fecha": "2026-11-21T15:17:27.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "FBI reportedly hacked again, this time targeting nationwide police database",
-   "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
-   "fecha": "2026-11-21T14:26:04.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
    "titulo": "Inside the loop: cinco AI attack frameworks que no piden permiso",
    "url": "https://blog.segu-info.com.ar/2026/11/inside-loop-cinco-ai-attack-frameworks.html",
    "fecha": "2026-11-21T12:45:58.477Z",
    "fuente": "segu-info"
-  },
-  {
-   "titulo": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
-   "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
-   "fecha": "2026-11-21T11:53:07.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
-   "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
-   "fecha": "2026-11-21T11:05:53.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
-   "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
-   "fecha": "2026-11-21T11:03:17.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
-   "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
-   "fecha": "2026-11-21T08:49:20.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
-   "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
-   "fecha": "2026-11-21T08:49:13.000Z",
-   "fuente": "thehackernews"
   },
   {
    "titulo": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
@@ -181,24 +235,6 @@
    "url": "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-the-largest-squid-ever-filmed.html",
    "fecha": "2026-11-20T22:04:12.000Z",
    "fuente": "schneier"
-  },
-  {
-   "titulo": "Bell Canada says 'agentic' hacker stole enterprise customer data",
-   "url": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
-   "fecha": "2026-11-20T18:51:43.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
-   "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
-   "fecha": "2026-11-20T17:57:20.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
-   "fecha": "2026-11-20T17:30:00.000Z",
-   "fuente": "bleepingcomputer"
   },
   {
    "titulo": "Tres brechas y fugas sin fin: la cadena de suministro de IA necesita señuelos",
@@ -309,28 +345,10 @@
    "fuente": "sans-isc"
   },
   {
-   "titulo": "Siete vulnerabilidades críticas en NGINX (y F5) permiten RCE #Nginx2Root",
-   "url": "https://blog.segu-info.com.ar/2026/11/siete-vulnerabilidades-criticas-en-nginx.html",
-   "fecha": "2026-11-18T16:24:15.736Z",
-   "fuente": "segu-info"
-  },
-  {
-   "titulo": "Qué pasó con los servicios de Microsoft 365 [Informe preliminar]",
-   "url": "https://blog.segu-info.com.ar/2026/11/que-paso-con-los-servicios-de-microsoft.html",
-   "fecha": "2026-11-18T13:12:00.000Z",
-   "fuente": "segu-info"
-  },
-  {
    "titulo": "France Is Blaming Iran for the Fridge Cyberattack",
    "url": "https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
    "fecha": "2026-11-18T12:05:35.000Z",
    "fuente": "schneier"
-  },
-  {
-   "titulo": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-   "url": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-   "fecha": "2026-11-18T12:00:00.000Z",
-   "fuente": "cisa"
   },
   {
    "titulo": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
@@ -363,22 +381,10 @@
    "fuente": "sans-isc"
   },
   {
-   "titulo": "ISC Stormcast For Tuesday, November 17th, 2026 https://isc.sans.edu/podcastdetail/10182, (Tue, Nov 17th)",
-   "url": "https://isc.sans.edu/diary/rss/33524",
-   "fecha": "2026-11-17T02:05:15.000Z",
-   "fuente": "sans-isc"
-  },
-  {
    "titulo": "¿Es seguro subir tu pasaporte o documento de identidad a internet?",
    "url": "https://www.welivesecurity.com/es/privacidad/es-seguro-subir-pasaporte-documento-identidad-en-linea/",
    "fecha": "2026-11-16T18:10:25.000Z",
    "fuente": "welivesecurity"
-  },
-  {
-   "titulo": "Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)",
-   "url": "https://isc.sans.edu/diary/rss/33522",
-   "fecha": "2026-11-16T13:11:04.000Z",
-   "fuente": "sans-isc"
   },
   {
    "titulo": "Usable Security at Luxury Hotels",
@@ -403,12 +409,6 @@
    "url": "https://www.welivesecurity.com/es/estafas-enganos/gta-6-estafas-descargas-maliciosas/",
    "fecha": "2026-11-13T13:25:17.000Z",
    "fuente": "welivesecurity"
-  },
-  {
-   "titulo": "AI Doesn’t Have to Go Rogue to Break the World",
-   "url": "https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html",
-   "fecha": "2026-11-13T12:03:30.000Z",
-   "fuente": "schneier"
   },
   {
    "titulo": "Who Runs the Ransomware Group Qilin?",
