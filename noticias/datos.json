@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T20:12:20.229Z",
+ "actualizado": "2026-11-27T19:58:19.684Z",
  "fuentes": [
   {
    "id": "cisa",
@@ -81,34 +81,112 @@
  ],
  "items": [
   {
+   "titulo": "pCloud confirms password manager hack after suspicious login alerts",
+   "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+   "fecha": "2026-11-27T19:26:04.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "New Boston Scientific data breach exposes personal, medical info",
+   "url": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+   "fecha": "2026-11-27T18:57:42.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+   "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+   "fecha": "2026-11-27T17:06:13.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+   "url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+   "fecha": "2026-11-27T16:36:11.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "US Air Force cloud platform reportedly hacked in latest federal breach",
+   "url": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+   "fecha": "2026-11-27T15:09:40.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
+   "url": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
+   "fecha": "2026-11-27T15:00:10.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
+   "url": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
+   "fecha": "2026-11-27T14:22:06.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Explotan vulnerabilidades críticas Zero-Day en VMware vCenter para obtener acceso de administrador y robar datos",
+   "url": "https://blog.segu-info.com.ar/2026/11/explotan-una-vulnerabilidad-critica.html",
+   "fecha": "2026-11-27T12:30:00.000Z",
+   "fuente": "segu-info"
+  },
+  {
+   "titulo": "Recent Outages Have Economic Causes",
+   "url": "https://www.schneier.com/blog/archives/2026/11/recent-outages-have-economic-causes.html",
+   "fecha": "2026-11-27T12:02:23.000Z",
+   "fuente": "schneier"
+  },
+  {
+   "titulo": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+   "url": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+   "fecha": "2026-11-27T11:49:34.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Microsoft removes WSUS server role in Windows Server 2028",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+   "fecha": "2026-11-27T11:18:36.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+   "url": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+   "fecha": "2026-11-27T10:32:18.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Drupal warns of new site takeover flaw exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+   "fecha": "2026-11-27T10:10:15.000Z",
+   "fuente": "bleepingcomputer"
+  },
+  {
+   "titulo": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+   "url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+   "fecha": "2026-11-27T09:29:30.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+   "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+   "fecha": "2026-11-27T06:04:20.000Z",
+   "fuente": "thehackernews"
+  },
+  {
+   "titulo": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+   "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+   "fecha": "2026-11-27T05:48:20.000Z",
+   "fuente": "thehackernews"
+  },
+  {
    "titulo": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
    "url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
    "fecha": "2026-11-26T19:39:57.000Z",
    "fuente": "thehackernews"
   },
   {
-   "titulo": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
-   "url": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
-   "fecha": "2026-11-26T17:58:42.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Fake paid expert interviews impersonate brands to steal Google logins",
-   "url": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
-   "fecha": "2026-11-26T17:15:27.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
    "titulo": "NFS2ROOT: vulnerabilidad de 12 años en Linux permite obtener acceso root remoto sin autenticación en el servidor NFS",
    "url": "https://blog.segu-info.com.ar/2026/11/nfs2root-vulnerabilidad-de-hace-12-anos.html",
    "fecha": "2026-11-26T16:59:00.000Z",
    "fuente": "segu-info"
-  },
-  {
-   "titulo": "Remus malware steals Gmail messages via fake Google Sheets extension",
-   "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
-   "fecha": "2026-11-26T15:23:28.000Z",
-   "fuente": "bleepingcomputer"
   },
   {
    "titulo": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
@@ -121,24 +199,6 @@
    "url": "https://blog.segu-info.com.ar/2026/11/windows-server-2028-microsoft-anuncia.html",
    "fecha": "2026-11-26T12:14:00.000Z",
    "fuente": "segu-info"
-  },
-  {
-   "titulo": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
-   "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
-   "fecha": "2026-11-26T11:50:17.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
-   "url": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
-   "fecha": "2026-11-26T10:57:55.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
-   "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
-   "fecha": "2026-11-26T10:57:25.000Z",
-   "fuente": "thehackernews"
   },
   {
    "titulo": "Múltiples vulnerabilidades en Poly PrivateConnect de HP",
@@ -165,58 +225,10 @@
    "fuente": "incibe-avisos"
   },
   {
-   "titulo": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
-   "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
-   "fecha": "2026-11-26T07:02:34.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
-   "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
-   "fecha": "2026-11-26T06:44:46.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
-   "url": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
-   "fecha": "2026-11-26T03:48:52.000Z",
-   "fuente": "thehackernews"
-  },
-  {
-   "titulo": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
-   "fecha": "2026-11-25T22:05:09.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "1Password customer data stolen after employee GitHub account breach",
-   "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
-   "fecha": "2026-11-25T21:33:33.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
-   "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
-   "fecha": "2026-11-25T19:39:31.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
    "titulo": "Base de datos abierta deja expuestos 2.000 millones de registros de credenciales, incluidos tokens de sesión",
    "url": "https://blog.segu-info.com.ar/2026/11/base-de-datos-abierta-deja-expuestos.html",
    "fecha": "2026-11-25T18:15:48.317Z",
    "fuente": "segu-info"
-  },
-  {
-   "titulo": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
-   "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
-   "fecha": "2026-11-25T16:13:40.000Z",
-   "fuente": "bleepingcomputer"
-  },
-  {
-   "titulo": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
-   "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
-   "fecha": "2026-11-25T12:48:54.000Z",
-   "fuente": "thehackernews"
   },
   {
    "titulo": "Tracking Incidents of Hacking Using AI Tools",
@@ -327,12 +339,6 @@
    "fuente": "sans-isc"
   },
   {
-   "titulo": "FastUnlock: Zero-Day en Bitlocker",
-   "url": "https://blog.segu-info.com.ar/2026/11/fastunlock-zero-day-en-bitlocker.html",
-   "fecha": "2026-11-22T13:30:00.000Z",
-   "fuente": "segu-info"
-  },
-  {
    "titulo": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
    "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
    "fecha": "2026-11-21T00:36:39.000Z",
@@ -397,12 +403,6 @@
    "url": "https://www.welivesecurity.com/es/privacidad/es-seguro-subir-pasaporte-documento-identidad-en-linea/",
    "fecha": "2026-11-16T18:10:25.000Z",
    "fuente": "welivesecurity"
-  },
-  {
-   "titulo": "Usable Security at Luxury Hotels",
-   "url": "https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html",
-   "fecha": "2026-11-16T12:04:42.000Z",
-   "fuente": "schneier"
   },
   {
    "titulo": "GTA 6 está por llegar, pero los estafadores ya aprovechan la expectativa",
